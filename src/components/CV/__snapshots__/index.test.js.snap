@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CV component should render 1`] = `
+.c0 {
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+.c1 {
+  list-style: none;
+  padding: 0;
+}
+
+.c2 {
+  color: blue;
+}
+
+.c3 {
+  cursor: pointer;
+}
+
+<div
+  class="c0"
+>
+  <h1>
+    Curriculum Vitae
+  </h1>
+  <h2>
+    Dan Page
+  </h2>
+  <p>
+    I am a Software Developer that loves building applications in JavaScript. I’m always thinking about coding, whether that is what I want to learn next or what I’m going to build next.
+     
+  </p>
+  <h2>
+    Where I have worked:
+  </h2>
+  <ul
+    class="c1"
+  >
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="https://cytora.com/"
+        target="_blank"
+      >
+        <img
+          alt="cytora"
+          src="cytora.svg"
+        />
+      </a>
+      <p>
+        I joined as the first Front End Developer to build out UIs from scratch on top of the API platform. I'm also creating a reusable component library to be able to build future UIs quickly and consistently.
+      </p>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="https://www.joindrover.com/"
+        target="_blank"
+      >
+        Drover
+      </a>
+      <p>
+        I joined Drover as a Junior Front End Developer and my first project was working solo on rebuilding Ruby on Rails pages into React. Whilst I was confident working in React, I quickly learnt how to work in a large codebase with lots of shared components (and minimal tests!).
+      </p>
+      <p>
+        After 6 months I have been promoted to a mid-level Developer and I believe that I have shown myself to be an equal part of the Front End team. I am constantly looking for ways to improve our codebase and workflow. I have taken advantage of working in a small team by suggesting and implementing improvements quickly. Currently, I am the flag bearer for doing more unit testing and I spend a lot of my free time improving myself in this area.
+      </p>
+    </li>
+  </ul>
+</div>
+`;

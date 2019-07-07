@@ -1,9 +1,9 @@
 import React from 'react';
-import App from '.';
+import CV from '.';
 
-describe('App component', () => {
+describe('CV component', () => {
   it('should render', () => {
-    const { container } = render(<App />);
+    const { container } = render(<CV />);
     expect(container.firstChild).toMatchSnapshot();
   });
 });

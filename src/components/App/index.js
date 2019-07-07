@@ -1,13 +1,14 @@
 import React from 'react';
 import * as S from './styles';
+import CV from '../CV';
 
 const App = () => {
   return (
-    <div>
+    <S.Wrapper>
       <S.GlobalStyle />
 
-      <S.Title>Dan Page</S.Title>
-    </div>
+      <CV />
+    </S.Wrapper>
   );
 };
 
