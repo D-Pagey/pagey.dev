@@ -8,11 +8,11 @@ import { act } from 'react-dom/test-utils';
 import { createMemoryHistory } from 'history';
 
 global.render = (ui) => {
-  let queries;
+    let queries;
 
-  act(() => {
-    queries = render(<Router history={createMemoryHistory()}>{ui}</Router>);
-  });
+    act(() => {
+        queries = render(<Router history={createMemoryHistory()}>{ui}</Router>);
+    });
 
-  return queries;
+    return queries;
 };

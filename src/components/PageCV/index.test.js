@@ -1,9 +1,9 @@
 import React from 'react';
-import Button from '.';
+import PageCV from '.';
 
-describe('Button component', () => {
+describe('PageCV component', () => {
     it('should render', () => {
-        const { container } = render(<Button>Click Me</Button>);
+        const { container } = render(<PageCV />);
         expect(container.firstChild).toMatchSnapshot();
     });
 });

@@ -1,9 +1,9 @@
 import React from 'react';
-import Button from '.';
+import PageHome from '.';
 
-describe('Button component', () => {
+describe('PageHome component', () => {
     it('should render', () => {
-        const { container } = render(<Button>Click Me</Button>);
+        const { container } = render(<PageHome />);
         expect(container.firstChild).toMatchSnapshot();
     });
 });

@@ -1,38 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App component should render 1`] = `
-.c0 {
-  padding: 1.5rem;
-}
-
 .c1 {
-  margin: 0 auto;
-  max-width: 600px;
-}
-
-.c2 {
-  text-align: center;
-  font-family: 'Merriweather';
-}
-
-.c3 {
-  font-family: 'Merriweather';
-}
-
-.c4 {
-  list-style: none;
-  padding: 0;
-}
-
-.c5 {
-  margin: 2rem 0 0;
-}
-
-.c8 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -41,290 +10,88 @@ exports[`App component should render 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: 1rem 0 0;
+  margin: 0 0 1rem 0;
 }
 
-.c6 {
+.c2 {
+  color: initial;
   cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.c7 {
-  display: block;
-  margin: 0 auto;
-  height: 50px;
-  width: 150px;
+.c3 {
+  color: initial;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.c9 {
-  font-weight: 600;
-  font-size: 1.125rem;
-  margin: 0;
-}
-
-.c10 {
-  font-style: italic;
-}
-
-.c11 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
-.c12 {
-  background-color: skyblue;
-  border-radius: 5px;
-  font-size: 12px;
-  padding: 0.25rem 0.5rem;
-  margin: 0 0 0.5rem 0.5rem;
-  text-transform: uppercase;
+.c5 {
+  border-radius: 3px;
+  margin: 0 0 1rem;
+  width: 100%;
 }
 
-.c13 {
-  background-color: pink;
-  border-radius: 5px;
-  font-size: 12px;
-  padding: 0.25rem 0.5rem;
-  margin: 0 0 0.5rem 0.5rem;
-  text-transform: uppercase;
+.c6 {
+  margin: 0 0 1rem;
 }
 
-.c14 {
-  background-color: lightgreen;
-  border-radius: 5px;
-  font-size: 12px;
-  padding: 0.25rem 0.5rem;
-  margin: 0 0 0.5rem 0.5rem;
-  text-transform: uppercase;
+.c0 {
+  padding: 1.5rem;
 }
 
 <div
   class="c0"
+  data-testid="pageHome"
 >
-  <div
+  <header
     class="c1"
   >
-    <h1
-      class="c2"
+    <a
+      aria-current="page"
+      class="c2 active"
+      href="/"
     >
-      Mini CV
-    </h1>
-    <h2
+      pagey
+    </a>
+    <a
       class="c3"
+      href="/cv"
     >
-      Dan Page
-    </h2>
-    <p>
-      I am a Software Developer that loves building applications in JavaScript. I’m always thinking about coding, whether that is what I want to learn next or what I’m going to build next.
-       
+      cv
+    </a>
+  </header>
+  <div
+    class="c4"
+  >
+    <img
+      alt="pagey"
+      class="c5"
+      src="pagey.jpg"
+    />
+    <p
+      class="c6"
+    >
+      Yo, my name is Dan, I'm a JavaScript Developer and I enjoy building apps to solve problems.
     </p>
-    <ul
-      class="c4"
+    <p
+      class="c6"
     >
-      <li
-        class="c5"
-      >
-        <a
-          class="c6"
-          href="https://cytora.com/"
-          target="_blank"
-        >
-          <img
-            alt="cytora"
-            class="c7"
-            src="cytora.svg"
-          />
-        </a>
-        <div
-          class="c8"
-        >
-          <h5
-            class="c9"
-          >
-            Front End Engineer
-          </h5>
-          <span
-            class="c10"
-          >
-            May '19 - Present
-          </span>
-        </div>
-        <p>
-          I joined as the first Front End Developer to build out UIs from scratch on top of the API platform. I'm also creating a reusable component library to enable multiple teams to build UIs quickly and consistently.
-        </p>
-        <ul
-          class="c11"
-        >
-          <li
-            class="c12"
-          >
-            react
-          </li>
-          <li
-            class="c12"
-          >
-            react-context
-          </li>
-          <li
-            class="c12"
-          >
-            styled components
-          </li>
-          <li
-            class="c12"
-          >
-            storybook
-          </li>
-          <li
-            class="c12"
-          >
-            jest
-          </li>
-          <li
-            class="c12"
-          >
-            react-testing-library
-          </li>
-          <li
-            class="c12"
-          >
-            cypress
-          </li>
-        </ul>
-      </li>
-      <li
-        class="c5"
-      >
-        <a
-          class="c6"
-          href="https://www.joindrover.com/"
-          target="_blank"
-        >
-          <img
-            alt="drover"
-            class="c7"
-            src="drover.svg"
-          />
-        </a>
-        <div
-          class="c8"
-        >
-          <h5
-            class="c9"
-          >
-            Front End Developer
-          </h5>
-          <span
-            class="c10"
-          >
-            Sept '18 - May '19
-          </span>
-        </div>
-        <p>
-          I joined Drover as a Junior Front End Developer and my first project was working on rebuilding Ruby on Rails pages in React. The main learning curve came from using shared components that had no unit or integration tests, which made refactoring challenging.
-        </p>
-        <p>
-          After 6 months I was promoted to a mid-level Developer and put on a 3 month greenfield project to rebuild the entire user booking flow. I was the flag bearer for doing more unit and integration testing and so I spent a lot of my free time learning about jest, enzyme, react-testing-library and cypress.
-        </p>
-        <ul
-          class="c11"
-        >
-          <li
-            class="c13"
-          >
-            react
-          </li>
-          <li
-            class="c13"
-          >
-            redux
-          </li>
-          <li
-            class="c13"
-          >
-            styled components
-          </li>
-          <li
-            class="c13"
-          >
-            storybook
-          </li>
-          <li
-            class="c13"
-          >
-            jest
-          </li>
-          <li
-            class="c13"
-          >
-            enzyme
-          </li>
-          <li
-            class="c13"
-          >
-            cypress
-          </li>
-        </ul>
-      </li>
-      <li
-        class="c5"
-      >
-        <a
-          class="c6"
-          href="https://clearscore.com/"
-          target="_blank"
-        >
-          <img
-            alt="clearscore"
-            class="c7"
-            src="clearscore.svg"
-          />
-        </a>
-        <div
-          class="c8"
-        >
-          <h5
-            class="c9"
-          >
-            Talent Acquisition
-          </h5>
-          <span
-            class="c10"
-          >
-            May '17 - Sept '18
-          </span>
-        </div>
-        <p>
-          I joined ClearScore as roughly employee #100 and, by the time I left, the company had grown to around 200 employees internationally.
-        </p>
-        <p>
-          Beyond my day-to-day recruitment role, I created and ran a company-wide interview training programme that focused on bringing all interviewers on to the same page. This aimed to ensure the interview process was fair and unbiased, provided candidates with useful feedback and raised awareness around unconscious bias.
-        </p>
-        <p>
-          I also made multiple contributions to the front-end production code base which varied from updating integrations on the careers page to bug fixes on the home page.
-        </p>
-        <ul
-          class="c11"
-        >
-          <li
-            class="c14"
-          >
-            es6
-          </li>
-          <li
-            class="c14"
-          >
-            handlebars
-          </li>
-        </ul>
-      </li>
-    </ul>
+      I have always appreciated a good data vizualisation and so I'm learning to use D3.js within React apps. Hopefully, I can build something cool and interactive. Until then, this is my playground.
+    </p>
   </div>
 </div>
 `;

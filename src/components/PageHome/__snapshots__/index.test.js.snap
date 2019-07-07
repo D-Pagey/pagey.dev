@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageHome component should render 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  border-radius: 3px;
+  margin: 0 0 1rem;
+  width: 100%;
+}
+
+.c2 {
+  margin: 0 0 1rem;
+}
+
+<div
+  class="c0"
+>
+  <img
+    alt="pagey"
+    class="c1"
+    src="pagey.jpg"
+  />
+  <p
+    class="c2"
+  >
+    Yo, my name is Dan, I'm a JavaScript Developer and I enjoy building apps to solve problems.
+  </p>
+  <p
+    class="c2"
+  >
+    I have always appreciated a good data vizualisation and so I'm learning to use D3.js within React apps. Hopefully, I can build something cool and interactive. Until then, this is my playground.
+  </p>
+</div>
+`;
