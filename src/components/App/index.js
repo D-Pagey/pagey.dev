@@ -5,6 +5,7 @@ const App = () => {
   return (
     <div>
       <S.GlobalStyle />
+
       <S.Title>Dan Page</S.Title>
     </div>
   );
