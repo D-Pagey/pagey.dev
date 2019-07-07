@@ -1,9 +1,12 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  /* border: 1px solid blue; */
   margin: 0 auto;
-  max-width: 750px;
+  max-width: 725px;
+`;
+
+export const Title = styled.h1`
+  text-align: center;
 `;
 
 export const List = styled.ul`
@@ -12,9 +15,33 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
-  color: blue;
+  margin: 2rem 0 0;
+`;
+
+export const FlexWrapper = styled.div`
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 0;
 `;
 
 export const CompanyLink = styled.a`
   cursor: pointer;
+`;
+
+export const Logo = styled.img`
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  width: 150px;
+`;
+
+export const JobTitle = styled.h5`
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin: 0;
+`;
+
+export const ItalicSpan = styled.span`
+  font-style: italic;
 `;

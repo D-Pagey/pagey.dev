@@ -3,27 +3,66 @@
 exports[`CV component should render 1`] = `
 .c0 {
   margin: 0 auto;
-  max-width: 750px;
+  max-width: 725px;
 }
 
 .c1 {
+  text-align: center;
+}
+
+.c2 {
   list-style: none;
   padding: 0;
 }
 
-.c2 {
-  color: blue;
+.c3 {
+  margin: 2rem 0 0;
 }
 
-.c3 {
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1rem 0 0;
+}
+
+.c4 {
   cursor: pointer;
+}
+
+.c5 {
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  width: 150px;
+}
+
+.c7 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+.c8 {
+  font-style: italic;
 }
 
 <div
   class="c0"
 >
-  <h1>
-    Curriculum Vitae
+  <h1
+    class="c1"
+  >
+    Short CV
   </h1>
   <h2>
     Dan Page
@@ -32,44 +71,112 @@ exports[`CV component should render 1`] = `
     I am a Software Developer that loves building applications in JavaScript. I’m always thinking about coding, whether that is what I want to learn next or what I’m going to build next.
      
   </p>
-  <h2>
-    Where I have worked:
-  </h2>
   <ul
-    class="c1"
+    class="c2"
   >
     <li
-      class="c2"
+      class="c3"
     >
       <a
-        class="c3"
+        class="c4"
         href="https://cytora.com/"
         target="_blank"
       >
         <img
           alt="cytora"
+          class="c5"
           src="cytora.svg"
         />
       </a>
+      <div
+        class="c6"
+      >
+        <h5
+          class="c7"
+        >
+          Front End Engineer
+        </h5>
+        <span
+          class="c8"
+        >
+          May '19 - Present
+        </span>
+      </div>
       <p>
-        I joined as the first Front End Developer to build out UIs from scratch on top of the API platform. I'm also creating a reusable component library to be able to build future UIs quickly and consistently.
+        I joined as the first Front End Developer to build out UIs from scratch on top of the API platform. I'm also creating a reusable component library to enable multiple teams to build UIs quickly and consistently.
       </p>
     </li>
     <li
-      class="c2"
+      class="c3"
     >
       <a
-        class="c3"
+        class="c4"
         href="https://www.joindrover.com/"
         target="_blank"
       >
-        Drover
+        <img
+          alt="drover"
+          class="c5"
+          src="drover.svg"
+        />
       </a>
+      <div
+        class="c6"
+      >
+        <h5
+          class="c7"
+        >
+          Front End Developer
+        </h5>
+        <span
+          class="c8"
+        >
+          Sept '18 - May '19
+        </span>
+      </div>
       <p>
         I joined Drover as a Junior Front End Developer and my first project was working solo on rebuilding Ruby on Rails pages into React. Whilst I was confident working in React, I quickly learnt how to work in a large codebase with lots of shared components (and minimal tests!).
       </p>
       <p>
         After 6 months I have been promoted to a mid-level Developer and I believe that I have shown myself to be an equal part of the Front End team. I am constantly looking for ways to improve our codebase and workflow. I have taken advantage of working in a small team by suggesting and implementing improvements quickly. Currently, I am the flag bearer for doing more unit testing and I spend a lot of my free time improving myself in this area.
+      </p>
+    </li>
+    <li
+      class="c3"
+    >
+      <a
+        class="c4"
+        href="https://clearscore.com/"
+        target="_blank"
+      >
+        <img
+          alt="clearscore"
+          class="c5"
+          src="clearscore.svg"
+        />
+      </a>
+      <div
+        class="c6"
+      >
+        <h5
+          class="c7"
+        >
+          Talent Acquisition
+        </h5>
+        <span
+          class="c8"
+        >
+          May '17 - Sept '18
+        </span>
+      </div>
+      <p>
+        I joined ClearScore as roughly employee #100 and, by the time I left, the company had grown to around 200 employees internationally.
+      </p>
+      <p>
+        Beyond my day-to-day recruitment role, I created and ran a company-wide interview training programme that focused on bringing all interviewers on to the same page. This aimed to ensure the interview process was fair and unbiased, provided candidates with useful feedback and raised awareness around unconscious bias.
+      </p>
+      <p>
+        I also made multiple contributions to the front-end production code base which varied from updating integrations on the careers page to bug fixes on the home page.
       </p>
     </li>
   </ul>
