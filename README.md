@@ -5,5 +5,4 @@
 - **Bug** - Doesn't exit git push if test fails
 - **D3** - Build a bar chart in D3 on home page
 - **Favicon** - Find a cool one
-- **Editor** - Change to 4 spaces
 - **Feature** - Contact page and social profiles

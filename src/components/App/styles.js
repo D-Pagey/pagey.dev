@@ -15,9 +15,10 @@ export const GlobalStyle = createGlobalStyle`
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
       monospace;
   }
-  
 `;
 
 export const Wrapper = styled.div`
+    margin: 0 auto;
+    max-width: 900px;
     padding: 1.5rem;
 `;

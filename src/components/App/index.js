@@ -8,7 +8,7 @@ import * as S from './styles';
 const App = () => {
     return (
         <BrowserRouter>
-            <S.Wrapper data-testid="pageHome">
+            <S.Wrapper>
                 <S.GlobalStyle />
                 <Header />
 
