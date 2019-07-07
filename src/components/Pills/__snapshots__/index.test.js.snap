@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pill component should render 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.c1 {
+  background-color: skyblue;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0 0.5rem 0.5rem;
+  text-transform: uppercase;
+}
+
+<ul
+  class="c0"
+>
+  <li
+    class="c1"
+  >
+    react
+  </li>
+  <li
+    class="c1"
+  >
+    html
+  </li>
+  <li
+    class="c1"
+  >
+    css
+  </li>
+</ul>
+`;

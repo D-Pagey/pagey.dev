@@ -2,11 +2,16 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   margin: 0 auto;
-  max-width: 725px;
+  max-width: 600px;
 `;
 
 export const Title = styled.h1`
   text-align: center;
+  font-family: 'Merriweather';
+`;
+
+export const SubTitle = styled.h2`
+  font-family: 'Merriweather';
 `;
 
 export const List = styled.ul`

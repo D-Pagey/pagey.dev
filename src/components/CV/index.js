@@ -3,11 +3,13 @@ import cytora from './assets/cytora.svg';
 import drover from './assets/drover.svg';
 import clearscore from './assets/clearscore.svg';
 import * as S from './styles';
+import Pills from '../Pills';
 
 const CV = () => (
   <S.Wrapper>
-    <S.Title>Short CV</S.Title>
-    <h2>Dan Page</h2>
+    <S.Title>Mini CV</S.Title>
+
+    <S.SubTitle>Dan Page</S.SubTitle>
 
     <p>
       I am a Software Developer that loves building applications in JavaScript. I’m always thinking about coding,
@@ -28,6 +30,18 @@ const CV = () => (
           I joined as the first Front End Developer to build out UIs from scratch on top of the API platform. I&apos;m
           also creating a reusable component library to enable multiple teams to build UIs quickly and consistently.
         </p>
+
+        <Pills
+          items={[
+            'react',
+            'react-context',
+            'styled components',
+            'storybook',
+            'jest',
+            'react-testing-library',
+            'cypress'
+          ]}
+        />
       </S.Item>
 
       <S.Item>
@@ -39,18 +53,21 @@ const CV = () => (
           <S.ItalicSpan>Sept &apos;18 - May &apos;19</S.ItalicSpan>
         </S.FlexWrapper>
         <p>
-          I joined Drover as a Junior Front End Developer and my first project was working solo on rebuilding Ruby on
-          Rails pages into React. Whilst I was confident working in React, I quickly learnt how to work in a large
-          codebase with lots of shared components (and minimal tests!).
+          I joined Drover as a Junior Front End Developer and my first project was working on rebuilding Ruby on Rails
+          pages in React. The main learning curve came from using shared components that had no unit or integration
+          tests, which made refactoring challenging.
         </p>
 
         <p>
-          After 6 months I have been promoted to a mid-level Developer and I believe that I have shown myself to be an
-          equal part of the Front End team. I am constantly looking for ways to improve our codebase and workflow. I
-          have taken advantage of working in a small team by suggesting and implementing improvements quickly.
-          Currently, I am the flag bearer for doing more unit testing and I spend a lot of my free time improving myself
-          in this area.
+          After 6 months I was promoted to a mid-level Developer and put on a 3 month greenfield project to rebuild the
+          entire user booking flow. I was the flag bearer for doing more unit and integration testing and so I spent a
+          lot of my free time learning about jest, enzyme, react-testing-library and cypress.
         </p>
+
+        <Pills
+          colour="pink"
+          items={['react', 'redux', 'styled components', 'storybook', 'jest', 'enzyme', 'cypress']}
+        />
       </S.Item>
 
       <S.Item>
@@ -77,6 +94,8 @@ const CV = () => (
           I also made multiple contributions to the front-end production code base which varied from updating
           integrations on the careers page to bug fixes on the home page.
         </p>
+
+        <Pills colour="lightgreen" items={['es6', 'handlebars']} />
       </S.Item>
     </S.List>
   </S.Wrapper>

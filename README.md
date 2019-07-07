@@ -2,10 +2,7 @@
 
 ### To Do
 
-- _Bug_ Doesn't exit git push if test fails
-- _CV component_ Create pill buttons in a flex wrapper to show tech stack
-- _CV component_ Choose a serif font for title (my name)
-- _CV component_ Make less boring, add some images. Be more concise.
-- _CV component_ Look at other mobile CVs for inspiration
-- _CV component_ Stick CV behind CV route
-- _D3_ Build a bar chart in D3 on home page
+- **Bug** - Doesn't exit git push if test fails
+- **CV component** - Stick CV behind CV route
+- **D3** - Build a bar chart in D3 on home page
+- **Favicon** - Find a cool one

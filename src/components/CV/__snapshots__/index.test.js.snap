@@ -3,23 +3,28 @@
 exports[`CV component should render 1`] = `
 .c0 {
   margin: 0 auto;
-  max-width: 725px;
+  max-width: 600px;
 }
 
 .c1 {
   text-align: center;
+  font-family: 'Merriweather';
 }
 
 .c2 {
+  font-family: 'Merriweather';
+}
+
+.c3 {
   list-style: none;
   padding: 0;
 }
 
-.c3 {
+.c4 {
   margin: 2rem 0 0;
 }
 
-.c6 {
+.c7 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -35,25 +40,64 @@ exports[`CV component should render 1`] = `
   margin: 1rem 0 0;
 }
 
-.c4 {
+.c5 {
   cursor: pointer;
 }
 
-.c5 {
+.c6 {
   display: block;
   margin: 0 auto;
   height: 50px;
   width: 150px;
 }
 
-.c7 {
+.c8 {
   font-weight: 600;
   font-size: 1.125rem;
   margin: 0;
 }
 
-.c8 {
+.c9 {
   font-style: italic;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.c11 {
+  background-color: skyblue;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0 0.5rem 0.5rem;
+  text-transform: uppercase;
+}
+
+.c12 {
+  background-color: pink;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0 0.5rem 0.5rem;
+  text-transform: uppercase;
+}
+
+.c13 {
+  background-color: lightgreen;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0 0.5rem 0.5rem;
+  text-transform: uppercase;
 }
 
 <div
@@ -62,9 +106,11 @@ exports[`CV component should render 1`] = `
   <h1
     class="c1"
   >
-    Short CV
+    Mini CV
   </h1>
-  <h2>
+  <h2
+    class="c2"
+  >
     Dan Page
   </h2>
   <p>
@@ -72,32 +118,32 @@ exports[`CV component should render 1`] = `
      
   </p>
   <ul
-    class="c2"
+    class="c3"
   >
     <li
-      class="c3"
+      class="c4"
     >
       <a
-        class="c4"
+        class="c5"
         href="https://cytora.com/"
         target="_blank"
       >
         <img
           alt="cytora"
-          class="c5"
+          class="c6"
           src="cytora.svg"
         />
       </a>
       <div
-        class="c6"
+        class="c7"
       >
         <h5
-          class="c7"
+          class="c8"
         >
           Front End Engineer
         </h5>
         <span
-          class="c8"
+          class="c9"
         >
           May '19 - Present
         </span>
@@ -105,66 +151,144 @@ exports[`CV component should render 1`] = `
       <p>
         I joined as the first Front End Developer to build out UIs from scratch on top of the API platform. I'm also creating a reusable component library to enable multiple teams to build UIs quickly and consistently.
       </p>
+      <ul
+        class="c10"
+      >
+        <li
+          class="c11"
+        >
+          react
+        </li>
+        <li
+          class="c11"
+        >
+          react-context
+        </li>
+        <li
+          class="c11"
+        >
+          styled components
+        </li>
+        <li
+          class="c11"
+        >
+          storybook
+        </li>
+        <li
+          class="c11"
+        >
+          jest
+        </li>
+        <li
+          class="c11"
+        >
+          react-testing-library
+        </li>
+        <li
+          class="c11"
+        >
+          cypress
+        </li>
+      </ul>
     </li>
     <li
-      class="c3"
+      class="c4"
     >
       <a
-        class="c4"
+        class="c5"
         href="https://www.joindrover.com/"
         target="_blank"
       >
         <img
           alt="drover"
-          class="c5"
+          class="c6"
           src="drover.svg"
         />
       </a>
       <div
-        class="c6"
+        class="c7"
       >
         <h5
-          class="c7"
+          class="c8"
         >
           Front End Developer
         </h5>
         <span
-          class="c8"
+          class="c9"
         >
           Sept '18 - May '19
         </span>
       </div>
       <p>
-        I joined Drover as a Junior Front End Developer and my first project was working solo on rebuilding Ruby on Rails pages into React. Whilst I was confident working in React, I quickly learnt how to work in a large codebase with lots of shared components (and minimal tests!).
+        I joined Drover as a Junior Front End Developer and my first project was working on rebuilding Ruby on Rails pages in React. The main learning curve came from using shared components that had no unit or integration tests, which made refactoring challenging.
       </p>
       <p>
-        After 6 months I have been promoted to a mid-level Developer and I believe that I have shown myself to be an equal part of the Front End team. I am constantly looking for ways to improve our codebase and workflow. I have taken advantage of working in a small team by suggesting and implementing improvements quickly. Currently, I am the flag bearer for doing more unit testing and I spend a lot of my free time improving myself in this area.
+        After 6 months I was promoted to a mid-level Developer and put on a 3 month greenfield project to rebuild the entire user booking flow. I was the flag bearer for doing more unit and integration testing and so I spent a lot of my free time learning about jest, enzyme, react-testing-library and cypress.
       </p>
+      <ul
+        class="c10"
+      >
+        <li
+          class="c12"
+        >
+          react
+        </li>
+        <li
+          class="c12"
+        >
+          redux
+        </li>
+        <li
+          class="c12"
+        >
+          styled components
+        </li>
+        <li
+          class="c12"
+        >
+          storybook
+        </li>
+        <li
+          class="c12"
+        >
+          jest
+        </li>
+        <li
+          class="c12"
+        >
+          enzyme
+        </li>
+        <li
+          class="c12"
+        >
+          cypress
+        </li>
+      </ul>
     </li>
     <li
-      class="c3"
+      class="c4"
     >
       <a
-        class="c4"
+        class="c5"
         href="https://clearscore.com/"
         target="_blank"
       >
         <img
           alt="clearscore"
-          class="c5"
+          class="c6"
           src="clearscore.svg"
         />
       </a>
       <div
-        class="c6"
+        class="c7"
       >
         <h5
-          class="c7"
+          class="c8"
         >
           Talent Acquisition
         </h5>
         <span
-          class="c8"
+          class="c9"
         >
           May '17 - Sept '18
         </span>
@@ -178,6 +302,20 @@ exports[`CV component should render 1`] = `
       <p>
         I also made multiple contributions to the front-end production code base which varied from updating integrations on the careers page to bug fixes on the home page.
       </p>
+      <ul
+        class="c10"
+      >
+        <li
+          class="c13"
+        >
+          es6
+        </li>
+        <li
+          class="c13"
+        >
+          handlebars
+        </li>
+      </ul>
     </li>
   </ul>
 </div>

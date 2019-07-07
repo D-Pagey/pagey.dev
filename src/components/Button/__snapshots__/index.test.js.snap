@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component should render 1`] = `
+.c0 {
+  background-color: skyblue;
+  border: 0;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  Click Me
+</button>
+`;
