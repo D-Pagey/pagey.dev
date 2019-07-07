@@ -3,18 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "babel-plugin-jsx-remove-data-test-id": "2.0.0",
+    "babel-plugin-styled-components": "1.10.6",
+    "history": "4.9.0",
+    "jest-styled-components": "6.3.3",
+    "polished": "3.4.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-router-dom": "5.0.1",
+    "react-scripts": "3.0.1",
+    "styled-components": "4.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --verbose --coverage --no-cache --watchAll=false",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src/**/*.js && stylelint ./src/**/*.js"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js",
+      "!src/setupTests.js"
+    ]
   },
   "browserslist": {
     "production": [
@@ -27,5 +42,74 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "8.0.0",
+    "@commitlint/config-conventional": "8.0.0",
+    "@testing-library/react": "8.0.4",
+    "babel-eslint": "10.0.2",
+    "commitizen": "3.1.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "6.0.1",
+    "eslint-config-airbnb": "17.1.1",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-import": "2.18.0",
+    "eslint-plugin-jest": "22.7.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-react": "7.14.2",
+    "eslint-plugin-react-hooks": "1.6.1",
+    "husky": "3.0.0",
+    "jest-dom": "3.5.0",
+    "lint-staged": ">=8",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "stylelint": "10.1.0",
+    "stylelint-config-recommended": "2.2.0",
+    "stylelint-config-styled-components": "0.1.1",
+    "stylelint-processor-styled-components": "1.8.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn test"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx}": [
+      "eslint",
+      "pretty-quick — staged",
+      "git add"
+    ],
+    "*.css": [
+      "stylelint --fix",
+      "git add"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ],
+    "plugins": [
+      [
+        "babel-plugin-styled-components",
+        {
+          "ssr": false
+        }
+      ]
+    ],
+    "env": {
+      "production": {
+        "plugins": [
+          "babel-plugin-jsx-remove-data-test-id"
+        ]
+      }
+    }
   }
 }
