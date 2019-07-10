@@ -190,6 +190,21 @@ exports[`PageCV component should render 1`] = `
         >
           cypress
         </li>
+        <li
+          class="c11"
+        >
+          circle ci
+        </li>
+        <li
+          class="c11"
+        >
+          concourse
+        </li>
+        <li
+          class="c11"
+        >
+          gcp
+        </li>
       </ul>
     </li>
     <li
@@ -264,6 +279,16 @@ exports[`PageCV component should render 1`] = `
         >
           cypress
         </li>
+        <li
+          class="c12"
+        >
+          heroku
+        </li>
+        <li
+          class="c12"
+        >
+          aws
+        </li>
       </ul>
     </li>
     <li
@@ -315,6 +340,16 @@ exports[`PageCV component should render 1`] = `
           class="c13"
         >
           handlebars
+        </li>
+        <li
+          class="c13"
+        >
+          css
+        </li>
+        <li
+          class="c13"
+        >
+          jenkins
         </li>
       </ul>
     </li>

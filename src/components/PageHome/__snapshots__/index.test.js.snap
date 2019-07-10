@@ -66,7 +66,7 @@ exports[`PageHome component should render 1`] = `
     <p
       class="c3"
     >
-      I have always appreciated a good data vizualisation and so I'm learning to use D3.js within React apps. Hopefully, I can build something cool and interactive. Until then, this is my playground.
+      I have always appreciated well done data vizualisation and so I'm learning to use D3.js within React apps. Hopefully, I can build something cool and interactive. Until then, this is my playground.
     </p>
   </div>
 </div>

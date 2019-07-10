@@ -40,7 +40,10 @@ const PageCV = () => (
                         'storybook',
                         'jest',
                         'react-testing-library',
-                        'cypress'
+                        'cypress',
+                        'circle ci',
+                        'concourse',
+                        'gcp'
                     ]}
                 />
             </S.Item>
@@ -68,7 +71,17 @@ const PageCV = () => (
 
                 <Pills
                     colour="pink"
-                    items={['react', 'redux', 'styled components', 'storybook', 'jest', 'enzyme', 'cypress']}
+                    items={[
+                        'react',
+                        'redux',
+                        'styled components',
+                        'storybook',
+                        'jest',
+                        'enzyme',
+                        'cypress',
+                        'heroku',
+                        'aws'
+                    ]}
                 />
             </S.Item>
 
@@ -98,7 +111,7 @@ const PageCV = () => (
                     integrations on the careers page to bug fixes on the home page.
                 </p>
 
-                <Pills colour="lightgreen" items={['es6', 'handlebars']} />
+                <Pills colour="lightgreen" items={['es6', 'handlebars', 'css', 'jenkins']} />
             </S.Item>
         </S.List>
     </S.Wrapper>
