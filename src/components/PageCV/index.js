@@ -65,8 +65,8 @@ const PageCV = () => (
                 <p>
                     After 6 months I was promoted to a mid-level Developer and put on a 3 month greenfield project to
                     rebuild the entire user booking flow. I was the flag bearer for doing more unit and integration
-                    testing and so I spent a lot of my free time learning about jest, enzyme, react-testing-library and
-                    cypress.
+                    testing and so I spent a lot of my free time learning about Jest, Enzyme, React-Testing-Library and
+                    Cypress.
                 </p>
 
                 <Pills

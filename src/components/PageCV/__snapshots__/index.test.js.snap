@@ -239,7 +239,7 @@ exports[`PageCV component should render 1`] = `
         I joined Drover as a Junior Front End Developer and my first project was working on rebuilding Ruby on Rails pages in React. The main learning curve came from using shared components that had no unit or integration tests, which made refactoring challenging.
       </p>
       <p>
-        After 6 months I was promoted to a mid-level Developer and put on a 3 month greenfield project to rebuild the entire user booking flow. I was the flag bearer for doing more unit and integration testing and so I spent a lot of my free time learning about jest, enzyme, react-testing-library and cypress.
+        After 6 months I was promoted to a mid-level Developer and put on a 3 month greenfield project to rebuild the entire user booking flow. I was the flag bearer for doing more unit and integration testing and so I spent a lot of my free time learning about Jest, Enzyme, React-Testing-Library and Cypress.
       </p>
       <ul
         class="c10"
