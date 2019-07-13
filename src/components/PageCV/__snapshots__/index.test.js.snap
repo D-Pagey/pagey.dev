@@ -61,6 +61,22 @@ exports[`PageCV component should render 1`] = `
   font-style: italic;
 }
 
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: italic;
+  margin: 2rem 0 1rem;
+}
+
+.c15 {
+  bottom: 1px;
+  margin: 0 0 0 0.5rem;
+  position: relative;
+  width: 75px;
+}
+
 .c10 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -354,5 +370,22 @@ exports[`PageCV component should render 1`] = `
       </ul>
     </li>
   </ul>
+  <p
+    class="c14"
+  >
+    For further career history, check out my profile on
+     
+    <a
+      href="https://www.linkedin.com/in/dan-page/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="linked in"
+        class="c15"
+        src="LI-Logo.png"
+      />
+    </a>
+  </p>
 </div>
 `;

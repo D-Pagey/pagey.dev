@@ -50,3 +50,16 @@ export const JobTitle = styled.h5`
 export const ItalicSpan = styled.span`
     font-style: italic;
 `;
+
+export const LinkedInCopy = styled.p`
+    display: flex;
+    font-style: italic;
+    margin: 2rem 0 1rem;
+`;
+
+export const Image = styled.img`
+    bottom: 1px;
+    margin: 0 0 0 0.5rem;
+    position: relative;
+    width: 75px;
+`;

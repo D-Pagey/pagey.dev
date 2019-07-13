@@ -2,6 +2,7 @@ import React from 'react';
 import cytora from './assets/cytora.svg';
 import drover from './assets/drover.svg';
 import clearscore from './assets/clearscore.svg';
+import LinkedInLogo from './assets/LI-Logo.png';
 import * as S from './styles';
 import Pills from '../Pills';
 
@@ -114,6 +115,13 @@ const PageCV = () => (
                 <Pills colour="lightgreen" items={['es6', 'handlebars', 'css', 'jenkins']} />
             </S.Item>
         </S.List>
+
+        <S.LinkedInCopy>
+            For further career history, check out my profile on{' '}
+            <a href="https://www.linkedin.com/in/dan-page/" target="_blank" rel="noopener noreferrer">
+                <S.Image src={LinkedInLogo} alt="linked in" />
+            </a>
+        </S.LinkedInCopy>
     </S.Wrapper>
 );
 
