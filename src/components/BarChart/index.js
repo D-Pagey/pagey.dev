@@ -1,11 +1,12 @@
 import React from 'react';
 import { scaleLinear } from 'd3-scale';
+import * as S from './styles';
 
-const data = [1, 3, 7, 10, 7, 4, 3];
+const data = [58, 67, 58, 63, 63, 62, 52];
 
-const width = 500;
-const height = 300;
-const padding = 30;
+const width = 600;
+const height = 400;
+const padding = 50;
 
 const BarChart = () => {
     const xScale = scaleLinear()
@@ -13,17 +14,45 @@ const BarChart = () => {
         .range([0 + padding, width - 25]);
 
     const yScale = scaleLinear()
-        .domain([0, Math.max(...data)])
-        .range([0, height]);
-
-    // console.log('here', Math.max(...data));
+        .domain([Math.min(...data) - 2, Math.max(...data)])
+        .range([0, height - padding - padding]);
 
     return (
-        <svg width={width} height={height} style={{ border: '1px solid black' }}>
-            {data.map((item, index) => (
-                <rect width={25} height={yScale(item)} x={xScale(index)} y={height - yScale(item)} fill="red" />
-            ))}
-        </svg>
+        <div>
+            <h1>My Gym Usage:</h1>
+            <svg width={width} height={height} style={{ border: '1px solid black' }}>
+                <line x1={padding} y1={height - padding} x2={padding} y2={padding} stroke="green" strokeWidth="1" />
+                <text x={padding - 5} y={padding + 5} textAnchor="end">
+                    {Math.max(...data)}
+                </text>
+                <text x={padding} y={height / 2}>
+                    Minutes
+                </text>
+                <text x={padding - 5} y={height - padding + 5} textAnchor="end">
+                    {Math.min(...data) - 2}
+                </text>
+
+                <line
+                    x1={padding}
+                    y1={height - padding}
+                    x2={width}
+                    y2={height - padding}
+                    stroke="blue"
+                    strokeWidth="1"
+                />
+
+                {data.map((item, index) => (
+                    <S.Bar
+                        height={yScale(item)}
+                        // eslint-disable-next-line react/no-array-index-key
+                        key={index}
+                        x={xScale(index)}
+                        y={height - yScale(item) - padding}
+                        width={25}
+                    />
+                ))}
+            </svg>
+        </div>
     );
 };
 
