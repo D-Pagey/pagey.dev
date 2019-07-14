@@ -116,12 +116,12 @@ const PageCV = () => (
             </S.Item>
         </S.List>
 
-        <S.LinkedInCopy>
-            For further career history, check out my profile on{' '}
-            <a href="https://www.linkedin.com/in/dan-page/" target="_blank" rel="noopener noreferrer">
+        <S.LinkedInLinkWrapper>
+            <S.ItalicSpan>For further career history, check out my profile on: </S.ItalicSpan>
+            <S.Link href="https://www.linkedin.com/in/dan-page/" target="_blank" rel="noopener noreferrer">
                 <S.Image src={LinkedInLogo} alt="linked in" />
-            </a>
-        </S.LinkedInCopy>
+            </S.Link>
+        </S.LinkedInLinkWrapper>
     </S.Wrapper>
 );
 
