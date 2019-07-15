@@ -5,25 +5,26 @@ import * as S from './styles';
 const data = [58, 67, 58, 63, 63, 62, 52];
 const dataAvg = data.reduce((a, b) => a + b, 0) / data.length;
 
-const width = 400;
+const width = 500;
 const height = 400;
-const padding = 50;
+const paddingX = 50;
+const paddingY = 35;
 
 const BarChart = () => {
     const xScale = scaleLinear()
         .domain([0, data.length - 1])
-        .range([0 + padding, width - 25]);
+        .range([0 + paddingX, width - 25]);
 
     const yScale = scaleLinear()
         .domain([Math.min(...data) - 2, Math.max(...data)])
-        .range([0, height - padding - padding]);
+        .range([0, height - paddingY - paddingY]);
 
     return (
         <div>
             <h1>My Gym Usage:</h1>
             <svg width={width} height={height}>
                 <line
-                    x1={padding}
+                    x1={paddingX}
                     y1={yScale(dataAvg)}
                     x2={width}
                     y2={yScale(dataAvg)}
@@ -31,29 +32,32 @@ const BarChart = () => {
                     strokeWidth="1"
                     strokeDasharray="2"
                 />
-                <line x1={padding} y1={height - padding} x2={padding} y2={padding} stroke="grey" strokeWidth="1" />
-                <text x={padding - 5} y={padding + 5} textAnchor="end">
+                <line x1={paddingX} y1={height - paddingY} x2={paddingX} y2={paddingY} stroke="grey" strokeWidth="1" />
+                <text x={paddingX - 5} y={paddingY + 5} textAnchor="end">
                     {Math.max(...data)}
                 </text>
-                <text x={padding - 50} y={height / 2}>
+                <text x={paddingX - 50} y={height / 2}>
                     Minutes
                 </text>
 
-                <text x={padding - 5} y={height - padding + 5} textAnchor="end">
+                <text x={paddingX - 5} y={height - paddingY + 5} textAnchor="end">
                     {Math.min(...data) - 2}
                 </text>
-                <text x={width / 2} y={height - 17}>
+                <text x={width / 2} y={height}>
                     Index
                 </text>
 
                 <line
-                    x1={padding}
-                    y1={height - padding}
+                    x1={paddingX}
+                    y1={height - paddingY}
                     x2={width}
-                    y2={height - padding}
+                    y2={height - paddingY}
                     stroke="grey"
                     strokeWidth="1"
                 />
+                <text x={width - 60} y={height / 2}>
+                    Average
+                </text>
 
                 {data.map((item, index) => (
                     <>
@@ -62,10 +66,10 @@ const BarChart = () => {
                             // eslint-disable-next-line react/no-array-index-key
                             key={index}
                             x={xScale(index)}
-                            y={height - yScale(item) - padding}
-                            width={25}
+                            y={height - yScale(item) - paddingY}
+                            width={30}
                         />
-                        <text x={xScale(index) + 8} y={height - padding + 15}>
+                        <text x={xScale(index) + 8} y={height - paddingY + 15}>
                             {index}
                         </text>
                     </>
