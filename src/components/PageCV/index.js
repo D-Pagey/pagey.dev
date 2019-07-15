@@ -1,10 +1,11 @@
 import React from 'react';
+import { coloursByFunction } from '../../tokens';
+import Pills from '../Pills';
 import cytora from './assets/cytora.svg';
 import drover from './assets/drover.svg';
 import clearscore from './assets/clearscore.svg';
 import LinkedInLogo from './assets/LI-Logo.png';
 import * as S from './styles';
-import Pills from '../Pills';
 
 const PageCV = () => (
     <S.Wrapper data-testid="pageCV">
@@ -35,16 +36,16 @@ const PageCV = () => (
 
                 <Pills
                     items={[
-                        'react',
-                        'react-context',
-                        'styled components',
-                        'storybook',
-                        'jest',
-                        'react-testing-library',
-                        'cypress',
-                        'circle ci',
-                        'concourse',
-                        'gcp'
+                        { colour: coloursByFunction.javascript, value: 'react' },
+                        { colour: coloursByFunction.javascript, value: 'react-context' },
+                        { colour: coloursByFunction.javascript, value: 'jest' },
+                        { colour: coloursByFunction.javascript, value: 'react-testing-library' },
+                        { colour: coloursByFunction.css, value: 'styled components' },
+                        { colour: coloursByFunction.storybook, value: 'storybook' },
+                        { colour: coloursByFunction.cypress, value: 'cypress' },
+                        { colour: coloursByFunction.ciCd, value: 'circle ci' },
+                        { colour: coloursByFunction.ciCd, value: 'concourse' },
+                        { colour: coloursByFunction.ciCd, value: 'gcp' }
                     ]}
                 />
             </S.Item>
@@ -71,17 +72,16 @@ const PageCV = () => (
                 </p>
 
                 <Pills
-                    colour="pink"
                     items={[
-                        'react',
-                        'redux',
-                        'styled components',
-                        'storybook',
-                        'jest',
-                        'enzyme',
-                        'cypress',
-                        'heroku',
-                        'aws'
+                        { colour: coloursByFunction.javascript, value: 'react' },
+                        { colour: coloursByFunction.javascript, value: 'redux' },
+                        { colour: coloursByFunction.javascript, value: 'jest' },
+                        { colour: coloursByFunction.javascript, value: 'enzyme' },
+                        { colour: coloursByFunction.css, value: 'styled components' },
+                        { colour: coloursByFunction.storybook, value: 'storybook' },
+                        { colour: coloursByFunction.cypress, value: 'cypress' },
+                        { colour: coloursByFunction.ciCd, value: 'heroku' },
+                        { colour: coloursByFunction.ciCd, value: 'aws' }
                     ]}
                 />
             </S.Item>
@@ -112,7 +112,14 @@ const PageCV = () => (
                     integrations on the careers page to bug fixes on the home page.
                 </p>
 
-                <Pills colour="lightgreen" items={['es6', 'handlebars', 'css', 'jenkins']} />
+                <Pills
+                    items={[
+                        { colour: coloursByFunction.javascript, value: 'es6' },
+                        { colour: coloursByFunction.javascript, value: 'handlebars' },
+                        { colour: coloursByFunction.css, value: 'css' },
+                        { colour: coloursByFunction.ciCd, value: 'jenkins' }
+                    ]}
+                />
             </S.Item>
         </S.List>
 

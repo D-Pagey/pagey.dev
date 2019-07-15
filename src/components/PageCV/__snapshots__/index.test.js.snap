@@ -1,6 +1,63 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`PageCV component should render 1`] = `
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.c11 {
+  background-color: #f1e05a;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0 0.5rem 0.5rem;
+  text-transform: uppercase;
+}
+
+.c12 {
+  background-color: #ad8ddc;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0 0.5rem 0.5rem;
+  text-transform: uppercase;
+}
+
+.c13 {
+  background-color: rgb(241,132,168);
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0 0.5rem 0.5rem;
+  text-transform: uppercase;
+}
+
+.c14 {
+  background-color: rgb(0,191,136);
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0 0.5rem 0.5rem;
+  text-transform: uppercase;
+}
+
+.c15 {
+  background-color: #38c9eacc;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0 0.5rem 0.5rem;
+  text-transform: uppercase;
+}
+
 .c0 {
   margin: 0 auto;
   max-width: 600px;
@@ -61,7 +118,7 @@ exports[`PageCV component should render 1`] = `
   font-style: italic;
 }
 
-.c14 {
+.c16 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -76,55 +133,16 @@ exports[`PageCV component should render 1`] = `
   margin: 2rem 0 1rem;
 }
 
-.c15 {
+.c17 {
   margin: 0.5rem 0 0;
 }
 
-.c16 {
+.c18 {
   width: 125px;
 }
 
-.c10 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-}
-
-.c11 {
-  background-color: skyblue;
-  border-radius: 5px;
-  font-size: 12px;
-  padding: 0.25rem 0.5rem;
-  margin: 0 0 0.5rem 0.5rem;
-  text-transform: uppercase;
-}
-
-.c12 {
-  background-color: pink;
-  border-radius: 5px;
-  font-size: 12px;
-  padding: 0.25rem 0.5rem;
-  margin: 0 0 0.5rem 0.5rem;
-  text-transform: uppercase;
-}
-
-.c13 {
-  background-color: lightgreen;
-  border-radius: 5px;
-  font-size: 12px;
-  padding: 0.25rem 0.5rem;
-  margin: 0 0 0.5rem 0.5rem;
-  text-transform: uppercase;
-}
-
 @media (min-width:500px) {
-  .c15 {
+  .c17 {
     margin-top: 1rem;
   }
 }
@@ -197,16 +215,6 @@ exports[`PageCV component should render 1`] = `
         <li
           class="c11"
         >
-          styled components
-        </li>
-        <li
-          class="c11"
-        >
-          storybook
-        </li>
-        <li
-          class="c11"
-        >
           jest
         </li>
         <li
@@ -215,22 +223,32 @@ exports[`PageCV component should render 1`] = `
           react-testing-library
         </li>
         <li
-          class="c11"
+          class="c12"
+        >
+          styled components
+        </li>
+        <li
+          class="c13"
+        >
+          storybook
+        </li>
+        <li
+          class="c14"
         >
           cypress
         </li>
         <li
-          class="c11"
+          class="c15"
         >
           circle ci
         </li>
         <li
-          class="c11"
+          class="c15"
         >
           concourse
         </li>
         <li
-          class="c11"
+          class="c15"
         >
           gcp
         </li>
@@ -274,14 +292,24 @@ exports[`PageCV component should render 1`] = `
         class="c10"
       >
         <li
-          class="c12"
+          class="c11"
         >
           react
         </li>
         <li
-          class="c12"
+          class="c11"
         >
           redux
+        </li>
+        <li
+          class="c11"
+        >
+          jest
+        </li>
+        <li
+          class="c11"
+        >
+          enzyme
         </li>
         <li
           class="c12"
@@ -289,32 +317,22 @@ exports[`PageCV component should render 1`] = `
           styled components
         </li>
         <li
-          class="c12"
+          class="c13"
         >
           storybook
         </li>
         <li
-          class="c12"
-        >
-          jest
-        </li>
-        <li
-          class="c12"
-        >
-          enzyme
-        </li>
-        <li
-          class="c12"
+          class="c14"
         >
           cypress
         </li>
         <li
-          class="c12"
+          class="c15"
         >
           heroku
         </li>
         <li
-          class="c12"
+          class="c15"
         >
           aws
         </li>
@@ -361,22 +379,22 @@ exports[`PageCV component should render 1`] = `
         class="c10"
       >
         <li
-          class="c13"
+          class="c11"
         >
           es6
         </li>
         <li
-          class="c13"
+          class="c11"
         >
           handlebars
         </li>
         <li
-          class="c13"
+          class="c12"
         >
           css
         </li>
         <li
-          class="c13"
+          class="c15"
         >
           jenkins
         </li>
@@ -384,7 +402,7 @@ exports[`PageCV component should render 1`] = `
     </li>
   </ul>
   <div
-    class="c14"
+    class="c16"
   >
     <span
       class="c9"
@@ -392,14 +410,14 @@ exports[`PageCV component should render 1`] = `
       For further career history, check out my profile on: 
     </span>
     <a
-      class="c15"
+      class="c17"
       href="https://www.linkedin.com/in/dan-page/"
       rel="noopener noreferrer"
       target="_blank"
     >
       <img
         alt="linked in"
-        class="c16"
+        class="c18"
         src="LI-Logo.png"
       />
     </a>

@@ -60,11 +60,10 @@ const BarChart = () => {
                 </text>
 
                 {data.map((item, index) => (
-                    <>
+                    // eslint-disable-next-line react/no-array-index-key
+                    <g key={index}>
                         <S.Bar
                             height={yScale(item)}
-                            // eslint-disable-next-line react/no-array-index-key
-                            key={index}
                             x={xScale(index)}
                             y={height - yScale(item) - paddingY}
                             width={30}
@@ -72,7 +71,7 @@ const BarChart = () => {
                         <text x={xScale(index) + 8} y={height - paddingY + 15}>
                             {index}
                         </text>
-                    </>
+                    </g>
                 ))}
             </svg>
         </div>

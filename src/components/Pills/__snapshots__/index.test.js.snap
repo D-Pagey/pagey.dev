@@ -14,7 +14,7 @@ exports[`Pill component should render 1`] = `
 }
 
 .c1 {
-  background-color: skyblue;
+  background-color: #f1e05a;
   border-radius: 5px;
   font-size: 12px;
   padding: 0.25rem 0.5rem;
@@ -33,12 +33,17 @@ exports[`Pill component should render 1`] = `
   <li
     class="c1"
   >
-    html
+    react-context
   </li>
   <li
     class="c1"
   >
-    css
+    jest
+  </li>
+  <li
+    class="c1"
+  >
+    react-testing-library
   </li>
 </ul>
 `;

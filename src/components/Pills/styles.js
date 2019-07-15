@@ -8,7 +8,7 @@ export const List = styled.ul`
 `;
 
 export const Pill = styled.li`
-    background-color: ${({ colour }) => colour || 'skyblue'};
+    background-color: ${({ colour }) => colour};
     border-radius: 5px;
     font-size: 12px;
     padding: 0.25rem 0.5rem;

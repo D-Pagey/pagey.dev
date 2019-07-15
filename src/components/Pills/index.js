@@ -1,13 +1,13 @@
 import React from 'react';
-import { arrayOf, string } from 'prop-types';
+import { arrayOf, shape, string } from 'prop-types';
 import * as S from './styles';
 
-const Pills = ({ colour, items }) => {
+const Pills = ({ items }) => {
     return (
         <S.List>
             {items.map((item) => (
-                <S.Pill colour={colour} key={item}>
-                    {item}
+                <S.Pill colour={item.colour} key={item.value}>
+                    {item.value}
                 </S.Pill>
             ))}
         </S.List>
@@ -15,12 +15,12 @@ const Pills = ({ colour, items }) => {
 };
 
 Pills.propTypes = {
-    colour: string,
-    items: arrayOf(string).isRequired
-};
-
-Pills.defaultProps = {
-    colour: ''
+    items: arrayOf(
+        shape({
+            colour: string.isRequired,
+            value: string.isRequired
+        })
+    ).isRequired
 };
 
 export default Pills;
