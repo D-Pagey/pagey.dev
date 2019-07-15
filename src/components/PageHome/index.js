@@ -1,4 +1,5 @@
 import React from 'react';
+import BarChart from '../BarChart';
 import pagey from './assets/pagey.jpg';
 import * as S from './styles';
 
@@ -18,6 +19,8 @@ const PageHome = () => {
                     playground.
                 </S.Text>
             </S.IntroGrid>
+
+            <BarChart />
         </S.Wrapper>
     );
 };

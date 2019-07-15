@@ -4,6 +4,6 @@ export const Bar = styled.rect`
     fill: pink;
 
     &:hover {
-        fill: blue;
+        fill: skyblue;
     }
 `;
