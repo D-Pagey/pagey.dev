@@ -14,42 +14,6 @@ exports[`PageCV component should render 1`] = `
 }
 
 .c11 {
-  background-color: #f1e05a;
-  border-radius: 5px;
-  font-size: 12px;
-  padding: 0.25rem 0.5rem;
-  margin: 0 0 0.5rem 0.5rem;
-  text-transform: uppercase;
-}
-
-.c12 {
-  background-color: #ad8ddc;
-  border-radius: 5px;
-  font-size: 12px;
-  padding: 0.25rem 0.5rem;
-  margin: 0 0 0.5rem 0.5rem;
-  text-transform: uppercase;
-}
-
-.c13 {
-  background-color: rgb(241,132,168);
-  border-radius: 5px;
-  font-size: 12px;
-  padding: 0.25rem 0.5rem;
-  margin: 0 0 0.5rem 0.5rem;
-  text-transform: uppercase;
-}
-
-.c14 {
-  background-color: rgb(0,191,136);
-  border-radius: 5px;
-  font-size: 12px;
-  padding: 0.25rem 0.5rem;
-  margin: 0 0 0.5rem 0.5rem;
-  text-transform: uppercase;
-}
-
-.c15 {
   background-color: #38c9eacc;
   border-radius: 5px;
   font-size: 12px;
@@ -118,7 +82,7 @@ exports[`PageCV component should render 1`] = `
   font-style: italic;
 }
 
-.c16 {
+.c12 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -133,16 +97,16 @@ exports[`PageCV component should render 1`] = `
   margin: 2rem 0 1rem;
 }
 
-.c17 {
+.c13 {
   margin: 0.5rem 0 0;
 }
 
-.c18 {
+.c14 {
   width: 125px;
 }
 
 @media (min-width:500px) {
-  .c17 {
+  .c13 {
     margin-top: 1rem;
   }
 }
@@ -223,32 +187,32 @@ exports[`PageCV component should render 1`] = `
           react-testing-library
         </li>
         <li
-          class="c12"
+          class="c11"
         >
           styled components
         </li>
         <li
-          class="c13"
+          class="c11"
         >
           storybook
         </li>
         <li
-          class="c14"
+          class="c11"
         >
           cypress
         </li>
         <li
-          class="c15"
+          class="c11"
         >
           circle ci
         </li>
         <li
-          class="c15"
+          class="c11"
         >
           concourse
         </li>
         <li
-          class="c15"
+          class="c11"
         >
           gcp
         </li>
@@ -312,27 +276,27 @@ exports[`PageCV component should render 1`] = `
           enzyme
         </li>
         <li
-          class="c12"
+          class="c11"
         >
           styled components
         </li>
         <li
-          class="c13"
+          class="c11"
         >
           storybook
         </li>
         <li
-          class="c14"
+          class="c11"
         >
           cypress
         </li>
         <li
-          class="c15"
+          class="c11"
         >
           heroku
         </li>
         <li
-          class="c15"
+          class="c11"
         >
           aws
         </li>
@@ -389,12 +353,12 @@ exports[`PageCV component should render 1`] = `
           handlebars
         </li>
         <li
-          class="c12"
+          class="c11"
         >
           css
         </li>
         <li
-          class="c15"
+          class="c11"
         >
           jenkins
         </li>
@@ -402,7 +366,7 @@ exports[`PageCV component should render 1`] = `
     </li>
   </ul>
   <div
-    class="c16"
+    class="c12"
   >
     <span
       class="c9"
@@ -410,14 +374,14 @@ exports[`PageCV component should render 1`] = `
       For further career history, check out my profile on: 
     </span>
     <a
-      class="c17"
+      class="c13"
       href="https://www.linkedin.com/in/dan-page/"
       rel="noopener noreferrer"
       target="_blank"
     >
       <img
         alt="linked in"
-        class="c18"
+        class="c14"
         src="LI-Logo.png"
       />
     </a>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { coloursByFunction } from '../../tokens';
+import { colours } from '../../tokens';
 import Pills from '../Pills';
 import cytora from './assets/cytora.svg';
 import drover from './assets/drover.svg';
@@ -36,16 +36,16 @@ const PageCV = () => (
 
                 <Pills
                     items={[
-                        { colour: coloursByFunction.javascript, value: 'react' },
-                        { colour: coloursByFunction.javascript, value: 'react-context' },
-                        { colour: coloursByFunction.javascript, value: 'jest' },
-                        { colour: coloursByFunction.javascript, value: 'react-testing-library' },
-                        { colour: coloursByFunction.css, value: 'styled components' },
-                        { colour: coloursByFunction.storybook, value: 'storybook' },
-                        { colour: coloursByFunction.cypress, value: 'cypress' },
-                        { colour: coloursByFunction.ciCd, value: 'circle ci' },
-                        { colour: coloursByFunction.ciCd, value: 'concourse' },
-                        { colour: coloursByFunction.ciCd, value: 'gcp' }
+                        { colour: colours.lightBlue, value: 'react' },
+                        { colour: colours.lightBlue, value: 'react-context' },
+                        { colour: colours.lightBlue, value: 'jest' },
+                        { colour: colours.lightBlue, value: 'react-testing-library' },
+                        { colour: colours.lightBlue, value: 'styled components' },
+                        { colour: colours.lightBlue, value: 'storybook' },
+                        { colour: colours.lightBlue, value: 'cypress' },
+                        { colour: colours.lightBlue, value: 'circle ci' },
+                        { colour: colours.lightBlue, value: 'concourse' },
+                        { colour: colours.lightBlue, value: 'gcp' }
                     ]}
                 />
             </S.Item>
@@ -73,15 +73,15 @@ const PageCV = () => (
 
                 <Pills
                     items={[
-                        { colour: coloursByFunction.javascript, value: 'react' },
-                        { colour: coloursByFunction.javascript, value: 'redux' },
-                        { colour: coloursByFunction.javascript, value: 'jest' },
-                        { colour: coloursByFunction.javascript, value: 'enzyme' },
-                        { colour: coloursByFunction.css, value: 'styled components' },
-                        { colour: coloursByFunction.storybook, value: 'storybook' },
-                        { colour: coloursByFunction.cypress, value: 'cypress' },
-                        { colour: coloursByFunction.ciCd, value: 'heroku' },
-                        { colour: coloursByFunction.ciCd, value: 'aws' }
+                        { colour: colours.lightBlue, value: 'react' },
+                        { colour: colours.lightBlue, value: 'redux' },
+                        { colour: colours.lightBlue, value: 'jest' },
+                        { colour: colours.lightBlue, value: 'enzyme' },
+                        { colour: colours.lightBlue, value: 'styled components' },
+                        { colour: colours.lightBlue, value: 'storybook' },
+                        { colour: colours.lightBlue, value: 'cypress' },
+                        { colour: colours.lightBlue, value: 'heroku' },
+                        { colour: colours.lightBlue, value: 'aws' }
                     ]}
                 />
             </S.Item>
@@ -114,10 +114,10 @@ const PageCV = () => (
 
                 <Pills
                     items={[
-                        { colour: coloursByFunction.javascript, value: 'es6' },
-                        { colour: coloursByFunction.javascript, value: 'handlebars' },
-                        { colour: coloursByFunction.css, value: 'css' },
-                        { colour: coloursByFunction.ciCd, value: 'jenkins' }
+                        { colour: colours.lightBlue, value: 'es6' },
+                        { colour: colours.lightBlue, value: 'handlebars' },
+                        { colour: colours.lightBlue, value: 'css' },
+                        { colour: colours.lightBlue, value: 'jenkins' }
                     ]}
                 />
             </S.Item>
