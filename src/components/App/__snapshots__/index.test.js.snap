@@ -10,7 +10,7 @@ exports[`App component should render 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: 0 0 1rem 0;
+  margin: 0 0 2rem 0;
 }
 
 .c2 {

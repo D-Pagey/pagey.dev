@@ -14,12 +14,11 @@ exports[`Pill component should render 1`] = `
 }
 
 .c1 {
-  background-color: #f1e05a;
+  background-color: #fbce63;
   border-radius: 5px;
   font-size: 12px;
   padding: 0.25rem 0.5rem;
   margin: 0 0 0.5rem 0.5rem;
-  text-transform: uppercase;
 }
 
 <ul

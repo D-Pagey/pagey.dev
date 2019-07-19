@@ -1,5 +1,4 @@
 import React from 'react';
-import { colours } from '../../tokens';
 import Pills from '../Pills';
 import cytora from './assets/cytora.svg';
 import drover from './assets/drover.svg';
@@ -9,9 +8,7 @@ import * as S from './styles';
 
 const PageCV = () => (
     <S.Wrapper data-testid="pageCV">
-        <S.Title>Mini CV</S.Title>
-
-        <S.SubTitle>Dan Page</S.SubTitle>
+        <S.Title>Dan Page</S.Title>
 
         <p>
             I am a Software Developer that loves building applications in JavaScript. I’m always thinking about coding,
@@ -36,16 +33,16 @@ const PageCV = () => (
 
                 <Pills
                     items={[
-                        { colour: colours.lightBlue, value: 'react' },
-                        { colour: colours.lightBlue, value: 'react-context' },
-                        { colour: colours.lightBlue, value: 'jest' },
-                        { colour: colours.lightBlue, value: 'react-testing-library' },
-                        { colour: colours.lightBlue, value: 'styled components' },
-                        { colour: colours.lightBlue, value: 'storybook' },
-                        { colour: colours.lightBlue, value: 'cypress' },
-                        { colour: colours.lightBlue, value: 'circle ci' },
-                        { colour: colours.lightBlue, value: 'concourse' },
-                        { colour: colours.lightBlue, value: 'gcp' }
+                        'react',
+                        'react-context',
+                        'jest',
+                        'react-testing-library',
+                        'styled components',
+                        'storybook',
+                        'cypress',
+                        'circle ci',
+                        'concourse',
+                        'gcp'
                     ]}
                 />
             </S.Item>
@@ -73,15 +70,15 @@ const PageCV = () => (
 
                 <Pills
                     items={[
-                        { colour: colours.lightBlue, value: 'react' },
-                        { colour: colours.lightBlue, value: 'redux' },
-                        { colour: colours.lightBlue, value: 'jest' },
-                        { colour: colours.lightBlue, value: 'enzyme' },
-                        { colour: colours.lightBlue, value: 'styled components' },
-                        { colour: colours.lightBlue, value: 'storybook' },
-                        { colour: colours.lightBlue, value: 'cypress' },
-                        { colour: colours.lightBlue, value: 'heroku' },
-                        { colour: colours.lightBlue, value: 'aws' }
+                        'react',
+                        'redux',
+                        'jest',
+                        'enzyme',
+                        'styled components',
+                        'storybook',
+                        'cypress',
+                        'heroku',
+                        'aws'
                     ]}
                 />
             </S.Item>
@@ -112,14 +109,7 @@ const PageCV = () => (
                     integrations on the careers page to bug fixes on the home page.
                 </p>
 
-                <Pills
-                    items={[
-                        { colour: colours.lightBlue, value: 'es6' },
-                        { colour: colours.lightBlue, value: 'handlebars' },
-                        { colour: colours.lightBlue, value: 'css' },
-                        { colour: colours.lightBlue, value: 'jenkins' }
-                    ]}
-                />
+                <Pills items={['es6', 'handlebars', 'css', 'jenkins']} />
             </S.Item>
         </S.List>
 

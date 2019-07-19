@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`PageCV component should render 1`] = `
-.c10 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -13,13 +13,12 @@ exports[`PageCV component should render 1`] = `
   padding: 0;
 }
 
-.c11 {
-  background-color: #38c9eacc;
+.c10 {
+  background-color: #fbce63;
   border-radius: 5px;
   font-size: 12px;
   padding: 0.25rem 0.5rem;
   margin: 0 0 0.5rem 0.5rem;
-  text-transform: uppercase;
 }
 
 .c0 {
@@ -28,24 +27,19 @@ exports[`PageCV component should render 1`] = `
 }
 
 .c1 {
-  text-align: center;
   font-family: 'Merriweather',serif;
 }
 
 .c2 {
-  font-family: 'Merriweather',serif;
-}
-
-.c3 {
   list-style: none;
   padding: 0;
 }
 
-.c4 {
+.c3 {
   margin: 2rem 0 0;
 }
 
-.c7 {
+.c6 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -61,28 +55,28 @@ exports[`PageCV component should render 1`] = `
   margin: 1rem 0 0;
 }
 
-.c5 {
+.c4 {
   cursor: pointer;
 }
 
-.c6 {
+.c5 {
   display: block;
   margin: 0 auto;
   height: 50px;
   width: 150px;
 }
 
-.c8 {
+.c7 {
   font-weight: 600;
   font-size: 1.125rem;
   margin: 0;
 }
 
-.c9 {
+.c8 {
   font-style: italic;
 }
 
-.c12 {
+.c11 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -97,16 +91,16 @@ exports[`PageCV component should render 1`] = `
   margin: 2rem 0 1rem;
 }
 
-.c13 {
+.c12 {
   margin: 0.5rem 0 0;
 }
 
-.c14 {
+.c13 {
   width: 125px;
 }
 
 @media (min-width:500px) {
-  .c13 {
+  .c12 {
     margin-top: 1rem;
   }
 }
@@ -118,44 +112,39 @@ exports[`PageCV component should render 1`] = `
   <h1
     class="c1"
   >
-    Mini CV
-  </h1>
-  <h2
-    class="c2"
-  >
     Dan Page
-  </h2>
+  </h1>
   <p>
     I am a Software Developer that loves building applications in JavaScript. I’m always thinking about coding, whether that is what I want to learn next or what I’m going to build next.
      
   </p>
   <ul
-    class="c3"
+    class="c2"
   >
     <li
-      class="c4"
+      class="c3"
     >
       <a
-        class="c5"
+        class="c4"
         href="https://cytora.com/"
         target="_blank"
       >
         <img
           alt="cytora"
-          class="c6"
+          class="c5"
           src="cytora.svg"
         />
       </a>
       <div
-        class="c7"
+        class="c6"
       >
         <h5
-          class="c8"
+          class="c7"
         >
           Front End Engineer
         </h5>
         <span
-          class="c9"
+          class="c8"
         >
           May '19 - Present
         </span>
@@ -164,84 +153,84 @@ exports[`PageCV component should render 1`] = `
         I joined as the first Front End Developer to build out UIs from scratch on top of the API platform. I'm also creating a reusable component library to enable multiple teams to build UIs quickly and consistently.
       </p>
       <ul
-        class="c10"
+        class="c9"
       >
         <li
-          class="c11"
+          class="c10"
         >
           react
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           react-context
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           jest
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           react-testing-library
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           styled components
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           storybook
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           cypress
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           circle ci
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           concourse
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           gcp
         </li>
       </ul>
     </li>
     <li
-      class="c4"
+      class="c3"
     >
       <a
-        class="c5"
+        class="c4"
         href="https://www.joindrover.com/"
         target="_blank"
       >
         <img
           alt="drover"
-          class="c6"
+          class="c5"
           src="drover.svg"
         />
       </a>
       <div
-        class="c7"
+        class="c6"
       >
         <h5
-          class="c8"
+          class="c7"
         >
           Front End Developer
         </h5>
         <span
-          class="c9"
+          class="c8"
         >
           Sept '18 - May '19
         </span>
@@ -253,79 +242,79 @@ exports[`PageCV component should render 1`] = `
         After 6 months I was promoted to a mid-level Developer and put on a 3 month greenfield project to rebuild the entire user booking flow. I was the flag bearer for doing more unit and integration testing and so I spent a lot of my free time learning about Jest, Enzyme, React-Testing-Library and Cypress.
       </p>
       <ul
-        class="c10"
+        class="c9"
       >
         <li
-          class="c11"
+          class="c10"
         >
           react
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           redux
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           jest
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           enzyme
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           styled components
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           storybook
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           cypress
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           heroku
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           aws
         </li>
       </ul>
     </li>
     <li
-      class="c4"
+      class="c3"
     >
       <a
-        class="c5"
+        class="c4"
         href="https://clearscore.com/"
         target="_blank"
       >
         <img
           alt="clearscore"
-          class="c6"
+          class="c5"
           src="clearscore.svg"
         />
       </a>
       <div
-        class="c7"
+        class="c6"
       >
         <h5
-          class="c8"
+          class="c7"
         >
           Talent Acquisition
         </h5>
         <span
-          class="c9"
+          class="c8"
         >
           May '17 - Sept '18
         </span>
@@ -340,25 +329,25 @@ exports[`PageCV component should render 1`] = `
         I also made multiple contributions to the front-end production code base which varied from updating integrations on the careers page to bug fixes on the home page.
       </p>
       <ul
-        class="c10"
+        class="c9"
       >
         <li
-          class="c11"
+          class="c10"
         >
           es6
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           handlebars
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           css
         </li>
         <li
-          class="c11"
+          class="c10"
         >
           jenkins
         </li>
@@ -366,22 +355,22 @@ exports[`PageCV component should render 1`] = `
     </li>
   </ul>
   <div
-    class="c12"
+    class="c11"
   >
     <span
-      class="c9"
+      class="c8"
     >
       For further career history, check out my profile on: 
     </span>
     <a
-      class="c13"
+      class="c12"
       href="https://www.linkedin.com/in/dan-page/"
       rel="noopener noreferrer"
       target="_blank"
     >
       <img
         alt="linked in"
-        class="c14"
+        class="c13"
         src="LI-Logo.png"
       />
     </a>

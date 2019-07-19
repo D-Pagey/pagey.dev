@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { coloursByFunction } from '../../tokens';
 
 export const List = styled.ul`
     display: flex;
@@ -8,10 +9,9 @@ export const List = styled.ul`
 `;
 
 export const Pill = styled.li`
-    background-color: ${({ colour }) => colour};
+    background-color: ${coloursByFunction.pill};
     border-radius: 5px;
     font-size: 12px;
     padding: 0.25rem 0.5rem;
     margin: 0 0 0.5rem 0.5rem;
-    text-transform: uppercase;
 `;

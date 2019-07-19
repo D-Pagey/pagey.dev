@@ -6,11 +6,6 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.h1`
-    text-align: center;
-    font-family: 'Merriweather', serif;
-`;
-
-export const SubTitle = styled.h2`
     font-family: 'Merriweather', serif;
 `;
 
