@@ -1,5 +1,5 @@
 import React from 'react';
-import { string } from 'prop-types';
+import { arrayOf, string } from 'prop-types';
 import * as S from './styles';
 
 const Pills = ({ items }) => {
@@ -13,7 +13,7 @@ const Pills = ({ items }) => {
 };
 
 Pills.propTypes = {
-    items: string.isRequired
+    items: arrayOf(string).isRequired
 };
 
 export default Pills;
