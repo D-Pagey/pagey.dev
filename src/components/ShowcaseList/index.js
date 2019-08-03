@@ -8,7 +8,7 @@ const ShowcaseList = () => (
         <ShowcaseItem
             description="This is my gym usage"
             title="Gym Usage"
-            thumbnail={<BarChart data={[58, 67, 58, 63, 63, 62, 52]} />}
+            thumbnail={<BarChart data={[58, 67, 58, 63, 63, 62, 52]} xAxisLabel="Index" yAxisLabel="Minutes" />}
         />
     </S.Wrapper>
 );

@@ -1,7 +1,7 @@
 import styled from 'styled-components/macro';
 
 export const Wrapper = styled.div`
-    border-top: 1px solid grey;
+    border-top: 1px solid #d2d2d2;
     display: grid;
     grid-row-gap: 1rem;
     grid-template-columns: 1fr;

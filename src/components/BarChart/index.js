@@ -1,5 +1,5 @@
 import React from 'react';
-import { arrayOf, number } from 'prop-types';
+import { arrayOf, number, string } from 'prop-types';
 import { scaleLinear } from 'd3-scale';
 import * as S from './styles';
 
@@ -8,8 +8,8 @@ const height = 400;
 const paddingX = 50;
 const paddingY = 35;
 
-const BarChart = ({ data }) => {
-    const dataAvg = data.reduce((a, b) => a + b, 0) / data.length;
+const BarChart = ({ data, yAxisLabel, xAxisLabel }) => {
+    const average = data.reduce((a, b) => a + b, 0) / data.length;
 
     const xScale = scaleLinear()
         .domain([0, data.length - 1])
@@ -23,9 +23,9 @@ const BarChart = ({ data }) => {
         <S.SVG viewBox={`0 0 ${width} ${height}`}>
             <line
                 x1={paddingX}
-                y1={yScale(dataAvg)}
+                y1={yScale(average)}
                 x2={width}
-                y2={yScale(dataAvg)}
+                y2={yScale(average)}
                 stroke="red"
                 strokeWidth="1"
                 strokeDasharray="2"
@@ -36,14 +36,14 @@ const BarChart = ({ data }) => {
             </text>
 
             <text x={paddingX - 50} y={height / 2} transform="rotate(270) translate(-225, -175)">
-                Minutes
+                {yAxisLabel}
             </text>
 
             <text x={paddingX - 5} y={height - paddingY + 5} textAnchor="end">
                 {Math.min(...data) - 2}
             </text>
             <text x={width / 2} y={height}>
-                Index
+                {xAxisLabel}
             </text>
 
             <line
@@ -72,7 +72,9 @@ const BarChart = ({ data }) => {
 };
 
 BarChart.propTypes = {
-    data: arrayOf(number).isRequired
+    data: arrayOf(number).isRequired,
+    xAxisLabel: string.isRequired,
+    yAxisLabel: string.isRequired
 };
 
 export default BarChart;
