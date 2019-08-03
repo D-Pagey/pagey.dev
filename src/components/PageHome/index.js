@@ -1,5 +1,5 @@
 import React from 'react';
-import BarChart from '../BarChart';
+import ShowcaseList from '../ShowcaseList';
 import pagey from './assets/pagey.jpg';
 import * as S from './styles';
 
@@ -20,7 +20,7 @@ const PageHome = () => {
                 </S.Text>
             </S.IntroGrid>
 
-            <BarChart data={[58, 67, 58, 63, 63, 62, 52]} />
+            <ShowcaseList />
         </S.Wrapper>
     );
 };

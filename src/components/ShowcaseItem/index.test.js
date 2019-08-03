@@ -1,7 +1,12 @@
 import React from 'react';
+import BarChart from '../BarChart';
 import ShowcaseItem from '.';
 
-const props = {};
+const props = {
+    description: 'A description of the showcase',
+    thumbnail: <BarChart data={[58, 67, 58, 63, 63, 62, 52]} />,
+    title: 'Showcase Title'
+};
 
 describe('ShowcaseItem component', () => {
     it('should render', () => {

@@ -1,16 +1,42 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`PageHome component should render 1`] = `
-.c4 {
+.c5 {
+  border-top: 1px solid grey;
+  display: grid;
+  grid-row-gap: 1rem;
+  grid-template-columns: 1fr;
+  padding: 1rem 0;
+}
+
+.c6 {
+  margin: 0;
+}
+
+.c7 {
+  margin: 0;
+}
+
+.c8 {
+  grid-row: 1;
+  max-width: 400px;
+}
+
+.c9 {
   max-width: 500px;
 }
 
-.c5 {
+.c10 {
   fill: skyblue;
 }
 
-.c5:hover {
+.c10:hover {
   fill: navy;
+}
+
+.c4 {
+  margin: 2rem 0 1rem;
+  width: 100%;
 }
 
 .c0 {
@@ -41,6 +67,21 @@ exports[`PageHome component should render 1`] = `
 
 .c3 {
   margin: 1rem 0 0;
+}
+
+@media (min-width:700px) {
+  .c5 {
+    grid-template-columns: 1fr 400px;
+    grid-template-rows: max-content;
+    padding: 1rem 0.5rem;
+  }
+}
+
+@media (min-width:700px) {
+  .c8 {
+    grid-column: 2;
+    grid-row: 1 / 3;
+  }
 }
 
 @media (min-width:600px) {
@@ -81,173 +122,195 @@ exports[`PageHome component should render 1`] = `
       I have always appreciated well done data vizualisation and so I'm learning to use D3.js within React apps. Hopefully, I can build something cool and interactive. Until then, this is my playground.
     </p>
   </div>
-  <svg
+  <div
     class="c4"
-    viewBox="0 0 500 400"
   >
-    <line
-      stroke="red"
-      stroke-dasharray="2"
-      stroke-width="1"
-      x1="50"
-      x2="500"
-      y1="202.436974789916"
-      y2="202.436974789916"
-    />
-    <line
-      stroke="grey"
-      stroke-width="1"
-      x1="50"
-      x2="50"
-      y1="365"
-      y2="35"
-    />
-    <text
-      text-anchor="end"
-      x="45"
-      y="40"
+    <div
+      class="c5"
     >
-      67
-    </text>
-    <text
-      transform="rotate(270) translate(-225, -175)"
-      x="0"
-      y="200"
-    >
-      Minutes
-    </text>
-    <text
-      text-anchor="end"
-      x="45"
-      y="370"
-    >
-      50
-    </text>
-    <text
-      x="250"
-      y="400"
-    >
-      Index
-    </text>
-    <line
-      stroke="grey"
-      stroke-width="1"
-      x1="50"
-      x2="500"
-      y1="365"
-      y2="365"
-    />
-    <text
-      x="440"
-      y="200"
-    >
-      Average
-    </text>
-    <g>
-      <rect
-        class="c5"
-        height="155.2941176470588"
-        width="30"
-        x="50"
-        y="209.7058823529412"
-      />
-      <text
-        x="58"
-        y="380"
+      <h4
+        class="c6"
       >
-        0
-      </text>
-    </g>
-    <g>
-      <rect
-        class="c5"
-        height="330"
-        width="30"
-        x="120.83333333333333"
-        y="35"
-      />
-      <text
-        x="128.83333333333331"
-        y="380"
+        Gym Usage
+      </h4>
+      <p
+        class="c7"
       >
-        1
-      </text>
-    </g>
-    <g>
-      <rect
-        class="c5"
-        height="155.2941176470588"
-        width="30"
-        x="191.66666666666666"
-        y="209.7058823529412"
-      />
-      <text
-        x="199.66666666666666"
-        y="380"
+        This is my gym usage
+      </p>
+      <div
+        class="c8"
       >
-        2
-      </text>
-    </g>
-    <g>
-      <rect
-        class="c5"
-        height="252.35294117647058"
-        width="30"
-        x="262.5"
-        y="112.64705882352942"
-      />
-      <text
-        x="270.5"
-        y="380"
-      >
-        3
-      </text>
-    </g>
-    <g>
-      <rect
-        class="c5"
-        height="252.35294117647058"
-        width="30"
-        x="333.3333333333333"
-        y="112.64705882352942"
-      />
-      <text
-        x="341.3333333333333"
-        y="380"
-      >
-        4
-      </text>
-    </g>
-    <g>
-      <rect
-        class="c5"
-        height="232.94117647058826"
-        width="30"
-        x="404.1666666666667"
-        y="132.05882352941174"
-      />
-      <text
-        x="412.1666666666667"
-        y="380"
-      >
-        5
-      </text>
-    </g>
-    <g>
-      <rect
-        class="c5"
-        height="38.8235294117647"
-        width="30"
-        x="475"
-        y="326.1764705882353"
-      />
-      <text
-        x="483"
-        y="380"
-      >
-        6
-      </text>
-    </g>
-  </svg>
+        <svg
+          class="c9"
+          viewBox="0 0 500 400"
+        >
+          <line
+            stroke="red"
+            stroke-dasharray="2"
+            stroke-width="1"
+            x1="50"
+            x2="500"
+            y1="202.436974789916"
+            y2="202.436974789916"
+          />
+          <line
+            stroke="grey"
+            stroke-width="1"
+            x1="50"
+            x2="50"
+            y1="365"
+            y2="35"
+          />
+          <text
+            text-anchor="end"
+            x="45"
+            y="40"
+          >
+            67
+          </text>
+          <text
+            transform="rotate(270) translate(-225, -175)"
+            x="0"
+            y="200"
+          >
+            Minutes
+          </text>
+          <text
+            text-anchor="end"
+            x="45"
+            y="370"
+          >
+            50
+          </text>
+          <text
+            x="250"
+            y="400"
+          >
+            Index
+          </text>
+          <line
+            stroke="grey"
+            stroke-width="1"
+            x1="50"
+            x2="500"
+            y1="365"
+            y2="365"
+          />
+          <text
+            x="440"
+            y="200"
+          >
+            Average
+          </text>
+          <g>
+            <rect
+              class="c10"
+              height="155.2941176470588"
+              width="30"
+              x="50"
+              y="209.7058823529412"
+            />
+            <text
+              x="58"
+              y="380"
+            >
+              0
+            </text>
+          </g>
+          <g>
+            <rect
+              class="c10"
+              height="330"
+              width="30"
+              x="120.83333333333333"
+              y="35"
+            />
+            <text
+              x="128.83333333333331"
+              y="380"
+            >
+              1
+            </text>
+          </g>
+          <g>
+            <rect
+              class="c10"
+              height="155.2941176470588"
+              width="30"
+              x="191.66666666666666"
+              y="209.7058823529412"
+            />
+            <text
+              x="199.66666666666666"
+              y="380"
+            >
+              2
+            </text>
+          </g>
+          <g>
+            <rect
+              class="c10"
+              height="252.35294117647058"
+              width="30"
+              x="262.5"
+              y="112.64705882352942"
+            />
+            <text
+              x="270.5"
+              y="380"
+            >
+              3
+            </text>
+          </g>
+          <g>
+            <rect
+              class="c10"
+              height="252.35294117647058"
+              width="30"
+              x="333.3333333333333"
+              y="112.64705882352942"
+            />
+            <text
+              x="341.3333333333333"
+              y="380"
+            >
+              4
+            </text>
+          </g>
+          <g>
+            <rect
+              class="c10"
+              height="232.94117647058826"
+              width="30"
+              x="404.1666666666667"
+              y="132.05882352941174"
+            />
+            <text
+              x="412.1666666666667"
+              y="380"
+            >
+              5
+            </text>
+          </g>
+          <g>
+            <rect
+              class="c10"
+              height="38.8235294117647"
+              width="30"
+              x="475"
+              y="326.1764705882353"
+            />
+            <text
+              x="483"
+              y="380"
+            >
+              6
+            </text>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
 </div>
 `;
