@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
     grid-row-gap: 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: max-content;
-    padding: 1rem 0;
+    padding: 1rem 0.5rem;
 `;
 
 export const Title = styled.h4`

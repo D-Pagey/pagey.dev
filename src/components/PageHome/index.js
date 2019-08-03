@@ -20,7 +20,7 @@ const PageHome = () => {
                 </S.Text>
             </S.IntroGrid>
 
-            <BarChart />
+            <BarChart data={[58, 67, 58, 63, 63, 62, 52]} />
         </S.Wrapper>
     );
 };
