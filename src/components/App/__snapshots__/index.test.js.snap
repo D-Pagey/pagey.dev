@@ -30,7 +30,7 @@ exports[`App component should render 1`] = `
 }
 
 .c9 {
-  border-top: 1px solid #d2d2d2;
+  border-top: 1px solid #f3f3f3;
   display: grid;
   grid-row-gap: 1rem;
   grid-template-columns: 1fr;
@@ -105,6 +105,7 @@ exports[`App component should render 1`] = `
 
 @media (min-width:700px) {
   .c9 {
+    grid-column-gap: 1rem;
     grid-template-columns: 1fr 400px;
     grid-template-rows: max-content;
     padding: 1rem 0.5rem;
@@ -185,12 +186,12 @@ exports[`App component should render 1`] = `
         <h4
           class="c10"
         >
-          Gym Usage
+          Gym Session Duration
         </h4>
         <p
           class="c11"
         >
-          This is my gym usage
+          Here is a sample of my recent gym sessions with their durations. Everything was built with raw SVGs and using the scale functions from the D3 library.
         </p>
         <div
           class="c12"
@@ -200,13 +201,13 @@ exports[`App component should render 1`] = `
             viewBox="0 0 500 400"
           >
             <line
-              stroke="red"
+              stroke="green"
               stroke-dasharray="2"
               stroke-width="1"
               x1="50"
               x2="500"
-              y1="202.436974789916"
-              y2="202.436974789916"
+              y1="183.33333333333334"
+              y2="183.33333333333334"
             />
             <line
               stroke="grey"
@@ -221,10 +222,17 @@ exports[`App component should render 1`] = `
               x="45"
               y="40"
             >
-              67
+              68
             </text>
             <text
-              transform="rotate(270) translate(-225, -175)"
+              text-anchor="end"
+              x="45"
+              y="188.33333333333334"
+            >
+              60
+            </text>
+            <text
+              transform="rotate(270) translate(-225, -180)"
               x="0"
               y="200"
             >
@@ -253,17 +261,17 @@ exports[`App component should render 1`] = `
             />
             <text
               x="440"
-              y="200"
+              y="178.33333333333334"
             >
               Average
             </text>
             <g>
               <rect
                 class="c14"
-                height="155.2941176470588"
+                height="146.66666666666666"
                 width="30"
                 x="50"
-                y="209.7058823529412"
+                y="218.33333333333334"
               />
               <text
                 x="58"
@@ -275,13 +283,13 @@ exports[`App component should render 1`] = `
             <g>
               <rect
                 class="c14"
-                height="330"
+                height="311.6666666666667"
                 width="30"
-                x="120.83333333333333"
-                y="35"
+                x="110.71428571428571"
+                y="53.333333333333314"
               />
               <text
-                x="128.83333333333331"
+                x="118.71428571428571"
                 y="380"
               >
                 1
@@ -290,13 +298,13 @@ exports[`App component should render 1`] = `
             <g>
               <rect
                 class="c14"
-                height="155.2941176470588"
+                height="146.66666666666666"
                 width="30"
-                x="191.66666666666666"
-                y="209.7058823529412"
+                x="171.42857142857142"
+                y="218.33333333333334"
               />
               <text
-                x="199.66666666666666"
+                x="179.42857142857142"
                 y="380"
               >
                 2
@@ -305,13 +313,13 @@ exports[`App component should render 1`] = `
             <g>
               <rect
                 class="c14"
-                height="252.35294117647058"
+                height="238.33333333333334"
                 width="30"
-                x="262.5"
-                y="112.64705882352942"
+                x="232.14285714285714"
+                y="126.66666666666666"
               />
               <text
-                x="270.5"
+                x="240.14285714285714"
                 y="380"
               >
                 3
@@ -320,13 +328,13 @@ exports[`App component should render 1`] = `
             <g>
               <rect
                 class="c14"
-                height="252.35294117647058"
+                height="238.33333333333334"
                 width="30"
-                x="333.3333333333333"
-                y="112.64705882352942"
+                x="292.85714285714283"
+                y="126.66666666666666"
               />
               <text
-                x="341.3333333333333"
+                x="300.85714285714283"
                 y="380"
               >
                 4
@@ -335,13 +343,13 @@ exports[`App component should render 1`] = `
             <g>
               <rect
                 class="c14"
-                height="232.94117647058826"
+                height="220"
                 width="30"
-                x="404.1666666666667"
-                y="132.05882352941174"
+                x="353.57142857142856"
+                y="145"
               />
               <text
-                x="412.1666666666667"
+                x="361.57142857142856"
                 y="380"
               >
                 5
@@ -350,16 +358,31 @@ exports[`App component should render 1`] = `
             <g>
               <rect
                 class="c14"
-                height="38.8235294117647"
+                height="36.666666666666664"
+                width="30"
+                x="414.2857142857143"
+                y="328.3333333333333"
+              />
+              <text
+                x="422.2857142857143"
+                y="380"
+              >
+                6
+              </text>
+            </g>
+            <g>
+              <rect
+                class="c14"
+                height="55"
                 width="30"
                 x="475"
-                y="326.1764705882353"
+                y="310"
               />
               <text
                 x="483"
                 y="380"
               >
-                6
+                7
               </text>
             </g>
           </svg>

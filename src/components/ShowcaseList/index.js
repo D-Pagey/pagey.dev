@@ -6,9 +6,9 @@ import * as S from './styles';
 const ShowcaseList = () => (
     <S.Wrapper>
         <ShowcaseItem
-            description="This is my gym usage"
-            title="Gym Usage"
-            thumbnail={<BarChart data={[58, 67, 58, 63, 63, 62, 52]} xAxisLabel="Index" yAxisLabel="Minutes" />}
+            description="Here is a sample of my recent gym sessions with their durations. Everything was built with raw SVGs and using the scale functions from the D3 library."
+            title="Gym Session Duration"
+            thumbnail={<BarChart data={[58, 67, 58, 63, 63, 62, 52, 53]} xAxisLabel="Index" yAxisLabel="Minutes" />}
         />
     </S.Wrapper>
 );

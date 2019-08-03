@@ -1,13 +1,14 @@
 import styled from 'styled-components/macro';
 
 export const Wrapper = styled.div`
-    border-top: 1px solid #d2d2d2;
+    border-top: 1px solid #f3f3f3;
     display: grid;
     grid-row-gap: 1rem;
     grid-template-columns: 1fr;
     padding: 1rem 0;
 
     @media (min-width: 700px) {
+        grid-column-gap: 1rem;
         grid-template-columns: 1fr 400px;
         grid-template-rows: max-content;
         padding: 1rem 0.5rem;

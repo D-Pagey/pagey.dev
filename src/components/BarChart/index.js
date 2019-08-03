@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { arrayOf, number, string } from 'prop-types';
 import { scaleLinear } from 'd3-scale';
 import * as S from './styles';
@@ -9,14 +9,18 @@ const paddingX = 50;
 const paddingY = 35;
 
 const BarChart = ({ data, yAxisLabel, xAxisLabel }) => {
-    const average = data.reduce((a, b) => a + b, 0) / data.length;
+    const [showIndex, setShowIndex] = useState();
+
+    const handleMouseOver = (value) => () => setShowIndex(value);
+
+    const average = Math.round(data.reduce((a, b) => a + b, 0) / data.length);
 
     const xScale = scaleLinear()
         .domain([0, data.length - 1])
-        .range([0 + paddingX, width - 25]);
+        .range([paddingX, width - 25]);
 
     const yScale = scaleLinear()
-        .domain([Math.min(...data) - 2, Math.max(...data)])
+        .domain([Math.min(...data) - 2, Math.max(...data) + 1])
         .range([0, height - paddingY - paddingY]);
 
     return (
@@ -26,22 +30,29 @@ const BarChart = ({ data, yAxisLabel, xAxisLabel }) => {
                 y1={yScale(average)}
                 x2={width}
                 y2={yScale(average)}
-                stroke="red"
+                stroke="green"
                 strokeWidth="1"
                 strokeDasharray="2"
             />
+
             <line x1={paddingX} y1={height - paddingY} x2={paddingX} y2={paddingY} stroke="grey" strokeWidth="1" />
+
             <text x={paddingX - 5} y={paddingY + 5} textAnchor="end">
-                {Math.max(...data)}
+                {Math.max(...data) + 1}
             </text>
 
-            <text x={paddingX - 50} y={height / 2} transform="rotate(270) translate(-225, -175)">
+            <text x={paddingX - 5} y={yScale(average) + 5} textAnchor="end">
+                {average}
+            </text>
+
+            <text x={paddingX - 50} y={height / 2} transform="rotate(270) translate(-225, -180)">
                 {yAxisLabel}
             </text>
 
             <text x={paddingX - 5} y={height - paddingY + 5} textAnchor="end">
                 {Math.min(...data) - 2}
             </text>
+
             <text x={width / 2} y={height}>
                 {xAxisLabel}
             </text>
@@ -54,14 +65,27 @@ const BarChart = ({ data, yAxisLabel, xAxisLabel }) => {
                 stroke="grey"
                 strokeWidth="1"
             />
-            <text x={width - 60} y={height / 2}>
+            <text x={width - 60} y={yScale(average) - 5}>
                 Average
             </text>
 
             {data.map((item, index) => (
                 // eslint-disable-next-line react/no-array-index-key
                 <g key={index}>
-                    <S.Bar height={yScale(item)} x={xScale(index)} y={height - yScale(item) - paddingY} width={30} />
+                    {showIndex === index && (
+                        <text x={xScale(index) + 5} y={height - yScale(item) - paddingY - 5}>
+                            {item}
+                        </text>
+                    )}
+
+                    <S.Bar
+                        onMouseEnter={handleMouseOver(index)}
+                        onMouseLeave={handleMouseOver()}
+                        height={yScale(item)}
+                        x={xScale(index)}
+                        y={height - yScale(item) - paddingY}
+                        width={30}
+                    />
                     <text x={xScale(index) + 8} y={height - paddingY + 15}>
                         {index}
                     </text>
