@@ -200,12 +200,18 @@ exports[`App component should render 1`] = `
             class="c13"
             viewBox="0 0 500 400"
           >
+            <text
+              x="420"
+              y="178.33333333333334"
+            >
+              Average
+            </text>
             <line
               stroke="green"
               stroke-dasharray="2"
               stroke-width="1"
               x1="50"
-              x2="500"
+              x2="480"
               y1="183.33333333333334"
               y2="183.33333333333334"
             />
@@ -247,7 +253,7 @@ exports[`App component should render 1`] = `
             </text>
             <text
               x="250"
-              y="400"
+              y="398"
             >
               Index
             </text>
@@ -255,16 +261,10 @@ exports[`App component should render 1`] = `
               stroke="grey"
               stroke-width="1"
               x1="50"
-              x2="500"
+              x2="480"
               y1="365"
               y2="365"
             />
-            <text
-              x="440"
-              y="178.33333333333334"
-            >
-              Average
-            </text>
             <g>
               <rect
                 class="c14"
@@ -285,11 +285,11 @@ exports[`App component should render 1`] = `
                 class="c14"
                 height="311.6666666666667"
                 width="30"
-                x="110.71428571428571"
+                x="107.14285714285714"
                 y="53.333333333333314"
               />
               <text
-                x="118.71428571428571"
+                x="115.14285714285714"
                 y="380"
               >
                 1
@@ -300,11 +300,11 @@ exports[`App component should render 1`] = `
                 class="c14"
                 height="146.66666666666666"
                 width="30"
-                x="171.42857142857142"
+                x="164.28571428571428"
                 y="218.33333333333334"
               />
               <text
-                x="179.42857142857142"
+                x="172.28571428571428"
                 y="380"
               >
                 2
@@ -315,11 +315,11 @@ exports[`App component should render 1`] = `
                 class="c14"
                 height="238.33333333333334"
                 width="30"
-                x="232.14285714285714"
+                x="221.42857142857142"
                 y="126.66666666666666"
               />
               <text
-                x="240.14285714285714"
+                x="229.42857142857142"
                 y="380"
               >
                 3
@@ -330,11 +330,11 @@ exports[`App component should render 1`] = `
                 class="c14"
                 height="238.33333333333334"
                 width="30"
-                x="292.85714285714283"
+                x="278.57142857142856"
                 y="126.66666666666666"
               />
               <text
-                x="300.85714285714283"
+                x="286.57142857142856"
                 y="380"
               >
                 4
@@ -345,11 +345,11 @@ exports[`App component should render 1`] = `
                 class="c14"
                 height="220"
                 width="30"
-                x="353.57142857142856"
+                x="335.7142857142857"
                 y="145"
               />
               <text
-                x="361.57142857142856"
+                x="343.7142857142857"
                 y="380"
               >
                 5
@@ -360,11 +360,11 @@ exports[`App component should render 1`] = `
                 class="c14"
                 height="36.666666666666664"
                 width="30"
-                x="414.2857142857143"
+                x="392.85714285714283"
                 y="328.3333333333333"
               />
               <text
-                x="422.2857142857143"
+                x="400.85714285714283"
                 y="380"
               >
                 6
@@ -375,11 +375,11 @@ exports[`App component should render 1`] = `
                 class="c14"
                 height="55"
                 width="30"
-                x="475"
+                x="450"
                 y="310"
               />
               <text
-                x="483"
+                x="458"
                 y="380"
               >
                 7

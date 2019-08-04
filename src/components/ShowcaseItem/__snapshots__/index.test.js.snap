@@ -70,12 +70,18 @@ exports[`ShowcaseItem component should render 1`] = `
       class="c4"
       viewBox="0 0 500 400"
     >
+      <text
+        x="420"
+        y="178.33333333333334"
+      >
+        Average
+      </text>
       <line
         stroke="green"
         stroke-dasharray="2"
         stroke-width="1"
         x1="50"
-        x2="500"
+        x2="480"
         y1="183.33333333333334"
         y2="183.33333333333334"
       />
@@ -117,7 +123,7 @@ exports[`ShowcaseItem component should render 1`] = `
       </text>
       <text
         x="250"
-        y="400"
+        y="398"
       >
         Index
       </text>
@@ -125,16 +131,10 @@ exports[`ShowcaseItem component should render 1`] = `
         stroke="grey"
         stroke-width="1"
         x1="50"
-        x2="500"
+        x2="480"
         y1="365"
         y2="365"
       />
-      <text
-        x="440"
-        y="178.33333333333334"
-      >
-        Average
-      </text>
       <g>
         <rect
           class="c5"
@@ -155,11 +155,11 @@ exports[`ShowcaseItem component should render 1`] = `
           class="c5"
           height="311.6666666666667"
           width="30"
-          x="120.83333333333333"
+          x="116.66666666666666"
           y="53.333333333333314"
         />
         <text
-          x="128.83333333333331"
+          x="124.66666666666666"
           y="380"
         >
           1
@@ -170,11 +170,11 @@ exports[`ShowcaseItem component should render 1`] = `
           class="c5"
           height="146.66666666666666"
           width="30"
-          x="191.66666666666666"
+          x="183.33333333333331"
           y="218.33333333333334"
         />
         <text
-          x="199.66666666666666"
+          x="191.33333333333331"
           y="380"
         >
           2
@@ -185,11 +185,11 @@ exports[`ShowcaseItem component should render 1`] = `
           class="c5"
           height="238.33333333333334"
           width="30"
-          x="262.5"
+          x="250"
           y="126.66666666666666"
         />
         <text
-          x="270.5"
+          x="258"
           y="380"
         >
           3
@@ -200,11 +200,11 @@ exports[`ShowcaseItem component should render 1`] = `
           class="c5"
           height="238.33333333333334"
           width="30"
-          x="333.3333333333333"
+          x="316.66666666666663"
           y="126.66666666666666"
         />
         <text
-          x="341.3333333333333"
+          x="324.66666666666663"
           y="380"
         >
           4
@@ -215,11 +215,11 @@ exports[`ShowcaseItem component should render 1`] = `
           class="c5"
           height="220"
           width="30"
-          x="404.1666666666667"
+          x="383.33333333333337"
           y="145"
         />
         <text
-          x="412.1666666666667"
+          x="391.33333333333337"
           y="380"
         >
           5
@@ -230,11 +230,11 @@ exports[`ShowcaseItem component should render 1`] = `
           class="c5"
           height="36.666666666666664"
           width="30"
-          x="475"
+          x="450"
           y="328.3333333333333"
         />
         <text
-          x="483"
+          x="458"
           y="380"
         >
           6

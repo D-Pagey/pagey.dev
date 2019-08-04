@@ -17,7 +17,7 @@ const BarChart = ({ data, yAxisLabel, xAxisLabel }) => {
 
     const xScale = scaleLinear()
         .domain([0, data.length - 1])
-        .range([paddingX, width - 25]);
+        .range([paddingX, width - paddingX]);
 
     const yScale = scaleLinear()
         .domain([Math.min(...data) - 2, Math.max(...data) + 1])
@@ -25,10 +25,14 @@ const BarChart = ({ data, yAxisLabel, xAxisLabel }) => {
 
     return (
         <S.SVG viewBox={`0 0 ${width} ${height}`}>
+            <text x={width - 80} y={yScale(average) - 5}>
+                Average
+            </text>
+
             <line
                 x1={paddingX}
                 y1={yScale(average)}
-                x2={width}
+                x2={width - paddingX + 30}
                 y2={yScale(average)}
                 stroke="green"
                 strokeWidth="1"
@@ -53,21 +57,19 @@ const BarChart = ({ data, yAxisLabel, xAxisLabel }) => {
                 {Math.min(...data) - 2}
             </text>
 
-            <text x={width / 2} y={height}>
+            <text x={width / 2} y={height - 2}>
                 {xAxisLabel}
             </text>
 
+            {/* X axis */}
             <line
                 x1={paddingX}
                 y1={height - paddingY}
-                x2={width}
+                x2={width - paddingX + 30}
                 y2={height - paddingY}
                 stroke="grey"
                 strokeWidth="1"
             />
-            <text x={width - 60} y={yScale(average) - 5}>
-                Average
-            </text>
 
             {data.map((item, index) => (
                 // eslint-disable-next-line react/no-array-index-key
