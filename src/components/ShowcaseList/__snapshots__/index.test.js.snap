@@ -28,6 +28,8 @@ exports[`ShowcaseList should render 1`] = `
 
 .c6 {
   fill: skyblue;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .c6:hover {

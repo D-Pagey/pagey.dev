@@ -6,6 +6,7 @@ export const SVG = styled.svg`
 
 export const Bar = styled.rect`
     fill: skyblue;
+    transition: 0.3s;
 
     &:hover {
         fill: navy;

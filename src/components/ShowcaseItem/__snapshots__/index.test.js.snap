@@ -7,6 +7,8 @@ exports[`ShowcaseItem component should render 1`] = `
 
 .c5 {
   fill: skyblue;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .c5:hover {

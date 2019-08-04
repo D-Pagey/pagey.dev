@@ -28,6 +28,8 @@ exports[`PageHome component should render 1`] = `
 
 .c10 {
   fill: skyblue;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .c10:hover {
