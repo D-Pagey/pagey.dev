@@ -20,7 +20,7 @@ export const Title = styled.h4`
 `;
 
 export const Description = styled.p`
-    margin: 0;
+    margin: 0 0 1rem;
 `;
 
 export const Thumbnail = styled.div`

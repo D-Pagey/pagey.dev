@@ -14,7 +14,7 @@ exports[`ShowcaseList should render 1`] = `
 }
 
 .c3 {
-  margin: 0;
+  margin: 0 0 1rem;
 }
 
 .c4 {
@@ -68,11 +68,18 @@ exports[`ShowcaseList should render 1`] = `
     >
       Gym Session Duration
     </h4>
-    <p
-      class="c3"
-    >
-      Here is a sample of my recent gym sessions with their durations. Everything was built with raw SVGs and using the scale functions from the D3 library.
-    </p>
+    <div>
+      <p
+        class="c3"
+      >
+        Here is a sample of my recent gym session durations in minutes.
+      </p>
+      <p
+        class="c3"
+      >
+        This bar chart was built with raw SVGs and only using the scale functions from the D3 library.
+      </p>
+    </div>
     <div
       class="c4"
     >

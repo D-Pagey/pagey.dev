@@ -28,7 +28,7 @@ exports[`ShowcaseItem component should render 1`] = `
 }
 
 .c2 {
-  margin: 0;
+  margin: 0 0 1rem;
 }
 
 .c3 {
@@ -60,11 +60,18 @@ exports[`ShowcaseItem component should render 1`] = `
   >
     Showcase Title
   </h4>
-  <p
-    class="c2"
-  >
-    A description of the showcase
-  </p>
+  <div>
+    <p
+      class="c2"
+    >
+      A description of the showcase
+    </p>
+    <p
+      class="c2"
+    >
+      Another paragraph
+    </p>
+  </div>
   <div
     class="c3"
   >

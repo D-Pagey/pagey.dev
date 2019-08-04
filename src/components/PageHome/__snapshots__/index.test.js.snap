@@ -14,7 +14,7 @@ exports[`PageHome component should render 1`] = `
 }
 
 .c7 {
-  margin: 0;
+  margin: 0 0 1rem;
 }
 
 .c8 {
@@ -136,11 +136,18 @@ exports[`PageHome component should render 1`] = `
       >
         Gym Session Duration
       </h4>
-      <p
-        class="c7"
-      >
-        Here is a sample of my recent gym sessions with their durations. Everything was built with raw SVGs and using the scale functions from the D3 library.
-      </p>
+      <div>
+        <p
+          class="c7"
+        >
+          Here is a sample of my recent gym session durations in minutes.
+        </p>
+        <p
+          class="c7"
+        >
+          This bar chart was built with raw SVGs and only using the scale functions from the D3 library.
+        </p>
+      </div>
       <div
         class="c8"
       >

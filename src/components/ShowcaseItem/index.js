@@ -1,18 +1,24 @@
 import React from 'react';
-import { element, string } from 'prop-types';
+import { arrayOf, element, string } from 'prop-types';
 import * as S from './styles';
 
 const ShowcaseItem = ({ description, title, thumbnail }) => (
     <S.Wrapper>
         <S.Title>{title}</S.Title>
-        <S.Description>{description}</S.Description>
+
+        <div>
+            {description.map((item, index) => (
+                // eslint-disable-next-line react/no-array-index-key
+                <S.Description key={index}>{item}</S.Description>
+            ))}
+        </div>
 
         <S.Thumbnail>{thumbnail}</S.Thumbnail>
     </S.Wrapper>
 );
 
 ShowcaseItem.propTypes = {
-    description: string.isRequired,
+    description: arrayOf(string).isRequired,
     thumbnail: element.isRequired,
     title: string.isRequired
 };

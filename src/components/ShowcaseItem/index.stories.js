@@ -4,7 +4,7 @@ import BarChart from '../BarChart';
 import ShowcaseItem from '.';
 
 const props = {
-    description: 'A description of the showcase',
+    description: ['A description of the showcase', 'Another paragraph'],
     thumbnail: <BarChart data={[58, 67, 58, 63, 63, 62, 52]} xAxisLabel="Index" yAxisLabel="Minutes" />,
     title: 'Showcase Title'
 };
