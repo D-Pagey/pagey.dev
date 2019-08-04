@@ -269,6 +269,7 @@ exports[`App component should render 1`] = `
               <rect
                 class="c14"
                 height="146.66666666666666"
+                rx="3"
                 width="30"
                 x="50"
                 y="218.33333333333334"
@@ -284,6 +285,7 @@ exports[`App component should render 1`] = `
               <rect
                 class="c14"
                 height="311.6666666666667"
+                rx="3"
                 width="30"
                 x="107.14285714285714"
                 y="53.333333333333314"
@@ -299,6 +301,7 @@ exports[`App component should render 1`] = `
               <rect
                 class="c14"
                 height="146.66666666666666"
+                rx="3"
                 width="30"
                 x="164.28571428571428"
                 y="218.33333333333334"
@@ -314,6 +317,7 @@ exports[`App component should render 1`] = `
               <rect
                 class="c14"
                 height="238.33333333333334"
+                rx="3"
                 width="30"
                 x="221.42857142857142"
                 y="126.66666666666666"
@@ -329,6 +333,7 @@ exports[`App component should render 1`] = `
               <rect
                 class="c14"
                 height="238.33333333333334"
+                rx="3"
                 width="30"
                 x="278.57142857142856"
                 y="126.66666666666666"
@@ -344,6 +349,7 @@ exports[`App component should render 1`] = `
               <rect
                 class="c14"
                 height="220"
+                rx="3"
                 width="30"
                 x="335.7142857142857"
                 y="145"
@@ -359,6 +365,7 @@ exports[`App component should render 1`] = `
               <rect
                 class="c14"
                 height="36.666666666666664"
+                rx="3"
                 width="30"
                 x="392.85714285714283"
                 y="328.3333333333333"
@@ -374,6 +381,7 @@ exports[`App component should render 1`] = `
               <rect
                 class="c14"
                 height="55"
+                rx="3"
                 width="30"
                 x="450"
                 y="310"

@@ -86,6 +86,7 @@ const BarChart = ({ data, yAxisLabel, xAxisLabel }) => {
                         height={yScale(item)}
                         x={xScale(index)}
                         y={height - yScale(item) - paddingY}
+                        rx="3"
                         width={30}
                     />
                     <text x={xScale(index) + 8} y={height - paddingY + 15}>
