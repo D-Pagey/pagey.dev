@@ -11,6 +11,7 @@
     "render": "readonly"
   },
   "rules": {
+    "react/jsx-props-no-spreading": "off",
     "import/prefer-default-export": 0,
     "import/no-named-as-default": 0,
     "import/no-extraneous-dependencies": [2, { "devDependencies": ["*/setupTests.js", "**/*.test.js"] }],
