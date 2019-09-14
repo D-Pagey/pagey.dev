@@ -31,9 +31,16 @@ const PageCV = () => (
                     and consistently.
                 </p>
 
+                <p>
+                    I have written and deployed Node cloud functions on Google Cloud Platform to abstract and aggregate
+                    API calls from the Front End. This empowered my team to release new features without relying on
+                    other teams to amend their microservices.
+                </p>
+
                 <Pills
                     items={[
                         'react',
+                        'node',
                         'react-context',
                         'jest',
                         'react-testing-library',

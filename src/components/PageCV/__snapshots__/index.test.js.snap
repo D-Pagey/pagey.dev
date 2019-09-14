@@ -152,6 +152,9 @@ exports[`PageCV component should render 1`] = `
       <p>
         I joined as the first Front End Developer to build out UIs from scratch on top of the API platform. I'm also creating a reusable component library to enable multiple teams to build UIs quickly and consistently.
       </p>
+      <p>
+        I have written and deployed Node cloud functions on Google Cloud Platform to abstract and aggregate API calls from the Front End. This empowered my team to release new features without relying on other teams to amend their microservices.
+      </p>
       <ul
         class="c9"
       >
@@ -159,6 +162,11 @@ exports[`PageCV component should render 1`] = `
           class="c10"
         >
           react
+        </li>
+        <li
+          class="c10"
+        >
+          node
         </li>
         <li
           class="c10"
