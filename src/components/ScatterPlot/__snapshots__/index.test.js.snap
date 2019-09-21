@@ -23,7 +23,7 @@ exports[`ScatterPlot component should render 1`] = `
       x="45"
       y="40"
     >
-      95
+      100
     </text>
     <text
       transform="rotate(270) translate(-225, -180)"
@@ -37,7 +37,7 @@ exports[`ScatterPlot component should render 1`] = `
       x="45"
       y="370"
     >
-      12
+      0
     </text>
     <text
       x="250"
@@ -49,70 +49,78 @@ exports[`ScatterPlot component should render 1`] = `
       stroke="grey"
       stroke-width="1"
       x1="50"
-      x2="480"
+      x2="450"
       y1="365"
       y2="365"
     />
     <g>
       <circle
+        cx="370"
+        cy="325.4"
+        fill="green"
+        r="7"
+      />
+    </g>
+    <g>
+      <circle
+        cx="130"
+        cy="101"
+        fill="green"
+        r="7"
+      />
+    </g>
+    <g>
+      <circle
+        cx="90"
+        cy="51.5"
+        fill="green"
+        r="7"
+      />
+    </g>
+    <g>
+      <circle
+        cx="250"
+        cy="200"
+        fill="green"
+        r="7"
+      />
+    </g>
+    <g>
+      <circle
+        cx="290"
+        cy="216.5"
+        fill="green"
+        r="7"
+      />
+    </g>
+    <g>
+      <circle
+        cx="330"
+        cy="315.5"
+        fill="green"
+        r="7"
+      />
+    </g>
+    <g>
+      <circle
+        cx="170"
+        cy="74.60000000000002"
+        fill="green"
+        r="7"
+      />
+    </g>
+    <g>
+      <circle
+        cx="210"
+        cy="143.89999999999998"
+        fill="green"
+        r="7"
+      />
+    </g>
+    <g>
+      <circle
         cx="450"
-        cy="365"
-        fill="green"
-        r="7"
-      />
-    </g>
-    <g>
-      <circle
-        cx="107.14285714285714"
-        cy="94.63855421686748"
-        fill="green"
-        r="7"
-      />
-    </g>
-    <g>
-      <circle
-        cx="50"
-        cy="35"
-        fill="green"
-        r="7"
-      />
-    </g>
-    <g>
-      <circle
-        cx="278.57142857142856"
-        cy="213.91566265060243"
-        fill="green"
-        r="7"
-      />
-    </g>
-    <g>
-      <circle
-        cx="335.7142857142857"
-        cy="233.79518072289156"
-        fill="green"
-        r="7"
-      />
-    </g>
-    <g>
-      <circle
-        cx="392.85714285714283"
-        cy="353.0722891566265"
-        fill="green"
-        r="7"
-      />
-    </g>
-    <g>
-      <circle
-        cx="164.28571428571428"
-        cy="62.831325301204856"
-        fill="green"
-        r="7"
-      />
-    </g>
-    <g>
-      <circle
-        cx="221.42857142857142"
-        cy="146.32530120481928"
+        cy="173.60000000000002"
         fill="green"
         r="7"
       />

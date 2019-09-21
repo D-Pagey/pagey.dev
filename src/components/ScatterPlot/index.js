@@ -5,8 +5,6 @@ import * as S from './styles';
 import fakeData from './fakeData';
 
 /** TO DO:
- * rename the extremes funcs and args
- * on hover shows 2 lines to x axis and y axis
  * add all this shit to trello
  * see if can refactor whole component
  * see if can reususe between barchart e.g. axis, constants
@@ -19,27 +17,17 @@ const height = 400;
 const paddingX = 50;
 const paddingY = 35;
 
-const extremes = (data, maxOrMin, axis) => {
-    const result = data.map((item) => item[axis]);
-    return Math[maxOrMin](...result);
-};
-
 const ScatterPlot = () => {
     const [dataId, setDataId] = useState();
 
     const handleHover = (id) => () => setDataId(id);
 
-    const minX = extremes(fakeData, 'min', 'x');
-    const maxX = extremes(fakeData, 'max', 'x');
-    const minY = extremes(fakeData, 'min', 'y');
-    const maxY = extremes(fakeData, 'max', 'y');
-
     const xScale = scaleLinear()
-        .domain([minX, maxX])
+        .domain([0, 10])
         .range([paddingX, width - paddingX]);
 
     const yScale = scaleLinear()
-        .domain([minY, maxY])
+        .domain([0, 100])
         .range([height - paddingY, 0 + paddingY]);
 
     return (
@@ -47,7 +35,7 @@ const ScatterPlot = () => {
             <line x1={paddingX} y1={height - paddingY} x2={paddingX} y2={paddingY} stroke="grey" strokeWidth="1" />
 
             <text x={paddingX - 5} y={paddingY + 5} textAnchor="end">
-                {maxY}
+                100
             </text>
 
             <text x={paddingX - 50} y={height / 2} transform="rotate(270) translate(-225, -180)">
@@ -55,7 +43,7 @@ const ScatterPlot = () => {
             </text>
 
             <text x={paddingX - 5} y={height - paddingY + 5} textAnchor="end">
-                {minY}
+                0
             </text>
 
             <text x={width / 2} y={height - 2}>
@@ -66,7 +54,7 @@ const ScatterPlot = () => {
             <line
                 x1={paddingX}
                 y1={height - paddingY}
-                x2={width - paddingX + 30}
+                x2={width - paddingX}
                 y2={height - paddingY}
                 stroke="grey"
                 strokeWidth="1"
