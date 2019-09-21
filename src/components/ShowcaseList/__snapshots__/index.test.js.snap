@@ -22,18 +22,22 @@ exports[`ShowcaseList should render 1`] = `
   max-width: 400px;
 }
 
-.c5 {
+.c6 {
   max-width: 500px;
 }
 
-.c6 {
+.c7 {
   fill: skyblue;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.c6:hover {
+.c7:hover {
   fill: navy;
+}
+
+.c5 {
+  max-width: 500px;
 }
 
 .c0 {
@@ -66,6 +70,138 @@ exports[`ShowcaseList should render 1`] = `
     <h4
       class="c2"
     >
+      Scatter Plot
+    </h4>
+    <div>
+      <p
+        class="c3"
+      >
+        This is a scatter plot
+      </p>
+    </div>
+    <div
+      class="c4"
+    >
+      <svg
+        class="c5"
+        viewBox="0 0 500 400"
+      >
+        <line
+          stroke="grey"
+          stroke-width="1"
+          x1="50"
+          x2="50"
+          y1="365"
+          y2="35"
+        />
+        <text
+          text-anchor="end"
+          x="45"
+          y="40"
+        >
+          95
+        </text>
+        <text
+          transform="rotate(270) translate(-225, -180)"
+          x="0"
+          y="200"
+        >
+          yAxisLabel
+        </text>
+        <text
+          text-anchor="end"
+          x="45"
+          y="370"
+        >
+          12
+        </text>
+        <text
+          x="250"
+          y="398"
+        >
+          xAxisLabel
+        </text>
+        <line
+          stroke="grey"
+          stroke-width="1"
+          x1="50"
+          x2="480"
+          y1="365"
+          y2="365"
+        />
+        <g>
+          <circle
+            cx="450"
+            cy="365"
+            fill="green"
+            r="7"
+          />
+        </g>
+        <g>
+          <circle
+            cx="107.14285714285714"
+            cy="94.63855421686748"
+            fill="green"
+            r="7"
+          />
+        </g>
+        <g>
+          <circle
+            cx="50"
+            cy="35"
+            fill="green"
+            r="7"
+          />
+        </g>
+        <g>
+          <circle
+            cx="278.57142857142856"
+            cy="213.91566265060243"
+            fill="green"
+            r="7"
+          />
+        </g>
+        <g>
+          <circle
+            cx="335.7142857142857"
+            cy="233.79518072289156"
+            fill="green"
+            r="7"
+          />
+        </g>
+        <g>
+          <circle
+            cx="392.85714285714283"
+            cy="353.0722891566265"
+            fill="green"
+            r="7"
+          />
+        </g>
+        <g>
+          <circle
+            cx="164.28571428571428"
+            cy="62.831325301204856"
+            fill="green"
+            r="7"
+          />
+        </g>
+        <g>
+          <circle
+            cx="221.42857142857142"
+            cy="146.32530120481928"
+            fill="green"
+            r="7"
+          />
+        </g>
+      </svg>
+    </div>
+  </div>
+  <div
+    class="c1"
+  >
+    <h4
+      class="c2"
+    >
       Gym Session Duration
     </h4>
     <div>
@@ -84,7 +220,7 @@ exports[`ShowcaseList should render 1`] = `
       class="c4"
     >
       <svg
-        class="c5"
+        class="c6"
         viewBox="0 0 500 400"
       >
         <text
@@ -154,7 +290,7 @@ exports[`ShowcaseList should render 1`] = `
         />
         <g>
           <rect
-            class="c6"
+            class="c7"
             height="146.66666666666666"
             rx="3"
             width="30"
@@ -170,7 +306,7 @@ exports[`ShowcaseList should render 1`] = `
         </g>
         <g>
           <rect
-            class="c6"
+            class="c7"
             height="311.6666666666667"
             rx="3"
             width="30"
@@ -186,7 +322,7 @@ exports[`ShowcaseList should render 1`] = `
         </g>
         <g>
           <rect
-            class="c6"
+            class="c7"
             height="146.66666666666666"
             rx="3"
             width="30"
@@ -202,7 +338,7 @@ exports[`ShowcaseList should render 1`] = `
         </g>
         <g>
           <rect
-            class="c6"
+            class="c7"
             height="238.33333333333334"
             rx="3"
             width="30"
@@ -218,7 +354,7 @@ exports[`ShowcaseList should render 1`] = `
         </g>
         <g>
           <rect
-            class="c6"
+            class="c7"
             height="238.33333333333334"
             rx="3"
             width="30"
@@ -234,7 +370,7 @@ exports[`ShowcaseList should render 1`] = `
         </g>
         <g>
           <rect
-            class="c6"
+            class="c7"
             height="220"
             rx="3"
             width="30"
@@ -250,7 +386,7 @@ exports[`ShowcaseList should render 1`] = `
         </g>
         <g>
           <rect
-            class="c6"
+            class="c7"
             height="36.666666666666664"
             rx="3"
             width="30"
@@ -266,7 +402,7 @@ exports[`ShowcaseList should render 1`] = `
         </g>
         <g>
           <rect
-            class="c6"
+            class="c7"
             height="55"
             rx="3"
             width="30"

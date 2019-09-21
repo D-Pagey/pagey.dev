@@ -11,6 +11,7 @@ import fakeData from './fakeData';
  * see if can refactor whole component
  * see if can reususe between barchart e.g. axis, constants
  * refactor the scale funcs for BarChart (maybe height func)
+ * test coverage
  */
 
 const width = 500;

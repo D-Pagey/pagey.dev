@@ -1,10 +1,12 @@
 import React from 'react';
 import ShowcaseItem from '../ShowcaseItem';
 import BarChart from '../BarChart';
+import ScatterPlot from '../ScatterPlot';
 import * as S from './styles';
 
 const ShowcaseList = () => (
     <S.Wrapper>
+        <ShowcaseItem description={['This is a scatter plot']} title="Scatter Plot" thumbnail={<ScatterPlot />} />
         <ShowcaseItem
             description={[
                 'Here is a sample of my recent gym session durations in minutes.',
