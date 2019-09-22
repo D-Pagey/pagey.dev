@@ -255,6 +255,7 @@ exports[`App component should render 1`] = `
               <circle
                 cx="370"
                 cy="325.4"
+                data-testid="scatterPlotPoint0"
                 fill="green"
                 r="7"
               />
@@ -263,6 +264,7 @@ exports[`App component should render 1`] = `
               <circle
                 cx="130"
                 cy="101"
+                data-testid="scatterPlotPoint1"
                 fill="green"
                 r="7"
               />
@@ -271,6 +273,7 @@ exports[`App component should render 1`] = `
               <circle
                 cx="90"
                 cy="51.5"
+                data-testid="scatterPlotPoint2"
                 fill="green"
                 r="7"
               />
@@ -279,6 +282,7 @@ exports[`App component should render 1`] = `
               <circle
                 cx="250"
                 cy="200"
+                data-testid="scatterPlotPoint3"
                 fill="green"
                 r="7"
               />
@@ -287,6 +291,7 @@ exports[`App component should render 1`] = `
               <circle
                 cx="290"
                 cy="216.5"
+                data-testid="scatterPlotPoint4"
                 fill="green"
                 r="7"
               />
@@ -295,6 +300,7 @@ exports[`App component should render 1`] = `
               <circle
                 cx="330"
                 cy="315.5"
+                data-testid="scatterPlotPoint5"
                 fill="green"
                 r="7"
               />
@@ -303,6 +309,7 @@ exports[`App component should render 1`] = `
               <circle
                 cx="170"
                 cy="74.60000000000002"
+                data-testid="scatterPlotPoint6"
                 fill="green"
                 r="7"
               />
@@ -311,6 +318,7 @@ exports[`App component should render 1`] = `
               <circle
                 cx="210"
                 cy="143.89999999999998"
+                data-testid="scatterPlotPoint7"
                 fill="green"
                 r="7"
               />
@@ -319,6 +327,7 @@ exports[`App component should render 1`] = `
               <circle
                 cx="450"
                 cy="173.60000000000002"
+                data-testid="scatterPlotPoint8"
                 fill="green"
                 r="7"
               />
@@ -421,6 +430,7 @@ exports[`App component should render 1`] = `
             <g>
               <rect
                 class="c15"
+                data-testid="barChart"
                 height="146.66666666666666"
                 rx="3"
                 width="30"
@@ -437,6 +447,7 @@ exports[`App component should render 1`] = `
             <g>
               <rect
                 class="c15"
+                data-testid="barChart"
                 height="311.6666666666667"
                 rx="3"
                 width="30"
@@ -453,6 +464,7 @@ exports[`App component should render 1`] = `
             <g>
               <rect
                 class="c15"
+                data-testid="barChart"
                 height="146.66666666666666"
                 rx="3"
                 width="30"
@@ -469,6 +481,7 @@ exports[`App component should render 1`] = `
             <g>
               <rect
                 class="c15"
+                data-testid="barChart"
                 height="238.33333333333334"
                 rx="3"
                 width="30"
@@ -485,6 +498,7 @@ exports[`App component should render 1`] = `
             <g>
               <rect
                 class="c15"
+                data-testid="barChart"
                 height="238.33333333333334"
                 rx="3"
                 width="30"
@@ -501,6 +515,7 @@ exports[`App component should render 1`] = `
             <g>
               <rect
                 class="c15"
+                data-testid="barChart"
                 height="220"
                 rx="3"
                 width="30"
@@ -517,6 +532,7 @@ exports[`App component should render 1`] = `
             <g>
               <rect
                 class="c15"
+                data-testid="barChart"
                 height="36.666666666666664"
                 rx="3"
                 width="30"
@@ -533,6 +549,7 @@ exports[`App component should render 1`] = `
             <g>
               <rect
                 class="c15"
+                data-testid="barChart"
                 height="55"
                 rx="3"
                 width="30"

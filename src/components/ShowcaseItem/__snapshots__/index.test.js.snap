@@ -147,6 +147,7 @@ exports[`ShowcaseItem component should render 1`] = `
       <g>
         <rect
           class="c5"
+          data-testid="barChart"
           height="146.66666666666666"
           rx="3"
           width="30"
@@ -163,6 +164,7 @@ exports[`ShowcaseItem component should render 1`] = `
       <g>
         <rect
           class="c5"
+          data-testid="barChart"
           height="311.6666666666667"
           rx="3"
           width="30"
@@ -179,6 +181,7 @@ exports[`ShowcaseItem component should render 1`] = `
       <g>
         <rect
           class="c5"
+          data-testid="barChart"
           height="146.66666666666666"
           rx="3"
           width="30"
@@ -195,6 +198,7 @@ exports[`ShowcaseItem component should render 1`] = `
       <g>
         <rect
           class="c5"
+          data-testid="barChart"
           height="238.33333333333334"
           rx="3"
           width="30"
@@ -211,6 +215,7 @@ exports[`ShowcaseItem component should render 1`] = `
       <g>
         <rect
           class="c5"
+          data-testid="barChart"
           height="238.33333333333334"
           rx="3"
           width="30"
@@ -227,6 +232,7 @@ exports[`ShowcaseItem component should render 1`] = `
       <g>
         <rect
           class="c5"
+          data-testid="barChart"
           height="220"
           rx="3"
           width="30"
@@ -243,6 +249,7 @@ exports[`ShowcaseItem component should render 1`] = `
       <g>
         <rect
           class="c5"
+          data-testid="barChart"
           height="36.666666666666664"
           rx="3"
           width="30"

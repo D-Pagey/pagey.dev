@@ -75,7 +75,8 @@ const BarChart = ({ data, yAxisLabel, xAxisLabel }) => {
                 // eslint-disable-next-line react/no-array-index-key
                 <g key={index}>
                     {showIndex === index && (
-                        <text x={xScale(index) + 5} y={height - yScale(item) - paddingY - 5}>
+                        // this seems wrong/hacky for y attribute
+                        <text x={xScale(index) + 5} y={height - yScale(item) - paddingY - 5} data-testid="barChartText">
                             {item}
                         </text>
                     )}
@@ -84,6 +85,7 @@ const BarChart = ({ data, yAxisLabel, xAxisLabel }) => {
                         onMouseEnter={handleMouseOver(index)}
                         onMouseLeave={handleMouseOver()}
                         height={yScale(item)}
+                        data-testid="barChart"
                         x={xScale(index)}
                         y={height - yScale(item) - paddingY}
                         rx="3"

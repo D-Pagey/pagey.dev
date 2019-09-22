@@ -9,7 +9,6 @@ import fakeData from './fakeData';
  * see if can refactor whole component
  * see if can reususe between barchart e.g. axis, constants
  * refactor the scale funcs for BarChart (maybe height func)
- * test coverage
  */
 
 const width = 500;
@@ -60,7 +59,7 @@ const ScatterPlot = () => {
                 strokeWidth="1"
             />
 
-            {fakeData.map((item) => (
+            {fakeData.map((item, index) => (
                 <g key={item.id}>
                     <circle
                         cx={xScale(item.x)}
@@ -68,6 +67,7 @@ const ScatterPlot = () => {
                         r="7"
                         fill="green"
                         onMouseEnter={handleHover(item.id)}
+                        data-testid={`scatterPlotPoint${index}`}
                     />
 
                     {dataId === item.id && (
@@ -80,6 +80,7 @@ const ScatterPlot = () => {
                                 stroke="red"
                                 strokeWidth="1"
                                 strokeDasharray="2"
+                                data-testid={`scatterPlotLine${index}`}
                             />
 
                             <text x={paddingX - 5} y={yScale(item.y) + 5} textAnchor="end">
