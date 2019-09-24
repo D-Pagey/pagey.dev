@@ -24,7 +24,7 @@ exports[`ShowcaseItem component should render 1`] = `
 }
 
 .c1 {
-  margin: 0;
+  margin: 2rem 0 0;
 }
 
 .c2 {

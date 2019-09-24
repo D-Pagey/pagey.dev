@@ -8,7 +8,7 @@ const height = 400;
 const paddingX = 50;
 const paddingY = 35;
 
-const BarChart = ({ data, yAxisLabel, xAxisLabel }) => {
+const BarChart = ({ data, xAxisLabel, yAxisLabel }) => {
     const [showIndex, setShowIndex] = useState();
 
     const handleMouseOver = (value) => () => setShowIndex(value);

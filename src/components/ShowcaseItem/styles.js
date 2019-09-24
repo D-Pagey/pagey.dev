@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.h4`
-    margin: 0;
+    margin: 2rem 0 0;
 `;
 
 export const Description = styled.p`

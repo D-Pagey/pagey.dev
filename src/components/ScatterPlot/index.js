@@ -1,14 +1,12 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React, { useState } from 'react';
 import { scaleLinear } from 'd3-scale';
+import data from './data';
 import * as S from './styles';
 
-import fakeData from './fakeData';
-
 /** TO DO:
- * add all this shit to trello
- * see if can refactor whole component
- * see if can reususe between barchart e.g. axis, constants
  * refactor the scale funcs for BarChart (maybe height func)
+ * see if can reususe between barchart e.g. axis, constants - move up to showcase list
  */
 
 const width = 500;
@@ -22,31 +20,31 @@ const ScatterPlot = () => {
     const handleHover = (id) => () => setDataId(id);
 
     const xScale = scaleLinear()
-        .domain([0, 10])
+        .domain([4, 10])
         .range([paddingX, width - paddingX]);
 
     const yScale = scaleLinear()
-        .domain([0, 100])
-        .range([height - paddingY, 0 + paddingY]);
+        .domain([0, 10])
+        .range([height - paddingY, paddingY]);
 
     return (
         <S.SVG viewBox={`0 0 ${width} ${height}`}>
             <line x1={paddingX} y1={height - paddingY} x2={paddingX} y2={paddingY} stroke="grey" strokeWidth="1" />
 
             <text x={paddingX - 5} y={paddingY + 5} textAnchor="end">
-                100
+                10
             </text>
 
-            <text x={paddingX - 50} y={height / 2} transform="rotate(270) translate(-225, -180)">
-                yAxisLabel
+            <text x={paddingX - 75} y={height / 2} transform="rotate(270) translate(-225, -180)">
+                Cups of coffee ☕️ ️
             </text>
 
             <text x={paddingX - 5} y={height - paddingY + 5} textAnchor="end">
                 0
             </text>
 
-            <text x={width / 2} y={height - 2}>
-                xAxisLabel
+            <text x={width / 2 - 60} y={height - 2}>
+                Hours of sleep 😴
             </text>
 
             {/* X axis */}
@@ -59,7 +57,7 @@ const ScatterPlot = () => {
                 strokeWidth="1"
             />
 
-            {fakeData.map((item, index) => (
+            {data.map((item, index) => (
                 <g key={item.id}>
                     <circle
                         cx={xScale(item.x)}
@@ -77,7 +75,7 @@ const ScatterPlot = () => {
                                 y1={yScale(item.y)}
                                 x2={xScale(item.x)}
                                 y2={yScale(item.y)}
-                                stroke="red"
+                                stroke="blue"
                                 strokeWidth="1"
                                 strokeDasharray="2"
                                 data-testid={`scatterPlotLine${index}`}
@@ -92,7 +90,7 @@ const ScatterPlot = () => {
                                 y1={yScale(item.y)}
                                 x2={xScale(item.x)}
                                 y2={height - paddingY}
-                                stroke="purple"
+                                stroke="blue"
                                 strokeWidth="1"
                                 strokeDasharray="2"
                             />

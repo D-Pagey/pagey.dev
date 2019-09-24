@@ -6,7 +6,14 @@ import * as S from './styles';
 
 const ShowcaseList = () => (
     <S.Wrapper>
-        <ShowcaseItem description={['This is a scatter plot']} title="Scatter Plot" thumbnail={<ScatterPlot />} />
+        <ShowcaseItem
+            description={[
+                'This is a fictitious scatter plot representing coffee consumption vs hours of sleep.',
+                'At some point, I would like to actually track these data points and see if there is indeed a negative correlation.'
+            ]}
+            title="Scatter Plot"
+            thumbnail={<ScatterPlot />}
+        />
         <ShowcaseItem
             description={[
                 'Here is a sample of my recent gym session durations in minutes.',

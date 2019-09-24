@@ -23,14 +23,14 @@ exports[`ScatterPlot component should render 1`] = `
       x="45"
       y="40"
     >
-      100
+      10
     </text>
     <text
       transform="rotate(270) translate(-225, -180)"
-      x="0"
+      x="-25"
       y="200"
     >
-      yAxisLabel
+      Cups of coffee ☕️ ️
     </text>
     <text
       text-anchor="end"
@@ -40,10 +40,10 @@ exports[`ScatterPlot component should render 1`] = `
       0
     </text>
     <text
-      x="250"
+      x="190"
       y="398"
     >
-      xAxisLabel
+      Hours of sleep 😴
     </text>
     <line
       stroke="grey"
@@ -55,8 +55,8 @@ exports[`ScatterPlot component should render 1`] = `
     />
     <g>
       <circle
-        cx="370"
-        cy="325.4"
+        cx="183.33333333333331"
+        cy="167"
         data-testid="scatterPlotPoint0"
         fill="green"
         r="7"
@@ -64,8 +64,8 @@ exports[`ScatterPlot component should render 1`] = `
     </g>
     <g>
       <circle
-        cx="130"
-        cy="101"
+        cx="150"
+        cy="167"
         data-testid="scatterPlotPoint1"
         fill="green"
         r="7"
@@ -73,8 +73,8 @@ exports[`ScatterPlot component should render 1`] = `
     </g>
     <g>
       <circle
-        cx="90"
-        cy="51.5"
+        cx="383.33333333333337"
+        cy="299"
         data-testid="scatterPlotPoint2"
         fill="green"
         r="7"
@@ -82,8 +82,8 @@ exports[`ScatterPlot component should render 1`] = `
     </g>
     <g>
       <circle
-        cx="250"
-        cy="200"
+        cx="350"
+        cy="332"
         data-testid="scatterPlotPoint3"
         fill="green"
         r="7"
@@ -91,8 +91,8 @@ exports[`ScatterPlot component should render 1`] = `
     </g>
     <g>
       <circle
-        cx="290"
-        cy="216.5"
+        cx="250"
+        cy="266"
         data-testid="scatterPlotPoint4"
         fill="green"
         r="7"
@@ -100,8 +100,8 @@ exports[`ScatterPlot component should render 1`] = `
     </g>
     <g>
       <circle
-        cx="330"
-        cy="315.5"
+        cx="216.66666666666669"
+        cy="233"
         data-testid="scatterPlotPoint5"
         fill="green"
         r="7"
@@ -109,8 +109,8 @@ exports[`ScatterPlot component should render 1`] = `
     </g>
     <g>
       <circle
-        cx="170"
-        cy="74.60000000000002"
+        cx="150"
+        cy="200"
         data-testid="scatterPlotPoint6"
         fill="green"
         r="7"
@@ -118,8 +118,8 @@ exports[`ScatterPlot component should render 1`] = `
     </g>
     <g>
       <circle
-        cx="210"
-        cy="143.89999999999998"
+        cx="383.33333333333337"
+        cy="332"
         data-testid="scatterPlotPoint7"
         fill="green"
         r="7"
@@ -127,8 +127,8 @@ exports[`ScatterPlot component should render 1`] = `
     </g>
     <g>
       <circle
-        cx="450"
-        cy="173.60000000000002"
+        cx="183.33333333333331"
+        cy="233"
         data-testid="scatterPlotPoint8"
         fill="green"
         r="7"
