@@ -21,7 +21,7 @@ const BarChart = ({ data, xAxisLabel, yAxisLabel }) => {
 
     const yScale = scaleLinear()
         .domain([Math.min(...data) - 2, Math.max(...data) + 1])
-        .range([0, height - paddingY - paddingY]);
+        .range([height - paddingY, paddingY]);
 
     return (
         <S.SVG viewBox={`0 0 ${width} ${height}`}>
@@ -29,17 +29,19 @@ const BarChart = ({ data, xAxisLabel, yAxisLabel }) => {
                 Average
             </text>
 
+            {/* Average line */}
             <line
                 x1={paddingX}
                 y1={yScale(average)}
-                x2={width - paddingX + 30}
+                x2={width - paddingX}
                 y2={yScale(average)}
                 stroke="green"
                 strokeWidth="1"
                 strokeDasharray="2"
             />
 
-            <line x1={paddingX} y1={height - paddingY} x2={paddingX} y2={paddingY} stroke="grey" strokeWidth="1" />
+            {/* Y Axis */}
+            <line x1={paddingX} y1={paddingY} x2={paddingX} y2={height - paddingY} stroke="grey" strokeWidth="1" />
 
             <text x={paddingX - 5} y={paddingY + 5} textAnchor="end">
                 {Math.max(...data) + 1}
@@ -75,21 +77,20 @@ const BarChart = ({ data, xAxisLabel, yAxisLabel }) => {
                 // eslint-disable-next-line react/no-array-index-key
                 <g key={index}>
                     {showIndex === index && (
-                        // this seems wrong/hacky for y attribute
-                        <text x={xScale(index) + 5} y={height - yScale(item) - paddingY - 5} data-testid="barChartText">
+                        <text x={xScale(index) + 5} y={yScale(item) - 5} data-testid="barChartText">
                             {item}
                         </text>
                     )}
 
                     <S.Bar
+                        data-testid="barChart"
+                        height={height - paddingY - yScale(item)}
                         onMouseEnter={handleMouseOver(index)}
                         onMouseLeave={handleMouseOver()}
-                        height={yScale(item)}
-                        data-testid="barChart"
-                        x={xScale(index)}
-                        y={height - yScale(item) - paddingY}
                         rx="3"
                         width={30}
+                        x={xScale(index)}
+                        y={yScale(item)}
                     />
                     <text x={xScale(index) + 8} y={height - paddingY + 15}>
                         {index}

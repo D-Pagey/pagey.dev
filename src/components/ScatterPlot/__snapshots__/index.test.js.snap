@@ -59,7 +59,7 @@ exports[`ScatterPlot component should render 1`] = `
         cy="167"
         data-testid="scatterPlotPoint0"
         fill="green"
-        r="7"
+        r="9"
       />
     </g>
     <g>
@@ -68,7 +68,7 @@ exports[`ScatterPlot component should render 1`] = `
         cy="167"
         data-testid="scatterPlotPoint1"
         fill="green"
-        r="7"
+        r="9"
       />
     </g>
     <g>
@@ -77,7 +77,7 @@ exports[`ScatterPlot component should render 1`] = `
         cy="299"
         data-testid="scatterPlotPoint2"
         fill="green"
-        r="7"
+        r="9"
       />
     </g>
     <g>
@@ -86,7 +86,7 @@ exports[`ScatterPlot component should render 1`] = `
         cy="332"
         data-testid="scatterPlotPoint3"
         fill="green"
-        r="7"
+        r="9"
       />
     </g>
     <g>
@@ -95,7 +95,7 @@ exports[`ScatterPlot component should render 1`] = `
         cy="266"
         data-testid="scatterPlotPoint4"
         fill="green"
-        r="7"
+        r="9"
       />
     </g>
     <g>
@@ -104,7 +104,7 @@ exports[`ScatterPlot component should render 1`] = `
         cy="233"
         data-testid="scatterPlotPoint5"
         fill="green"
-        r="7"
+        r="9"
       />
     </g>
     <g>
@@ -113,7 +113,7 @@ exports[`ScatterPlot component should render 1`] = `
         cy="200"
         data-testid="scatterPlotPoint6"
         fill="green"
-        r="7"
+        r="9"
       />
     </g>
     <g>
@@ -122,7 +122,7 @@ exports[`ScatterPlot component should render 1`] = `
         cy="332"
         data-testid="scatterPlotPoint7"
         fill="green"
-        r="7"
+        r="9"
       />
     </g>
     <g>
@@ -131,7 +131,7 @@ exports[`ScatterPlot component should render 1`] = `
         cy="233"
         data-testid="scatterPlotPoint8"
         fill="green"
-        r="7"
+        r="9"
       />
     </g>
   </svg>

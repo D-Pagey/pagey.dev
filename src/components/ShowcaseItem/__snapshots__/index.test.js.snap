@@ -81,7 +81,7 @@ exports[`ShowcaseItem component should render 1`] = `
     >
       <text
         x="420"
-        y="178.33333333333334"
+        y="176.66666666666666"
       >
         Average
       </text>
@@ -90,17 +90,17 @@ exports[`ShowcaseItem component should render 1`] = `
         stroke-dasharray="2"
         stroke-width="1"
         x1="50"
-        x2="480"
-        y1="183.33333333333334"
-        y2="183.33333333333334"
+        x2="450"
+        y1="181.66666666666666"
+        y2="181.66666666666666"
       />
       <line
         stroke="grey"
         stroke-width="1"
         x1="50"
         x2="50"
-        y1="365"
-        y2="35"
+        y1="35"
+        y2="365"
       />
       <text
         text-anchor="end"
@@ -112,7 +112,7 @@ exports[`ShowcaseItem component should render 1`] = `
       <text
         text-anchor="end"
         x="45"
-        y="188.33333333333334"
+        y="186.66666666666666"
       >
         60
       </text>
@@ -250,7 +250,7 @@ exports[`ShowcaseItem component should render 1`] = `
         <rect
           class="c5"
           data-testid="barChart"
-          height="36.666666666666664"
+          height="36.666666666666686"
           rx="3"
           width="30"
           x="450"

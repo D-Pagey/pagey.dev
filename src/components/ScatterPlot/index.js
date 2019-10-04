@@ -5,7 +5,6 @@ import data from './data';
 import * as S from './styles';
 
 /** TO DO:
- * refactor the scale funcs for BarChart (maybe height func)
  * see if can reususe between barchart e.g. axis, constants - move up to showcase list
  */
 
@@ -19,16 +18,19 @@ const ScatterPlot = () => {
 
     const handleHover = (id) => () => setDataId(id);
 
+    // hard code the min and max points for x axis
     const xScale = scaleLinear()
         .domain([4, 10])
         .range([paddingX, width - paddingX]);
 
+    // hard code the min and max points for y axis
     const yScale = scaleLinear()
         .domain([0, 10])
         .range([height - paddingY, paddingY]);
 
     return (
         <S.SVG viewBox={`0 0 ${width} ${height}`}>
+            {/* Y Axis */}
             <line x1={paddingX} y1={height - paddingY} x2={paddingX} y2={paddingY} stroke="grey" strokeWidth="1" />
 
             <text x={paddingX - 5} y={paddingY + 5} textAnchor="end">
@@ -59,15 +61,6 @@ const ScatterPlot = () => {
 
             {data.map((item, index) => (
                 <g key={item.id}>
-                    <circle
-                        cx={xScale(item.x)}
-                        cy={yScale(item.y)}
-                        r="7"
-                        fill="green"
-                        onMouseEnter={handleHover(item.id)}
-                        data-testid={`scatterPlotPoint${index}`}
-                    />
-
                     {dataId === item.id && (
                         <>
                             <line
@@ -100,6 +93,15 @@ const ScatterPlot = () => {
                             </text>
                         </>
                     )}
+
+                    <circle
+                        cx={xScale(item.x)}
+                        cy={yScale(item.y)}
+                        r="9"
+                        fill="green"
+                        onMouseEnter={handleHover(item.id)}
+                        data-testid={`scatterPlotPoint${index}`}
+                    />
                 </g>
             ))}
         </S.SVG>
