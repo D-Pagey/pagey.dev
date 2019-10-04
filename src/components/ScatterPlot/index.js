@@ -1,19 +1,11 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React, { useState } from 'react';
+import { number } from 'prop-types';
 import { scaleLinear } from 'd3-scale';
 import data from './data';
 import * as S from './styles';
 
-/** TO DO:
- * see if can reususe between barchart e.g. axis, constants - move up to showcase list
- */
-
-const width = 500;
-const height = 400;
-const paddingX = 50;
-const paddingY = 35;
-
-const ScatterPlot = () => {
+const ScatterPlot = ({ height, paddingX, paddingY, width }) => {
     const [dataId, setDataId] = useState();
 
     const handleHover = (id) => () => setDataId(id);
@@ -106,6 +98,13 @@ const ScatterPlot = () => {
             ))}
         </S.SVG>
     );
+};
+
+ScatterPlot.propTypes = {
+    height: number.isRequired,
+    paddingX: number.isRequired,
+    paddingY: number.isRequired,
+    width: number.isRequired
 };
 
 export default ScatterPlot;

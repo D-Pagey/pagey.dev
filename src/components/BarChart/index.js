@@ -3,12 +3,7 @@ import { arrayOf, number, string } from 'prop-types';
 import { scaleLinear } from 'd3-scale';
 import * as S from './styles';
 
-const width = 500;
-const height = 400;
-const paddingX = 50;
-const paddingY = 35;
-
-const BarChart = ({ data, xAxisLabel, yAxisLabel }) => {
+const BarChart = ({ data, height, paddingX, paddingY, xAxisLabel, yAxisLabel, width }) => {
     const [showIndex, setShowIndex] = useState();
 
     const handleMouseOver = (value) => () => setShowIndex(value);
@@ -103,6 +98,10 @@ const BarChart = ({ data, xAxisLabel, yAxisLabel }) => {
 
 BarChart.propTypes = {
     data: arrayOf(number).isRequired,
+    height: number.isRequired,
+    paddingX: number.isRequired,
+    paddingY: number.isRequired,
+    width: number.isRequired,
     xAxisLabel: string.isRequired,
     yAxisLabel: string.isRequired
 };
