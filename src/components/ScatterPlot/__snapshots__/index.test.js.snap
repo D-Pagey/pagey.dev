@@ -41,7 +41,7 @@ exports[`ScatterPlot component should render 1`] = `
     </text>
     <text
       x="190"
-      y="398"
+      y="395"
     >
       Hours of sleep 😴
     </text>

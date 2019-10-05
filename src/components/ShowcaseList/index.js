@@ -24,17 +24,7 @@ const ShowcaseList = () => (
                 'Here is a sample of my recent gym session durations in minutes.',
                 'This bar chart was built with raw SVGs and only using the scale functions from the D3 library.'
             ]}
-            thumbnail={
-                <BarChart
-                    data={[58, 67, 58, 63, 63, 62, 52, 53]}
-                    height={height}
-                    paddingX={paddingX}
-                    paddingY={paddingY}
-                    xAxisLabel="Index"
-                    yAxisLabel="Minutes"
-                    width={width}
-                />
-            }
+            thumbnail={<BarChart height={height} paddingX={paddingX} paddingY={paddingY} width={width} />}
             title="Gym Session Duration"
         />
     </S.Wrapper>

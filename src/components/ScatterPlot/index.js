@@ -37,7 +37,7 @@ const ScatterPlot = ({ height, paddingX, paddingY, width }) => {
                 0
             </text>
 
-            <text x={width / 2 - 60} y={height - 2}>
+            <text x={width / 2 - 60} y={height - 5}>
                 Hours of sleep 😴
             </text>
 

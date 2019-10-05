@@ -244,7 +244,7 @@ exports[`App component should render 1`] = `
             </text>
             <text
               x="190"
-              y="398"
+              y="395"
             >
               Hours of sleep 😴
             </text>
@@ -555,11 +555,11 @@ exports[`App component should render 1`] = `
               <rect
                 class="c15"
                 data-testid="barChart"
-                height="55"
+                height="73.33333333333331"
                 rx="3"
                 width="30"
                 x="450"
-                y="310"
+                y="291.6666666666667"
               />
               <text
                 x="458"
