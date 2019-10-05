@@ -331,7 +331,7 @@ exports[`PageHome component should render 1`] = `
             stroke-dasharray="2"
             stroke-width="1"
             x1="50"
-            x2="450"
+            x2="480"
             y1="181.66666666666666"
             y2="181.66666666666666"
           />
@@ -389,11 +389,11 @@ exports[`PageHome component should render 1`] = `
             <rect
               class="c11"
               data-testid="barChart"
-              height="146.66666666666666"
+              height="0"
               rx="3"
               width="30"
               x="50"
-              y="218.33333333333334"
+              y="365"
             />
             <text
               x="58"
@@ -406,11 +406,11 @@ exports[`PageHome component should render 1`] = `
             <rect
               class="c11"
               data-testid="barChart"
-              height="311.6666666666667"
+              height="0"
               rx="3"
               width="30"
               x="107.14285714285714"
-              y="53.333333333333314"
+              y="365"
             />
             <text
               x="115.14285714285714"
@@ -423,11 +423,11 @@ exports[`PageHome component should render 1`] = `
             <rect
               class="c11"
               data-testid="barChart"
-              height="146.66666666666666"
+              height="0"
               rx="3"
               width="30"
               x="164.28571428571428"
-              y="218.33333333333334"
+              y="365"
             />
             <text
               x="172.28571428571428"
@@ -440,11 +440,11 @@ exports[`PageHome component should render 1`] = `
             <rect
               class="c11"
               data-testid="barChart"
-              height="238.33333333333334"
+              height="0"
               rx="3"
               width="30"
               x="221.42857142857142"
-              y="126.66666666666666"
+              y="365"
             />
             <text
               x="229.42857142857142"
@@ -457,11 +457,11 @@ exports[`PageHome component should render 1`] = `
             <rect
               class="c11"
               data-testid="barChart"
-              height="238.33333333333334"
+              height="0"
               rx="3"
               width="30"
               x="278.57142857142856"
-              y="126.66666666666666"
+              y="365"
             />
             <text
               x="286.57142857142856"
@@ -474,11 +474,11 @@ exports[`PageHome component should render 1`] = `
             <rect
               class="c11"
               data-testid="barChart"
-              height="220"
+              height="0"
               rx="3"
               width="30"
               x="335.7142857142857"
-              y="145"
+              y="365"
             />
             <text
               x="343.7142857142857"
@@ -491,11 +491,11 @@ exports[`PageHome component should render 1`] = `
             <rect
               class="c11"
               data-testid="barChart"
-              height="36.666666666666686"
+              height="0"
               rx="3"
               width="30"
               x="392.85714285714283"
-              y="328.3333333333333"
+              y="365"
             />
             <text
               x="400.85714285714283"
@@ -508,11 +508,11 @@ exports[`PageHome component should render 1`] = `
             <rect
               class="c11"
               data-testid="barChart"
-              height="73.33333333333331"
+              height="0"
               rx="3"
               width="30"
               x="450"
-              y="291.6666666666667"
+              y="365"
             />
             <text
               x="458"

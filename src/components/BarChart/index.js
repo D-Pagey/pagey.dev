@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { number } from 'prop-types';
 import { scaleLinear } from 'd3-scale';
+import { useSprings } from 'react-spring';
 import data from './data';
 import * as S from './styles';
 
@@ -22,6 +23,16 @@ const BarChart = ({ height, paddingX, paddingY, width }) => {
         .domain([minimumValue - 2, maximumValue + 1])
         .range([height - paddingY, paddingY]);
 
+    const springs = useSprings(
+        data.length,
+        data.map((item, index) => ({
+            from: { y: yScale(50), height: 0 },
+            y: yScale(item.value),
+            height: height - paddingY - yScale(item.value),
+            delay: 200 * index
+        }))
+    );
+
     return (
         <S.SVG viewBox={`0 0 ${width} ${height}`}>
             <text x={width - 80} y={yScale(average) - 5}>
@@ -32,7 +43,7 @@ const BarChart = ({ height, paddingX, paddingY, width }) => {
             <line
                 x1={paddingX}
                 y1={yScale(average)}
-                x2={width - paddingX}
+                x2={width - paddingX + 30}
                 y2={yScale(average)}
                 stroke="green"
                 strokeWidth="1"
@@ -82,13 +93,13 @@ const BarChart = ({ height, paddingX, paddingY, width }) => {
 
                     <S.Bar
                         data-testid="barChart"
-                        height={height - paddingY - yScale(item.value)}
+                        height={springs[index].height}
                         onMouseEnter={handleMouseOver(index)}
                         onMouseLeave={handleMouseOver()}
                         rx="3"
                         width={30}
                         x={xScale(index)}
-                        y={yScale(item.value)}
+                        y={springs[index].y}
                     />
                     <text x={xScale(index) + 8} y={height - paddingY + 15}>
                         {index}
