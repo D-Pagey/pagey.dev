@@ -211,8 +211,8 @@ exports[`PageHome component should render 1`] = `
           />
           <g>
             <circle
-              cx="183.33333333333331"
-              cy="167"
+              cx="50"
+              cy="365"
               data-testid="scatterPlotPoint0"
               fill="green"
               r="9"
@@ -220,8 +220,8 @@ exports[`PageHome component should render 1`] = `
           </g>
           <g>
             <circle
-              cx="150"
-              cy="167"
+              cx="50"
+              cy="365"
               data-testid="scatterPlotPoint1"
               fill="green"
               r="9"
@@ -229,8 +229,8 @@ exports[`PageHome component should render 1`] = `
           </g>
           <g>
             <circle
-              cx="383.33333333333337"
-              cy="299"
+              cx="50"
+              cy="365"
               data-testid="scatterPlotPoint2"
               fill="green"
               r="9"
@@ -238,8 +238,8 @@ exports[`PageHome component should render 1`] = `
           </g>
           <g>
             <circle
-              cx="350"
-              cy="332"
+              cx="50"
+              cy="365"
               data-testid="scatterPlotPoint3"
               fill="green"
               r="9"
@@ -247,8 +247,8 @@ exports[`PageHome component should render 1`] = `
           </g>
           <g>
             <circle
-              cx="250"
-              cy="266"
+              cx="50"
+              cy="365"
               data-testid="scatterPlotPoint4"
               fill="green"
               r="9"
@@ -256,8 +256,8 @@ exports[`PageHome component should render 1`] = `
           </g>
           <g>
             <circle
-              cx="216.66666666666669"
-              cy="233"
+              cx="50"
+              cy="365"
               data-testid="scatterPlotPoint5"
               fill="green"
               r="9"
@@ -265,8 +265,8 @@ exports[`PageHome component should render 1`] = `
           </g>
           <g>
             <circle
-              cx="150"
-              cy="200"
+              cx="50"
+              cy="365"
               data-testid="scatterPlotPoint6"
               fill="green"
               r="9"
@@ -274,8 +274,8 @@ exports[`PageHome component should render 1`] = `
           </g>
           <g>
             <circle
-              cx="383.33333333333337"
-              cy="332"
+              cx="50"
+              cy="365"
               data-testid="scatterPlotPoint7"
               fill="green"
               r="9"
@@ -283,8 +283,8 @@ exports[`PageHome component should render 1`] = `
           </g>
           <g>
             <circle
-              cx="183.33333333333331"
-              cy="233"
+              cx="50"
+              cy="365"
               data-testid="scatterPlotPoint8"
               fill="green"
               r="9"

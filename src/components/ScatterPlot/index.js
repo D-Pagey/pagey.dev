@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { number } from 'prop-types';
 import { scaleLinear } from 'd3-scale';
+import { useSprings, animated } from 'react-spring';
 import data from './data';
 import * as S from './styles';
 
@@ -19,6 +20,16 @@ const ScatterPlot = ({ height, paddingX, paddingY, width }) => {
     const yScale = scaleLinear()
         .domain([0, 10])
         .range([height - paddingY, paddingY]);
+
+    const springs = useSprings(
+        data.length,
+        data.map((item) => ({
+            from: { cy: height - paddingY, cx: paddingX },
+            cy: yScale(item.y),
+            cx: xScale(item.x),
+            config: { friction: 100 }
+        }))
+    );
 
     return (
         <S.SVG viewBox={`0 0 ${width} ${height}`}>
@@ -90,9 +101,9 @@ const ScatterPlot = ({ height, paddingX, paddingY, width }) => {
                         </>
                     )}
 
-                    <circle
-                        cx={xScale(item.x)}
-                        cy={yScale(item.y)}
+                    <animated.circle
+                        cx={springs[index].cx}
+                        cy={springs[index].cy}
                         r="9"
                         fill="green"
                         onMouseEnter={handleHover(item.id)}
