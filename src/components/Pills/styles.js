@@ -1,5 +1,4 @@
 import styled from 'styled-components/macro';
-import { coloursByFunction } from '../../tokens';
 
 export const List = styled.ul`
     display: flex;
@@ -9,7 +8,7 @@ export const List = styled.ul`
 `;
 
 export const Pill = styled.li`
-    background-color: ${coloursByFunction.pill};
+    background-color: #fbce63;
     border-radius: 5px;
     font-size: 12px;
     padding: 0.25rem 0.5rem;
