@@ -229,6 +229,13 @@ exports[`App component should render 1`] = `
               10
             </text>
             <text
+              text-anchor="end"
+              x="454"
+              y="381"
+            >
+              10
+            </text>
+            <text
               transform="rotate(270) translate(-225, -180)"
               x="-25"
               y="200"

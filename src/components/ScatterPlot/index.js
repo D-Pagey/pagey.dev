@@ -29,6 +29,10 @@ const ScatterPlot = ({ height, paddingX, paddingY, width }) => {
                 10
             </text>
 
+            <text x={xScale(10) + 4} y={height - 19} textAnchor="end">
+                10
+            </text>
+
             <text x={paddingX - 75} y={height / 2} transform="rotate(270) translate(-225, -180)">
                 Cups of coffee ☕️ ️
             </text>
