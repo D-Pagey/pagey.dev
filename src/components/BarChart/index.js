@@ -33,7 +33,7 @@ const BarChart = ({ height, paddingX, paddingY, width }) => {
             from: { y: yScale(50), height: 0 },
             y: isVisible ? yScale(item.value) : yScale(50),
             height: isVisible ? height - paddingY - yScale(item.value) : 0,
-            delay: 200 * index
+            delay: isVisible ? 200 * index : 0
         }))
     );
 

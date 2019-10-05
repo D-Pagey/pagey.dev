@@ -31,7 +31,7 @@ const ScatterPlot = ({ height, paddingX, paddingY, width }) => {
             from: { cy: height - paddingY, cx: paddingX },
             cy: isVisible ? yScale(item.y) : height - paddingY,
             cx: isVisible ? xScale(item.x) : paddingX,
-            config: { friction: 100 }
+            config: { friction: isVisible ? 100 : 0 }
         }))
     );
 
