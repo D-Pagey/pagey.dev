@@ -36,7 +36,7 @@ const ScatterPlot = ({ height, paddingX, paddingY, width }) => {
     );
 
     return (
-        <VisibilitySensor onChange={onVisibilityChange}>
+        <VisibilitySensor onChange={onVisibilityChange} partialVisibility>
             <S.SVG viewBox={`0 0 ${width} ${height}`}>
                 {/* Y Axis */}
                 <line x1={paddingX} y1={height - paddingY} x2={paddingX} y2={paddingY} stroke="grey" strokeWidth="1" />
