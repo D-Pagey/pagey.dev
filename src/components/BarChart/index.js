@@ -38,7 +38,7 @@ const BarChart = ({ height, paddingX, paddingY, width }) => {
     );
 
     return (
-        <VisibilitySensor onChange={onVisibilityChange} partialVisibility>
+        <VisibilitySensor onChange={onVisibilityChange}>
             <S.SVG viewBox={`0 0 ${width} ${height}`}>
                 <text x={width - 80} y={yScale(average) - 5}>
                     Average

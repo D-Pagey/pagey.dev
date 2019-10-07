@@ -31,12 +31,13 @@ const ScatterPlot = ({ height, paddingX, paddingY, width }) => {
             from: { cy: height - paddingY, cx: paddingX },
             cy: isVisible ? yScale(item.y) : height - paddingY,
             cx: isVisible ? xScale(item.x) : paddingX,
-            config: { friction: isVisible ? 100 : 0 }
+            config: { friction: isVisible ? 100 : 0 },
+            delay: 1750
         }))
     );
 
     return (
-        <VisibilitySensor onChange={onVisibilityChange} partialVisibility>
+        <VisibilitySensor onChange={onVisibilityChange}>
             <S.SVG viewBox={`0 0 ${width} ${height}`}>
                 {/* Y Axis */}
                 <line x1={paddingX} y1={height - paddingY} x2={paddingX} y2={paddingY} stroke="grey" strokeWidth="1" />
