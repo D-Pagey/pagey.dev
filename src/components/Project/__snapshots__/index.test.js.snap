@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project component should render 1`] = `
+.c0 {
+  display: grid;
+  grid-row-gap: 1rem;
+  margin: 0 0 3rem;
+}
+
+.c1 {
+  color: blue;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.c2 {
+  font-style: italic;
+  grid-column: 1;
+  margin: 0;
+}
+
+.c3 {
+  grid-column: 1;
+}
+
+.c4 {
+  margin: 0;
+}
+
+.c4:first-child {
+  margin: 0 0 1rem;
+}
+
+.c6 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 0 0.5rem;
+}
+
+.c7 {
+  margin: 0 0 2rem;
+}
+
+.c8 {
+  font-style: italic;
+  margin: 0;
+}
+
+.c9 {
+  font-weight: 600;
+}
+
+.c10 {
+  color: blue;
+}
+
+@media (min-width:600px) {
+  .c0 {
+    grid-column-gap: 2rem;
+    grid-template-columns: minmax(auto,550px) minmax(auto,350px);
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:600px) {
+  .c5 {
+    grid-column: 2;
+    grid-row: 2 / 4;
+  }
+}
+
+<div
+  class="c0"
+>
+  <a
+    class="c1"
+    href="https://namo.london"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    Namo
+  </a>
+  <p
+    class="c2"
+  >
+    Mix AirBnB with Glassdoor
+  </p>
+  <div
+    class="c3"
+  >
+    <p
+      class="c4"
+    >
+      Namo was a project where I wanted to build an app to review and share rent for new-build flats in London. An apt description would have been a cross between AirBnB and Glassdoor.
+    </p>
+    <p
+      class="c4"
+    >
+      I decided to stop working on Namo after I realised that users would potentially only use the app once a year when they needed to move house.
+    </p>
+  </div>
+  <div
+    class="c5"
+  >
+    <h4
+      class="c6"
+    >
+      Features built:
+    </h4>
+    <ul
+      class="c7"
+    >
+      <li>
+        Sign in
+      </li>
+      <li>
+        CRUD Buildings + Reviews
+      </li>
+      <li>
+        Contact form
+      </li>
+    </ul>
+    <p
+      class="c8"
+    >
+      The last commit to this repo was on 
+      <span
+        class="c9"
+      >
+        22nd June 2019
+      </span>
+       and you can
+       
+      <a
+        class="c10"
+        href="https://github.com/D-Pagey/namo"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        view the code on Github
+      </a>
+      .
+    </p>
+  </div>
+</div>
+`;
