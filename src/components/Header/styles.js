@@ -20,3 +20,11 @@ export const Link = styled(NavLink)`
     text-decoration: none;
     text-transform: uppercase;
 `;
+
+export const Nav = styled.a`
+    color: initial;
+    cursor: pointer;
+    margin: 0 1rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
+`;

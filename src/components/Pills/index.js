@@ -2,9 +2,9 @@ import React from 'react';
 import { arrayOf, string } from 'prop-types';
 import * as S from './styles';
 
-const Pills = ({ items }) => {
+const Pills = ({ items, margin }) => {
     return (
-        <S.List>
+        <S.List margin={margin}>
             {items.map((item) => (
                 <S.Pill key={item}>{item}</S.Pill>
             ))}
@@ -13,7 +13,12 @@ const Pills = ({ items }) => {
 };
 
 Pills.propTypes = {
-    items: arrayOf(string).isRequired
+    items: arrayOf(string).isRequired,
+    margin: string
+};
+
+Pills.defaultProps = {
+    margin: ''
 };
 
 export default Pills;

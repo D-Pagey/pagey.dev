@@ -21,7 +21,7 @@ exports[`App component should render 1`] = `
   text-transform: uppercase;
 }
 
-.c3 {
+.c4 {
   color: initial;
   cursor: pointer;
   -webkit-text-decoration: none;
@@ -29,7 +29,16 @@ exports[`App component should render 1`] = `
   text-transform: uppercase;
 }
 
-.c9 {
+.c3 {
+  color: initial;
+  cursor: pointer;
+  margin: 0 1rem 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.c10 {
   border-top: 1px solid #f3f3f3;
   display: grid;
   grid-row-gap: 1rem;
@@ -37,43 +46,85 @@ exports[`App component should render 1`] = `
   padding: 1rem 0;
 }
 
-.c10 {
+.c11 {
   margin: 2rem 0 0;
 }
 
-.c11 {
+.c12 {
   margin: 0 0 1rem;
 }
 
-.c12 {
+.c13 {
   grid-row: 1;
   max-width: 400px;
+}
+
+.c15 {
+  max-width: 500px;
+}
+
+.c16 {
+  fill: skyblue;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.c16:hover {
+  fill: navy;
 }
 
 .c14 {
   max-width: 500px;
 }
 
-.c15 {
-  fill: skyblue;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.c15:hover {
-  fill: navy;
-}
-
-.c13 {
-  max-width: 500px;
-}
-
-.c8 {
-  margin: 2rem 0 1rem;
+.c9 {
+  margin: 2rem 0;
   width: 100%;
 }
 
-.c4 {
+.c20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.c21 {
+  background-color: #fbce63;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0 0.5rem 0.5rem;
+}
+
+.c17 {
+  border-top: 1px solid #f3f3f3;
+  padding: 2rem 0;
+}
+
+.c18 {
+  margin: 0 0 1rem;
+}
+
+.c19 {
+  margin: 0 0 1rem;
+}
+
+.c22 {
+  margin: 0 0 2rem;
+}
+
+.c23 {
+  color: blue;
+}
+
+.c5 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -88,18 +139,18 @@ exports[`App component should render 1`] = `
   padding: 2rem 0 0;
 }
 
-.c5 {
+.c6 {
   display: grid;
   max-width: 365px;
 }
 
-.c6 {
+.c7 {
   border-radius: 3px;
   margin: 0 auto;
   width: 325px;
 }
 
-.c7 {
+.c8 {
   margin: 1rem 0 0;
 }
 
@@ -110,7 +161,7 @@ exports[`App component should render 1`] = `
 }
 
 @media (min-width:700px) {
-  .c9 {
+  .c10 {
     grid-column-gap: 1rem;
     grid-template-columns: 1fr 400px;
     grid-template-rows: max-content;
@@ -119,14 +170,14 @@ exports[`App component should render 1`] = `
 }
 
 @media (min-width:700px) {
-  .c12 {
+  .c13 {
     grid-column: 2;
     grid-row: 1 / 3;
   }
 }
 
 @media (min-width:600px) {
-  .c5 {
+  .c6 {
     grid-column-gap: 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: max-content;
@@ -135,7 +186,7 @@ exports[`App component should render 1`] = `
 }
 
 @media (min-width:600px) {
-  .c6 {
+  .c7 {
     grid-row: 1 / 3;
   }
 }
@@ -153,64 +204,72 @@ exports[`App component should render 1`] = `
     >
       pagey
     </a>
-    <a
-      class="c3"
-      href="/cv"
-    >
-      cv
-    </a>
+    <div>
+      <a
+        class="c3"
+        href="#projects"
+      >
+        projects
+      </a>
+      <a
+        class="c4"
+        href="/cv"
+      >
+        cv
+      </a>
+    </div>
   </header>
   <div
-    class="c4"
+    class="c5"
     data-testid="pageHome"
   >
     <div
-      class="c5"
+      class="c6"
     >
       <img
         alt="pagey"
-        class="c6"
+        class="c7"
         src="pagey.jpg"
       />
       <p
-        class="c7"
+        class="c8"
       >
         Yo, my name is Dan, I'm a JavaScript Developer and I enjoy building apps to solve problems.
       </p>
       <p
-        class="c7"
+        class="c8"
       >
         I have always appreciated well done data visualisation and so I'm learning to use raw SVGs to build data visualisations within React apps. Hopefully, I can build something cool and interactive. Until then, this is my playground.
       </p>
     </div>
     <div
-      class="c8"
+      class="c9"
     >
       <div
-        class="c9"
+        class="c10"
       >
         <h4
-          class="c10"
+          class="c11"
         >
           Scatter Plot
         </h4>
         <div>
           <p
-            class="c11"
+            class="c12"
           >
             This is a fictitious scatter plot representing coffee consumption vs hours of sleep.
           </p>
           <p
-            class="c11"
+            class="c12"
           >
             At some point, I would like to actually track these data points and see if there is indeed a negative correlation.
           </p>
         </div>
         <div
-          class="c12"
+          class="c13"
         >
           <svg
-            class="c13"
+            class="c14"
             viewBox="0 0 500 400"
           >
             <line
@@ -348,30 +407,30 @@ exports[`App component should render 1`] = `
         </div>
       </div>
       <div
-        class="c9"
+        class="c10"
       >
         <h4
-          class="c10"
+          class="c11"
         >
           Gym Session Duration
         </h4>
         <div>
           <p
-            class="c11"
+            class="c12"
           >
             Here is a sample of my recent gym session durations in minutes.
           </p>
           <p
-            class="c11"
+            class="c12"
           >
             This bar chart was built with raw SVGs and only using the scale functions from the D3 library.
           </p>
         </div>
         <div
-          class="c12"
+          class="c13"
         >
           <svg
-            class="c14"
+            class="c15"
             viewBox="0 0 500 400"
           >
             <text
@@ -441,7 +500,7 @@ exports[`App component should render 1`] = `
             />
             <g>
               <rect
-                class="c15"
+                class="c16"
                 data-testid="barChart"
                 height="0"
                 rx="3"
@@ -458,7 +517,7 @@ exports[`App component should render 1`] = `
             </g>
             <g>
               <rect
-                class="c15"
+                class="c16"
                 data-testid="barChart"
                 height="0"
                 rx="3"
@@ -475,7 +534,7 @@ exports[`App component should render 1`] = `
             </g>
             <g>
               <rect
-                class="c15"
+                class="c16"
                 data-testid="barChart"
                 height="0"
                 rx="3"
@@ -492,7 +551,7 @@ exports[`App component should render 1`] = `
             </g>
             <g>
               <rect
-                class="c15"
+                class="c16"
                 data-testid="barChart"
                 height="0"
                 rx="3"
@@ -509,7 +568,7 @@ exports[`App component should render 1`] = `
             </g>
             <g>
               <rect
-                class="c15"
+                class="c16"
                 data-testid="barChart"
                 height="0"
                 rx="3"
@@ -526,7 +585,7 @@ exports[`App component should render 1`] = `
             </g>
             <g>
               <rect
-                class="c15"
+                class="c16"
                 data-testid="barChart"
                 height="0"
                 rx="3"
@@ -543,7 +602,7 @@ exports[`App component should render 1`] = `
             </g>
             <g>
               <rect
-                class="c15"
+                class="c16"
                 data-testid="barChart"
                 height="0"
                 rx="3"
@@ -560,7 +619,7 @@ exports[`App component should render 1`] = `
             </g>
             <g>
               <rect
-                class="c15"
+                class="c16"
                 data-testid="barChart"
                 height="0"
                 rx="3"
@@ -578,6 +637,80 @@ exports[`App component should render 1`] = `
           </svg>
         </div>
       </div>
+    </div>
+    <div
+      class="c17"
+      id="projects"
+    >
+      <h2
+        class="c18"
+      >
+        Projects
+      </h2>
+      <p
+        class="c19"
+      >
+        Here are some of my recent side projects that I work on in my free time. None of them are a "finished product" but I have learnt a lot from working on each one. In terms of tech, here is a list of my common tech stack and then I add technologies as and when I am trying to learn them.
+      </p>
+      <ul
+        class="c20"
+      >
+        <li
+          class="c21"
+        >
+          react
+        </li>
+        <li
+          class="c21"
+        >
+          node
+        </li>
+        <li
+          class="c21"
+        >
+          jest
+        </li>
+        <li
+          class="c21"
+        >
+          react-testing-library
+        </li>
+        <li
+          class="c21"
+        >
+          styled components
+        </li>
+        <li
+          class="c21"
+        >
+          storybook
+        </li>
+        <li
+          class="c21"
+        >
+          firebase
+        </li>
+        <li
+          class="c21"
+        >
+          typescript
+        </li>
+      </ul>
+      <p
+        class="c22"
+      >
+        If you would like to see the codebase for this website, perhaps to look at the data visualisation code above, then you can
+         
+        <a
+          class="c23"
+          href="https://github.com/D-Pagey/pagey.dev"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          view it on Github
+        </a>
+        .
+      </p>
     </div>
   </div>
 </div>

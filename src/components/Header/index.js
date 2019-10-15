@@ -1,13 +1,15 @@
 import React from 'react';
 import * as S from './styles';
 
-const Header = () => {
-    return (
-        <S.Header>
-            <S.Name to="/">pagey</S.Name>
+const Header = () => (
+    <S.Header>
+        <S.Name to="/">pagey</S.Name>
+
+        <div>
+            <S.Nav href="#projects">projects</S.Nav>
             <S.Link to="/cv">cv</S.Link>
-        </S.Header>
-    );
-};
+        </div>
+    </S.Header>
+);
 
 export default Header;
