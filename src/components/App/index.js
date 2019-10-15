@@ -5,20 +5,18 @@ import PageHome from '../PageHome';
 import PageCV from '../PageCV';
 import * as S from './styles';
 
-const App = () => {
-    return (
-        <BrowserRouter>
-            <S.Wrapper>
-                <S.GlobalStyle />
-                <Header />
+const App = () => (
+    <BrowserRouter>
+        <S.Wrapper>
+            <S.GlobalStyle />
+            <Header />
 
-                <Switch>
-                    <Route exact path="/" component={PageHome} />
-                    <Route path="/cv" component={PageCV} />
-                </Switch>
-            </S.Wrapper>
-        </BrowserRouter>
-    );
-};
+            <Switch>
+                <Route exact path="/" component={PageHome} />
+                <Route path="/cv" component={PageCV} />
+            </Switch>
+        </S.Wrapper>
+    </BrowserRouter>
+);
 
 export default App;
