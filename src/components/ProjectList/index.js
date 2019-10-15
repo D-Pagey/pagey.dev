@@ -7,34 +7,34 @@ import Project from '../Project';
 import * as S from './styles';
 
 const ProjectList = () => {
-    const [namo, setNamo] = useState();
-    const [pantry, setPantry] = useState();
-    const [heidan, setHeidan] = useState();
-
-    console.log({ heidan });
-
-    const fetchNamoData = async () => {
-        const { data } = await axios.get('https://api.github.com/repos/d-pagey/namo');
-
-        setNamo(data);
-    };
-
-    const fetchPantryData = async () => {
-        const { data } = await axios.get('https://api.github.com/repos/d-pagey/pantry');
-
-        setPantry(data);
-    };
-
-    const fetchHeidanData = async () => {
-        const { data } = await axios.get('https://api.github.com/repos/d-pagey/heidan');
-
-        setHeidan(data);
-    };
+    const [repos, setRepos] = useState();
 
     useEffect(() => {
-        fetchNamoData();
-        fetchPantryData();
-        fetchHeidanData();
+        const fetchRepoData = async () => {
+            const response = await Promise.all(
+                ['namo', 'pantry', 'heidan'].map(async (item) => {
+                    const { data } = await axios.get(`https://api.github.com/repos/d-pagey/${item}`);
+                    // eslint-disable-next-line camelcase
+                    const { html_url, description, name, pushed_at, homepage } = data;
+
+                    return {
+                        codeLink: html_url,
+                        description,
+                        name,
+                        updated: pushed_at,
+                        homepage
+                    };
+                })
+            );
+
+            setRepos({
+                [response[0].name]: response[0],
+                [response[1].name]: response[1],
+                [response[2].name]: response[2]
+            });
+        };
+
+        fetchRepoData();
     }, []);
 
     return (
@@ -69,44 +69,42 @@ const ProjectList = () => {
                 .
             </S.Summary>
 
-            {namo && (
-                <Project
-                    codeLink={namo.html_url}
-                    description="Namo was a project where I wanted to build an app to review and share rent for new-build flats in London. An
+            {repos && (
+                <>
+                    <Project
+                        codeLink={repos.namo.codeLink}
+                        description="Namo was a project where I wanted to build an app to review and share rent for new-build flats in London. An
             apt description would have been a cross between AirBnB and Glassdoor."
-                    features={['Authentication', 'CRUD Buildings + Reviews', 'Contact email submission form']}
-                    lastCommit={format(new Date(namo.pushed_at), 'do MMM yyy')}
-                    liveLink={namo.homepage}
-                    name={titleCase(namo.name)}
-                    status="I decided to stop working on Namo after I realised that users would potentially only use the app once a year when they needed to move house."
-                    summary={namo.description}
-                />
-            )}
+                        features={['Authentication', 'CRUD Buildings + Reviews', 'Contact email submission form']}
+                        lastCommit={format(new Date(repos.namo.updated), 'do MMM yyy')}
+                        liveLink={repos.namo.homepage}
+                        name={titleCase(repos.namo.name)}
+                        status="I decided to stop working on Namo after I realised that users would potentially only use the app once a year when they needed to move house."
+                        summary={repos.namo.description}
+                    />
 
-            {pantry && (
-                <Project
-                    codeLink={pantry.html_url}
-                    description="The idea of Pantry is to simply have a list of your fridge contents with expiry dates accessible on your phone."
-                    features={['CRD Foods']}
-                    lastCommit={format(new Date(pantry.pushed_at), 'do MMM yyy')}
-                    liveLink={pantry.homepage}
-                    name={titleCase(pantry.name)}
-                    status="I am currently working on Pantry and am using the project to learn TypeScript."
-                    summary={pantry.description}
-                />
-            )}
+                    <Project
+                        codeLink={repos.pantry.codeLink}
+                        description="The idea of Pantry is to simply have a list of your fridge contents with expiry dates accessible on your phone."
+                        features={['CRD Foods']}
+                        lastCommit={format(new Date(repos.pantry.updated), 'do MMM yyy')}
+                        liveLink={repos.pantry.homepage}
+                        name={titleCase(repos.pantry.name)}
+                        status="I am currently working on Pantry and am using the project to learn TypeScript."
+                        summary={repos.pantry.description}
+                    />
 
-            {heidan && (
-                <Project
-                    codeLink={heidan.html_url}
-                    description="This is a place to keep all the ideas you and your friends want to do, but haven't got round to yet"
-                    features={['Renders a dad joke from Golang server']}
-                    lastCommit={format(new Date(heidan.pushed_at), 'do MMM yyy')}
-                    liveLink={heidan.homepage}
-                    name={titleCase(heidan.name)}
-                    status="I'm currently working on Heidan with a Golang Developer and am also using this project to learn TypeScript."
-                    summary={heidan.description}
-                />
+                    <Project
+                        codeLink={repos.heidan.codeLink}
+                        description="This is a place to keep all the ideas you and your friends want to do, but haven't got round to yet"
+                        features={['Renders a dad joke from Golang server']}
+                        lastCommit={format(new Date(repos.heidan.updated), 'do MMM yyy')}
+                        liveLink={repos.heidan.homepage}
+                        name={titleCase(repos.heidan.name)}
+                        status="I'm currently working on Heidan with a Golang Developer and am also using this project to learn TypeScript."
+                        summary={repos.heidan.description}
+                    />
+                </>
             )}
         </S.Wrapper>
     );
