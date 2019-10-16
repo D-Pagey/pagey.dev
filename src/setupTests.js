@@ -6,6 +6,8 @@ import { Router } from 'react-router-dom';
 import { act } from 'react-dom/test-utils';
 import { createMemoryHistory } from 'history';
 
+jest.mock('axios');
+
 global.render = (ui) => {
     let queries;
 

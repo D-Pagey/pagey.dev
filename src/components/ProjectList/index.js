@@ -14,6 +14,7 @@ const ProjectList = () => {
             const response = await Promise.all(
                 ['namo', 'pantry', 'heidan'].map(async (item) => {
                     const { data } = await axios.get(`https://api.github.com/repos/d-pagey/${item}`);
+
                     // eslint-disable-next-line camelcase
                     const { html_url, description, name, pushed_at, homepage } = data;
 

@@ -3,7 +3,7 @@ import { arrayOf, string } from 'prop-types';
 import * as S from './styles';
 
 const Project = ({ codeLink, description, features, lastCommit, liveLink, name, status, summary }) => (
-    <S.Wrapper>
+    <S.Wrapper data-testid={`project-${name}`}>
         {/* add the external icon */}
         <S.TitleLink href={liveLink} target="_blank" rel="noopener noreferrer">
             {name}

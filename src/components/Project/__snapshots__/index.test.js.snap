@@ -75,6 +75,7 @@ exports[`Project component should render 1`] = `
 
 <div
   class="c0"
+  data-testid="project-Namo"
 >
   <a
     class="c1"

@@ -53,7 +53,8 @@
       "!src/index.js",
       "!src/setupTests.js",
       "!src/**/*.stories.js"
-    ]
+    ],
+    "resetMocks": true
   },
   "browserslist": {
     "production": [
