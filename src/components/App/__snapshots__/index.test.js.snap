@@ -32,10 +32,10 @@ exports[`App component should render 1`] = `
 .c3 {
   color: initial;
   cursor: pointer;
-  margin: 0 1rem 0;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
+  margin: 0 1rem 0 0;
 }
 
 .c10 {
@@ -207,7 +207,7 @@ exports[`App component should render 1`] = `
     <div>
       <a
         class="c3"
-        href="#projects"
+        href="/#projects"
       >
         projects
       </a>

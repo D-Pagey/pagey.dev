@@ -6,7 +6,9 @@ const Header = () => (
         <S.Name to="/">pagey</S.Name>
 
         <div>
-            <S.Nav href="#projects">projects</S.Nav>
+            <S.HashLink smooth to="/#projects">
+                projects
+            </S.HashLink>
             <S.Link to="/cv">cv</S.Link>
         </div>
     </S.Header>
