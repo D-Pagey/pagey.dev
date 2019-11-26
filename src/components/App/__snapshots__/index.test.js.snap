@@ -82,48 +82,6 @@ exports[`App component should render 1`] = `
   width: 100%;
 }
 
-.c20 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0 0 1rem;
-  padding: 0;
-}
-
-.c21 {
-  background-color: #fbce63;
-  border-radius: 5px;
-  font-size: 12px;
-  padding: 0.25rem 0.5rem;
-  margin: 0 0 0.5rem 0.5rem;
-}
-
-.c17 {
-  border-top: 1px solid #f3f3f3;
-  padding: 2rem 0;
-}
-
-.c18 {
-  margin: 0 0 1rem;
-}
-
-.c19 {
-  margin: 0 0 1rem;
-}
-
-.c22 {
-  margin: 0 0 2rem;
-}
-
-.c23 {
-  color: blue;
-}
-
 .c5 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -556,11 +514,11 @@ exports[`App component should render 1`] = `
                 height="0"
                 rx="3"
                 width="30"
-                x="221.42857142857142"
+                x="221.4285714285714"
                 y="365"
               />
               <text
-                x="229.42857142857142"
+                x="229.4285714285714"
                 y="380"
               >
                 3
@@ -637,80 +595,6 @@ exports[`App component should render 1`] = `
           </svg>
         </div>
       </div>
-    </div>
-    <div
-      class="c17"
-      id="projects"
-    >
-      <h2
-        class="c18"
-      >
-        Projects
-      </h2>
-      <p
-        class="c19"
-      >
-        Here are some of my recent side projects that I work on in my free time. None of them are a "finished product" but I have learnt a lot from working on each one. In terms of tech, here is a list of my common tech stack and then I add technologies as and when I am trying to learn them.
-      </p>
-      <ul
-        class="c20"
-      >
-        <li
-          class="c21"
-        >
-          react
-        </li>
-        <li
-          class="c21"
-        >
-          node
-        </li>
-        <li
-          class="c21"
-        >
-          jest
-        </li>
-        <li
-          class="c21"
-        >
-          react-testing-library
-        </li>
-        <li
-          class="c21"
-        >
-          styled components
-        </li>
-        <li
-          class="c21"
-        >
-          storybook
-        </li>
-        <li
-          class="c21"
-        >
-          firebase
-        </li>
-        <li
-          class="c21"
-        >
-          typescript
-        </li>
-      </ul>
-      <p
-        class="c22"
-      >
-        If you would like to see the codebase for this website, perhaps to look at the data visualisation code above, then you can
-         
-        <a
-          class="c23"
-          href="https://github.com/D-Pagey/pagey.dev"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          view it on Github
-        </a>
-        .
-      </p>
     </div>
   </div>
 </div>
