@@ -1,6 +1,6 @@
 import React from 'react';
 import ShowcaseList from '../ShowcaseList';
-import ProjectList from '../ProjectList';
+// import ProjectList from '../ProjectList';
 import pagey from './assets/pagey.jpg';
 import * as S from './styles';
 
@@ -21,7 +21,7 @@ const PageHome = () => (
         </S.IntroGrid>
 
         <ShowcaseList />
-        <ProjectList />
+        {/* <ProjectList /> */}
     </S.Wrapper>
 );
 
