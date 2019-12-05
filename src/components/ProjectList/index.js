@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { format } from 'date-fns';
-import { titleCase } from 'change-case';
+import { titleCase } from 'title-case';
 import Pills from '../Pills';
 import Project from '../Project';
 import * as S from './styles';
