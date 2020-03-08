@@ -19,7 +19,7 @@ const PageCV = () => (
         <S.List>
             <S.Item>
                 <S.CompanyLink href="https://deliveroo.co.uk" target="_blank">
-                    <S.Logo src={deliveroo} alt="deliveroo" />
+                    <S.Logo src={deliveroo} alt="deliveroo" height="auto" width="200px" />
                 </S.CompanyLink>
                 <S.FlexWrapper>
                     <S.JobTitle>Software Engineer, Web</S.JobTitle>

@@ -32,8 +32,8 @@ export const CompanyLink = styled.a`
 export const Logo = styled.img`
     display: block;
     margin: 0 auto;
-    height: 50px;
-    width: 150px;
+    height: ${({ height }) => height || '50px'};
+    width: ${({ width }) => width || '150px'};
 `;
 
 export const JobTitle = styled.h5`

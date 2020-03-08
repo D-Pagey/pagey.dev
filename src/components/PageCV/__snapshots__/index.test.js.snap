@@ -62,6 +62,13 @@ exports[`PageCV component should render 1`] = `
 .c5 {
   display: block;
   margin: 0 auto;
+  height: auto;
+  width: 200px;
+}
+
+.c11 {
+  display: block;
+  margin: 0 auto;
   height: 50px;
   width: 150px;
 }
@@ -76,7 +83,7 @@ exports[`PageCV component should render 1`] = `
   font-style: italic;
 }
 
-.c11 {
+.c12 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -91,16 +98,16 @@ exports[`PageCV component should render 1`] = `
   margin: 2rem 0 1rem;
 }
 
-.c12 {
+.c13 {
   margin: 0.5rem 0 0;
 }
 
-.c13 {
+.c14 {
   width: 125px;
 }
 
 @media (min-width:500px) {
-  .c12 {
+  .c13 {
     margin-top: 1rem;
   }
 }
@@ -132,7 +139,9 @@ exports[`PageCV component should render 1`] = `
         <img
           alt="deliveroo"
           class="c5"
+          height="auto"
           src="deliveroo.png"
+          width="200px"
         />
       </a>
       <div
@@ -197,7 +206,7 @@ exports[`PageCV component should render 1`] = `
       >
         <img
           alt="cytora"
-          class="c5"
+          class="c11"
           src="cytora.svg"
         />
       </a>
@@ -291,7 +300,7 @@ exports[`PageCV component should render 1`] = `
       >
         <img
           alt="drover"
-          class="c5"
+          class="c11"
           src="drover.svg"
         />
       </a>
@@ -375,7 +384,7 @@ exports[`PageCV component should render 1`] = `
       >
         <img
           alt="clearscore"
-          class="c5"
+          class="c11"
           src="clearscore.svg"
         />
       </a>
@@ -429,7 +438,7 @@ exports[`PageCV component should render 1`] = `
     </li>
   </ul>
   <div
-    class="c11"
+    class="c12"
   >
     <span
       class="c8"
@@ -437,14 +446,14 @@ exports[`PageCV component should render 1`] = `
       For further career history, check out my profile on: 
     </span>
     <a
-      class="c12"
+      class="c13"
       href="https://www.linkedin.com/in/dan-page/"
       rel="noopener noreferrer"
       target="_blank"
     >
       <img
         alt="linked in"
-        class="c13"
+        class="c14"
         src="LI-Logo.png"
       />
     </a>
