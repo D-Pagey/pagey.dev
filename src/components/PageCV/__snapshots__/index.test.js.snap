@@ -126,6 +126,72 @@ exports[`PageCV component should render 1`] = `
     >
       <a
         class="c4"
+        href="https://deliveroo.co.uk"
+        target="_blank"
+      >
+        <img
+          alt="deliveroo"
+          class="c5"
+          src="deliveroo.png"
+        />
+      </a>
+      <div
+        class="c6"
+      >
+        <h5
+          class="c7"
+        >
+          Software Engineer, Web
+        </h5>
+        <span
+          class="c8"
+        >
+          Jan '20 - Present
+        </span>
+      </div>
+      <p>
+        I have joined the Consumer Pricing team as a Software Engineer, to work on projects such as our consumer's perception of price or delivery areas for our restaurant partners.
+      </p>
+      <ul
+        class="c9"
+      >
+        <li
+          class="c10"
+        >
+          react
+        </li>
+        <li
+          class="c10"
+        >
+          redux
+        </li>
+        <li
+          class="c10"
+        >
+          jest
+        </li>
+        <li
+          class="c10"
+        >
+          enzyme
+        </li>
+        <li
+          class="c10"
+        >
+          css-modules
+        </li>
+        <li
+          class="c10"
+        >
+          circle ci
+        </li>
+      </ul>
+    </li>
+    <li
+      class="c3"
+    >
+      <a
+        class="c4"
         href="https://cytora.com/"
         target="_blank"
       >
@@ -146,7 +212,7 @@ exports[`PageCV component should render 1`] = `
         <span
           class="c8"
         >
-          May '19 - Present
+          May '19 - Jan '20
         </span>
       </div>
       <p>

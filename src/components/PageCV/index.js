@@ -1,5 +1,6 @@
 import React from 'react';
 import Pills from '../Pills';
+import deliveroo from './assets/deliveroo.png';
 import cytora from './assets/cytora.svg';
 import drover from './assets/drover.svg';
 import clearscore from './assets/clearscore.svg';
@@ -17,12 +18,29 @@ const PageCV = () => (
 
         <S.List>
             <S.Item>
+                <S.CompanyLink href="https://deliveroo.co.uk" target="_blank">
+                    <S.Logo src={deliveroo} alt="deliveroo" />
+                </S.CompanyLink>
+                <S.FlexWrapper>
+                    <S.JobTitle>Software Engineer, Web</S.JobTitle>
+                    <S.ItalicSpan>Jan &apos;20 - Present</S.ItalicSpan>
+                </S.FlexWrapper>
+
+                <p>
+                    I have joined the Consumer Pricing team as a Software Engineer, to work on projects such as our
+                    consumer&apos;s perception of price or delivery areas for our restaurant partners.
+                </p>
+
+                <Pills items={['react', 'redux', 'jest', 'enzyme', 'css-modules', 'circle ci']} />
+            </S.Item>
+
+            <S.Item>
                 <S.CompanyLink href="https://cytora.com/" target="_blank">
                     <S.Logo src={cytora} alt="cytora" />
                 </S.CompanyLink>
                 <S.FlexWrapper>
                     <S.JobTitle>Front End Engineer</S.JobTitle>
-                    <S.ItalicSpan>May &apos;19 - Present</S.ItalicSpan>
+                    <S.ItalicSpan>May &apos;19 - Jan &apos;20</S.ItalicSpan>
                 </S.FlexWrapper>
 
                 <p>
