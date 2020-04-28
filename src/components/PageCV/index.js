@@ -28,10 +28,11 @@ const PageCV = () => (
 
                 <p>
                     I have joined the Consumer Pricing team as a Software Engineer, to work on projects such as our
-                    consumer&apos;s perception of price or delivery areas for our restaurant partners.
+                    consumer&apos;s perception of price or delivery areas for our restaurant partners. In addition to my
+                    team&apos;s project work, I regularly contribute to our Design System and Component Libraries.
                 </p>
 
-                <Pills items={['react', 'redux', 'jest', 'enzyme', 'css-modules', 'circle ci']} />
+                <Pills items={['react', 'typescript', 'redux', 'jest', 'enzyme', 'css-modules', 'circle ci']} />
             </S.Item>
 
             <S.Item>

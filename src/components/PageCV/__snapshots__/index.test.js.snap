@@ -159,7 +159,7 @@ exports[`PageCV component should render 1`] = `
         </span>
       </div>
       <p>
-        I have joined the Consumer Pricing team as a Software Engineer, to work on projects such as our consumer's perception of price or delivery areas for our restaurant partners.
+        I have joined the Consumer Pricing team as a Software Engineer, to work on projects such as our consumer's perception of price or delivery areas for our restaurant partners. In addition to my team's project work, I regularly contribute to our Design System and Component Libraries.
       </p>
       <ul
         class="c9"
@@ -168,6 +168,11 @@ exports[`PageCV component should render 1`] = `
           class="c10"
         >
           react
+        </li>
+        <li
+          class="c10"
+        >
+          typescript
         </li>
         <li
           class="c10"
