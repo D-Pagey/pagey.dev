@@ -22,14 +22,25 @@ const PageCV = () => (
                     <S.Logo src={deliveroo} alt="deliveroo" height="auto" width="200px" />
                 </S.CompanyLink>
                 <S.FlexWrapper>
-                    <S.JobTitle>Software Engineer, Web</S.JobTitle>
+                    <S.JobTitle>Software Engineer</S.JobTitle>
                     <S.ItalicSpan>Jan &apos;20 - Present</S.ItalicSpan>
                 </S.FlexWrapper>
+                <p>
+                    I joined the Consumer Pricing team as a Software Engineer, our team works on anything to do with
+                    costs to our customers. This involves doing pieces of work in a variety of Deliveroo products and
+                    quickly getting to grips with the nuances of each team&apos;s project.
+                </p>
 
                 <p>
-                    I have joined the Consumer Pricing team as a Software Engineer, to work on projects such as our
-                    consumer&apos;s perception of price or delivery areas for our restaurant partners. In addition to my
-                    team&apos;s project work, I regularly contribute to our Design System and Component Libraries.
+                    I&apos;ve recently shipped a large project that allows our restaurant partners to set unique fees
+                    for different postcodes. I was the sole Front End Developer, and I was also involved in the ideation
+                    process, user-testing, managing the project prioritisation and workload within the team.
+                </p>
+
+                <p>
+                    Outside of my team&apos;s project work, I&apos;m involved in: implementing Cypress as an end-to-end
+                    testing library, advocating for better testing strategies, regularly contributing to our multiple
+                    component libraries and design systems, and addressing tech debt where appropriate.
                 </p>
 
                 <Pills items={['react', 'typescript', 'redux', 'jest', 'enzyme', 'css-modules', 'circle ci']} />
@@ -45,15 +56,15 @@ const PageCV = () => (
                 </S.FlexWrapper>
 
                 <p>
-                    I joined as the first Front End Developer to build out UIs from scratch on top of the API platform.
-                    I&apos;m also creating a reusable component library to enable multiple teams to build UIs quickly
-                    and consistently.
+                    I was hired to Cytora as the first Front End Developer to build out UIs from scratch on top of the
+                    API platform. In addition, I created a reusable component library to be able to build future UIs
+                    quickly and consistently.
                 </p>
 
                 <p>
-                    I have written and deployed Node cloud functions on Google Cloud Platform to abstract and aggregate
-                    API calls from the Front End. This empowered my team to release new features without relying on
-                    other teams to amend their microservices.
+                    I wrote and deployed Node cloud functions on Google Cloud Platform to abstract and aggregate API
+                    calls from the Front End. This empowered my team to release new features without relying on other
+                    teams to amend their microservices.
                 </p>
 
                 <Pills
@@ -82,16 +93,15 @@ const PageCV = () => (
                     <S.ItalicSpan>Sept &apos;18 - May &apos;19</S.ItalicSpan>
                 </S.FlexWrapper>
                 <p>
-                    I joined Drover as a Junior Front End Developer and my first project was working on rebuilding Ruby
-                    on Rails pages in React. The main learning curve came from using shared components that had no unit
-                    or integration tests, which made refactoring challenging.
+                    I joined Drover as a Junior Front End Developer and my first project was working solo on rebuilding
+                    Ruby on Rails pages into React. Whilst I was confident working in React, I quickly learnt how to
+                    work in a large codebase with lots of shared components (and minimal tests!).
                 </p>
 
                 <p>
-                    After 6 months I was promoted to a mid-level Developer and put on a 3 month greenfield project to
-                    rebuild the entire user booking flow. I was the flag bearer for doing more unit and integration
-                    testing and so I spent a lot of my free time learning about Jest, Enzyme, React-Testing-Library and
-                    Cypress.
+                    After 6 months I was promoted to a mid-level Developer position. I took advantage of working in a
+                    small team by suggesting and implementing improvements quickly. For example, I was the flag bearer
+                    for doing more integration and end-to-end testing for critical user flows.
                 </p>
 
                 <Pills
