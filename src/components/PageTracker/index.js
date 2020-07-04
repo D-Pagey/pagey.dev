@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Tracker } from './Tracker';
+import { Tracker } from '../Tracker';
 
 export const PageTracker = () => {
     const [andyData, setAndyData] = useState();
