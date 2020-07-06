@@ -2,6 +2,10 @@ import React from 'react';
 import { format } from 'date-fns';
 import { arrayOf, shape, string } from 'prop-types';
 
+import { getColourFromDate } from '../../utils';
+
+import * as S from './styles';
+
 export const Tracker = ({ details, name }) => (
     <div>
         <h2>{name} Github Data</h2>
@@ -23,7 +27,12 @@ export const Tracker = ({ details, name }) => (
                                 {payload.commits[0].message}
                             </a>
                         </p>
-                        <p>Date: {format(new Date(created_at), 'do MMMM yyyy k:mm')}</p>
+                        <p>
+                            Date:{' '}
+                            <S.Date color={getColourFromDate(created_at)}>
+                                {format(new Date(created_at), 'do MMMM yyyy k:mm')}
+                            </S.Date>
+                        </p>
                     </li>
                 );
             })}

@@ -1,6 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Tracker component should render 1`] = `
+.c0 {
+  color: red;
+}
+
 <div>
   <h2>
     Andy
@@ -24,8 +28,14 @@ exports[`Tracker component should render 1`] = `
         </a>
       </p>
       <p>
-        Date: 
-        2nd July 2020 20:11
+        Date:
+         
+        <span
+          class="c0"
+          color="red"
+        >
+          2nd July 2020 20:11
+        </span>
       </p>
     </li>
   </ul>

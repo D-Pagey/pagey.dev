@@ -40,6 +40,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --verbose --coverage --no-cache --watchAll=false",
+    "test:watch": "react-scripts test --verbose",
     "eject": "react-scripts eject",
     "lint": "eslint ./src/**/*.js && stylelint ./src/**/*.js",
     "storybook": "start-storybook -p 9009 -s public",
