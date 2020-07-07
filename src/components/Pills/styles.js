@@ -4,6 +4,7 @@ export const List = styled.ul`
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    justify-content: center;
     margin: ${({ margin }) => margin};
     padding: 0;
 `;

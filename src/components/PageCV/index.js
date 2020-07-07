@@ -1,5 +1,6 @@
 import React from 'react';
 import Pills from '../Pills';
+import memrise from './assets/memrise.png'
 import deliveroo from './assets/deliveroo.png';
 import cytora from './assets/cytora.svg';
 import drover from './assets/drover.svg';
@@ -18,12 +19,28 @@ const PageCV = () => (
 
         <S.List>
             <S.Item>
+                <S.CompanyLink href="https://www.memrise.com/" target="_blank">
+                    <S.Logo src={memrise} alt="memrise" height="75px" width="auto" />
+                </S.CompanyLink>
+                <S.FlexWrapper>
+                    <S.JobTitle>Software Engineer</S.JobTitle>
+                    <S.ItalicSpan>July &apos;20 - Present</S.ItalicSpan>
+                </S.FlexWrapper>
+                <p>
+                    I have joined the Web team to help the web experience have feature parity with the native mobile
+                    experience.
+                </p>
+                <Pills items={['react', 'typescript', 'styled components', 'jest', 'react-testing-library']} />
+            </S.Item>
+
+
+            <S.Item>
                 <S.CompanyLink href="https://deliveroo.co.uk" target="_blank">
                     <S.Logo src={deliveroo} alt="deliveroo" height="auto" width="200px" />
                 </S.CompanyLink>
                 <S.FlexWrapper>
                     <S.JobTitle>Software Engineer</S.JobTitle>
-                    <S.ItalicSpan>Jan &apos;20 - Present</S.ItalicSpan>
+                    <S.ItalicSpan>Jan &apos;20 - July</S.ItalicSpan>
                 </S.FlexWrapper>
                 <p>
                     I joined the Consumer Pricing team as a Software Engineer, our team works on anything to do with
