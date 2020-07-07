@@ -229,7 +229,7 @@ exports[`PageCV component should render 1`] = `
         <span
           class="c8"
         >
-          Jan '20 - July
+          Jan '20 - July '20
         </span>
       </div>
       <p>
