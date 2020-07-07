@@ -10,6 +10,10 @@ exports[`PageCV component should render 1`] = `
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   list-style: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 0;
 }
 
@@ -62,11 +66,18 @@ exports[`PageCV component should render 1`] = `
 .c5 {
   display: block;
   margin: 0 auto;
+  height: 75px;
+  width: auto;
+}
+
+.c11 {
+  display: block;
+  margin: 0 auto;
   height: auto;
   width: 200px;
 }
 
-.c11 {
+.c12 {
   display: block;
   margin: 0 auto;
   height: 50px;
@@ -83,7 +94,7 @@ exports[`PageCV component should render 1`] = `
   font-style: italic;
 }
 
-.c12 {
+.c13 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -98,16 +109,16 @@ exports[`PageCV component should render 1`] = `
   margin: 2rem 0 1rem;
 }
 
-.c13 {
+.c14 {
   margin: 0.5rem 0 0;
 }
 
-.c14 {
+.c15 {
   width: 125px;
 }
 
 @media (min-width:500px) {
-  .c13 {
+  .c14 {
     margin-top: 1rem;
   }
 }
@@ -133,12 +144,75 @@ exports[`PageCV component should render 1`] = `
     >
       <a
         class="c4"
+        href="https://www.memrise.com/"
+        target="_blank"
+      >
+        <img
+          alt="memrise"
+          class="c5"
+          height="75px"
+          src="memrise.png"
+          width="auto"
+        />
+      </a>
+      <div
+        class="c6"
+      >
+        <h5
+          class="c7"
+        >
+          Software Engineer
+        </h5>
+        <span
+          class="c8"
+        >
+          July '20 - Present
+        </span>
+      </div>
+      <p>
+        I have joined the Web team to help the web experience have feature parity with the native mobile experience.
+      </p>
+      <ul
+        class="c9"
+      >
+        <li
+          class="c10"
+        >
+          react
+        </li>
+        <li
+          class="c10"
+        >
+          typescript
+        </li>
+        <li
+          class="c10"
+        >
+          styled components
+        </li>
+        <li
+          class="c10"
+        >
+          jest
+        </li>
+        <li
+          class="c10"
+        >
+          react-testing-library
+        </li>
+      </ul>
+    </li>
+    <li
+      class="c3"
+    >
+      <a
+        class="c4"
         href="https://deliveroo.co.uk"
         target="_blank"
       >
         <img
           alt="deliveroo"
-          class="c5"
+          class="c11"
           height="auto"
           src="deliveroo.png"
           width="200px"
@@ -155,7 +229,7 @@ exports[`PageCV component should render 1`] = `
         <span
           class="c8"
         >
-          Jan '20 - Present
+          Jan '20 - July
         </span>
       </div>
       <p>
@@ -217,7 +291,7 @@ exports[`PageCV component should render 1`] = `
       >
         <img
           alt="cytora"
-          class="c11"
+          class="c12"
           src="cytora.svg"
         />
       </a>
@@ -311,7 +385,7 @@ exports[`PageCV component should render 1`] = `
       >
         <img
           alt="drover"
-          class="c11"
+          class="c12"
           src="drover.svg"
         />
       </a>
@@ -395,7 +469,7 @@ exports[`PageCV component should render 1`] = `
       >
         <img
           alt="clearscore"
-          class="c11"
+          class="c12"
           src="clearscore.svg"
         />
       </a>
@@ -449,7 +523,7 @@ exports[`PageCV component should render 1`] = `
     </li>
   </ul>
   <div
-    class="c12"
+    class="c13"
   >
     <span
       class="c8"
@@ -457,14 +531,14 @@ exports[`PageCV component should render 1`] = `
       For further career history, check out my profile on: 
     </span>
     <a
-      class="c13"
+      class="c14"
       href="https://www.linkedin.com/in/dan-page/"
       rel="noopener noreferrer"
       target="_blank"
     >
       <img
         alt="linked in"
-        class="c14"
+        class="c15"
         src="LI-Logo.png"
       />
     </a>

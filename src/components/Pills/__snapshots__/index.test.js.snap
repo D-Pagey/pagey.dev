@@ -10,6 +10,10 @@ exports[`Pill component should render 1`] = `
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   list-style: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 0;
 }
 
