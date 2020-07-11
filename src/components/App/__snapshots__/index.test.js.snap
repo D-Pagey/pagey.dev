@@ -27,6 +27,11 @@ exports[`App component should render 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
+  margin: 0 0 0 1rem;
+}
+
+.c3:first-child {
+  margin: 0;
 }
 
 .c9 {
@@ -159,6 +164,18 @@ exports[`App component should render 1`] = `
         href="/cv"
       >
         cv
+      </a>
+      <a
+        class="c3"
+        href="/tracker"
+      >
+        tracker
+      </a>
+      <a
+        class="c3"
+        href="/checklist"
+      >
+        checklist
       </a>
     </div>
   </header>

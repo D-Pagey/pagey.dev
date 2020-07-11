@@ -8,7 +8,7 @@ import clearscore from './assets/clearscore.svg';
 import LinkedInLogo from './assets/LI-Logo.png';
 import * as S from './styles';
 
-const PageCV = () => (
+export const PageCV = () => (
     <S.Wrapper data-testid="pageCV">
         <S.Title>Dan Page</S.Title>
 
@@ -173,5 +173,3 @@ const PageCV = () => (
         </S.LinkedInLinkWrapper>
     </S.Wrapper>
 );
-
-export default PageCV;

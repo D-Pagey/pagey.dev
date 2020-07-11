@@ -3,7 +3,7 @@ import ShowcaseList from '../ShowcaseList';
 import pagey from './assets/pagey.jpg';
 import * as S from './styles';
 
-const PageHome = () => (
+export const PageHome = () => (
     <S.Wrapper data-testid="pageHome">
         <S.IntroGrid>
             <S.Image src={pagey} alt="pagey" />
@@ -22,5 +22,3 @@ const PageHome = () => (
         <ShowcaseList />
     </S.Wrapper>
 );
-
-export default PageHome;

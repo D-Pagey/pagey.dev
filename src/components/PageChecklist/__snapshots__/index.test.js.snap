@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageChecklist component should render 1`] = `
+<div>
+  <h1>
+    React Developer Checklist
+  </h1>
+  <h2>
+    Building the UI natively
+  </h2>
+  <ul>
+    <li>
+      strong semantic HTML
+    </li>
+    <li>
+      strong layout CSS flexbox + grid
+    </li>
+  </ul>
+  <h2>
+    Getting Data
+  </h2>
+  <ul>
+    <li>
+      Understand how APIs work
+    </li>
+    <li>
+      basic HTTP codes: 404, 403, 200
+    </li>
+    <li>
+      GET, POST, PUT, DELETE
+    </li>
+    <li>
+      understand various authenticating APIs
+    </li>
+    <li>
+      understanding async JS works (promises)
+    </li>
+    <li>
+      error handling
+    </li>
+  </ul>
+  <h2>
+    React
+  </h2>
+  <ul>
+    <li>
+      Props & state
+    </li>
+    <li>
+      components: composition over inheritance
+    </li>
+    <li>
+      hooks
+    </li>
+    <li>
+      global state management
+    </li>
+    <li>
+      reducer / action pattern (Redux)
+    </li>
+    <li>
+      basic lifecycle (ComponentDidMount, old state)
+    </li>
+    <li>
+      CSS in JS / styled components
+    </li>
+  </ul>
+  <h2>
+    Testing
+  </h2>
+  <ul>
+    <li>
+      React Testing Library
+    </li>
+    <li>
+      Mocking
+    </li>
+    <li>
+      methodology: implementation details vs as user
+    </li>
+    <li>
+      integration testing vs unit vs e2e
+    </li>
+  </ul>
+  <h2>
+    JavaScript
+  </h2>
+  <ul>
+    <li>
+      array manipulation - codewars
+    </li>
+    <li>
+      object manipulation - codewars
+    </li>
+    <li>
+      map/filter/[reduce] - for loops
+    </li>
+    <li>
+      ES6: arrow funds, destructuring etc
+    </li>
+  </ul>
+  <h2>
+    Git
+  </h2>
+  <ul>
+    <li>
+      git add, git commit, git fetch, git pull
+    </li>
+    <li>
+      updated a branch - git rebase, git merge
+    </li>
+    <li>
+      branching
+    </li>
+    <li>
+      PRs
+    </li>
+    <li>
+      Forking
+    </li>
+  </ul>
+  <h2>
+    Basic Fullstack
+  </h2>
+  <ul>
+    <li>
+      Manage a database
+    </li>
+    <li>
+      Serverless funcs
+    </li>
+  </ul>
+  <h2>
+    Misc
+  </h2>
+  <ul>
+    <li>
+      Storybook
+    </li>
+    <li>
+      Command Line
+    </li>
+  </ul>
+</div>
+`;

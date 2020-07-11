@@ -20,6 +20,11 @@ export const Link = styled(NavLink)`
     cursor: pointer;
     text-decoration: none;
     text-transform: uppercase;
+    margin: 0 0 0 1rem;
+
+    &:first-child {
+        margin: 0;
+    }
 `;
 
 export const HashLink = styled(RouterHashLink)`
