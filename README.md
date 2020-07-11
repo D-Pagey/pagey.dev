@@ -2,7 +2,7 @@
 
 # Pagey.dev
 
-This is the repo for my current website which I am using as a playground to learn more about building data visualisations. 
+This is the repo for my current website which I am using as a playground to learn more about building data visualisations.
 
 The charts are built with SVGs, `react-spring` for animation and `d3-scale` for the linear scale.
 
@@ -13,3 +13,11 @@ The charts are built with SVGs, `react-spring` for animation and `d3-scale` for 
 - `yarn test` run the test suite
 - `yarn lint` to lint the project
 - `yarn storybook` run Storybook to see the component library
+
+#### To Do:
+
+- Build card component
+- Add checkboxes to checklist
+- Style tracker
+- Style checklist
+- Explain the pages a bit

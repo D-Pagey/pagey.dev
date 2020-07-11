@@ -1,5 +1,5 @@
 import React from 'react';
-import PageCV from '.';
+import { PageCV } from '.';
 
 describe('PageCV component', () => {
     it('should render', () => {
