@@ -25,38 +25,8 @@ exports[`PageCV component should render 1`] = `
   margin: 0 0 0.5rem 0.5rem;
 }
 
-.c0 {
-  margin: 0 auto;
-  max-width: 600px;
-}
-
-.c1 {
-  font-family: 'Merriweather',serif;
-}
-
-.c2 {
-  list-style: none;
-  padding: 0;
-}
-
 .c3 {
   margin: 2rem 0 0;
-}
-
-.c6 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  margin: 1rem 0 0;
 }
 
 .c4 {
@@ -84,6 +54,22 @@ exports[`PageCV component should render 1`] = `
   width: 150px;
 }
 
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1rem 0 0;
+}
+
 .c7 {
   font-weight: 600;
   font-size: 1.125rem;
@@ -91,6 +77,24 @@ exports[`PageCV component should render 1`] = `
 }
 
 .c8 {
+  font-style: italic;
+}
+
+.c0 {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.c1 {
+  font-family: 'Merriweather',serif;
+}
+
+.c2 {
+  list-style: none;
+  padding: 0;
+}
+
+.c14 {
   font-style: italic;
 }
 
@@ -109,16 +113,16 @@ exports[`PageCV component should render 1`] = `
   margin: 2rem 0 1rem;
 }
 
-.c14 {
+.c15 {
   margin: 0.5rem 0 0;
 }
 
-.c15 {
+.c16 {
   width: 125px;
 }
 
 @media (min-width:500px) {
-  .c14 {
+  .c15 {
     margin-top: 1rem;
   }
 }
@@ -292,7 +296,9 @@ exports[`PageCV component should render 1`] = `
         <img
           alt="cytora"
           class="c12"
+          height=""
           src="cytora.svg"
+          width=""
         />
       </a>
       <div
@@ -386,7 +392,9 @@ exports[`PageCV component should render 1`] = `
         <img
           alt="drover"
           class="c12"
+          height=""
           src="drover.svg"
+          width=""
         />
       </a>
       <div
@@ -470,7 +478,9 @@ exports[`PageCV component should render 1`] = `
         <img
           alt="clearscore"
           class="c12"
+          height=""
           src="clearscore.svg"
+          width=""
         />
       </a>
       <div
@@ -526,19 +536,19 @@ exports[`PageCV component should render 1`] = `
     class="c13"
   >
     <span
-      class="c8"
+      class="c14"
     >
       For further career history, check out my profile on: 
     </span>
     <a
-      class="c14"
+      class="c15"
       href="https://www.linkedin.com/in/dan-page/"
       rel="noopener noreferrer"
       target="_blank"
     >
       <img
         alt="linked in"
-        class="c15"
+        class="c16"
         src="LI-Logo.png"
       />
     </a>

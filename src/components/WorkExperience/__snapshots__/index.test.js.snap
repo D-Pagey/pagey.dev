@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WorkExperience component should render 1`] = `
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.c7 {
+  background-color: #fbce63;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0 0.5rem 0.5rem;
+}
+
+.c0 {
+  margin: 2rem 0 0;
+}
+
+.c1 {
+  cursor: pointer;
+}
+
+.c2 {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 200px;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1rem 0 0;
+}
+
+.c4 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+.c5 {
+  font-style: italic;
+}
+
+<li
+  class="c0"
+>
+  <a
+    class="c1"
+    href="https://deliveroo.co.uk"
+    target="_blank"
+  >
+    <img
+      alt="deliveroo"
+      class="c2"
+      height="auto"
+      src="deliveroo.png"
+      width="200px"
+    />
+  </a>
+  <div
+    class="c3"
+  >
+    <h5
+      class="c4"
+    >
+      Software Engineer
+    </h5>
+    <span
+      class="c5"
+    >
+      Jan '20 - July '20
+    </span>
+  </div>
+  <p>
+    I joined the Consumer Pricing team as a Software Engineer, our team works on anything to do with costs to our customers. This involves doing pieces of work in a variety of Deliveroo products and quickly getting to grips with the nuances of each team's project.
+  </p>
+  <p>
+    I've recently shipped a large project that allows our restaurant partners to set unique fees for different postcodes. I was the sole Front End Developer, and I was also involved in the ideation process, user-testing, managing the project prioritisation and workload within the team.
+  </p>
+  <p>
+    Outside of my team's project work, I'm involved in: implementing Cypress as an end-to-end testing library, advocating for better testing strategies, regularly contributing to our multiple component libraries and design systems, and addressing tech debt where appropriate.
+  </p>
+  <ul
+    class="c6"
+  >
+    <li
+      class="c7"
+    >
+      react
+    </li>
+    <li
+      class="c7"
+    >
+      typescript
+    </li>
+    <li
+      class="c7"
+    >
+      redux
+    </li>
+    <li
+      class="c7"
+    >
+      jest
+    </li>
+    <li
+      class="c7"
+    >
+      enzyme
+    </li>
+    <li
+      class="c7"
+    >
+      css-modules
+    </li>
+    <li
+      class="c7"
+    >
+      circle ci
+    </li>
+  </ul>
+</li>
+`;
