@@ -1,143 +1,307 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`PageChecklist component should render 1`] = `
+.c0 {
+  font-size: 1.2rem;
+  margin: 1rem 0 2rem;
+}
+
+.c1 {
+  margin: 0;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.c2 {
+  margin: 0 1rem 0 0;
+}
+
 <div>
   <h1>
     React Developer Checklist
   </h1>
+  <p
+    class="c0"
+  >
+    An opinionated checklist of topics that one should be familiar with when aspiring to be a Front End Developer. This is to be used to form the basis of a focussed learning curriculum.
+  </p>
   <h2>
     Building the UI natively
   </h2>
-  <ul>
+  <ul
+    class="c1"
+  >
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       strong semantic HTML
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       strong layout CSS flexbox + grid
     </li>
   </ul>
   <h2>
     Getting Data
   </h2>
-  <ul>
+  <ul
+    class="c1"
+  >
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       Understand how APIs work
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       basic HTTP codes: 404, 403, 200
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       GET, POST, PUT, DELETE
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       understand various authenticating APIs
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       understanding async JS works (promises)
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       error handling
     </li>
   </ul>
   <h2>
     React
   </h2>
-  <ul>
+  <ul
+    class="c1"
+  >
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       Props & state
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       components: composition over inheritance
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       hooks
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       global state management
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       reducer / action pattern (Redux)
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       basic lifecycle (ComponentDidMount, old state)
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       CSS in JS / styled components
     </li>
   </ul>
   <h2>
     Testing
   </h2>
-  <ul>
+  <ul
+    class="c1"
+  >
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       React Testing Library
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       Mocking
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       methodology: implementation details vs as user
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       integration testing vs unit vs e2e
     </li>
   </ul>
   <h2>
     JavaScript
   </h2>
-  <ul>
+  <ul
+    class="c1"
+  >
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       array manipulation - codewars
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       object manipulation - codewars
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       map/filter/[reduce] - for loops
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       ES6: arrow funds, destructuring etc
     </li>
   </ul>
   <h2>
     Git
   </h2>
-  <ul>
+  <ul
+    class="c1"
+  >
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       git add, git commit, git fetch, git pull
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       updated a branch - git rebase, git merge
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       branching
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       PRs
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       Forking
     </li>
   </ul>
   <h2>
     Basic Fullstack
   </h2>
-  <ul>
+  <ul
+    class="c1"
+  >
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       Manage a database
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       Serverless funcs
     </li>
   </ul>
   <h2>
     Misc
   </h2>
-  <ul>
+  <ul
+    class="c1"
+  >
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       Storybook
     </li>
     <li>
+      <input
+        class="c2"
+        type="checkbox"
+      />
       Command Line
     </li>
   </ul>
