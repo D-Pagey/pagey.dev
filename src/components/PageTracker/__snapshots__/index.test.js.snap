@@ -3,16 +3,26 @@
 exports[`PageTracker component should render 1`] = `
 .c0 {
   margin: 0;
-  padding: 0 0 2rem;
+  padding: 0 0 1rem;
 }
 
 .c1 {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 1rem 0 2rem;
+}
+
+.c2 {
+  color: blue;
+}
+
+.c3 {
   display: grid;
   grid-gap: 2rem;
 }
 
 @media (min-width:768px) {
-  .c1 {
+  .c3 {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
   }
@@ -24,8 +34,34 @@ exports[`PageTracker component should render 1`] = `
   >
     Github Tracking
   </h1>
-  <div
+  <p
     class="c1"
+  >
+    Two of my best mates,
+     
+    <a
+      class="c2"
+      href="https://www.linkedin.com/in/andyhuynh1/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Andy
+    </a>
+     
+    and
+     
+    <a
+      class="c2"
+      href="https://www.linkedin.com/in/joe-hunt-75a435a0/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Joe
+    </a>
+    , are learning to code. This page allows me to shout at them when they aren't coding enough.
+  </p>
+  <div
+    class="c3"
   />
 </div>
 `;

@@ -37,6 +37,18 @@ export const PageTracker = () => {
         <div>
             <S.Title>Github Tracking</S.Title>
 
+            <S.Text>
+                Two of my best mates,{' '}
+                <S.Link href="https://www.linkedin.com/in/andyhuynh1/" target="_blank" rel="noopener noreferrer">
+                    Andy
+                </S.Link>{' '}
+                and{' '}
+                <S.Link href="https://www.linkedin.com/in/joe-hunt-75a435a0/" target="_blank" rel="noopener noreferrer">
+                    Joe
+                </S.Link>
+                , are learning to code. This page allows me to shout at them when they aren&apos;t coding enough.
+            </S.Text>
+
             <S.TrackerWrapper>
                 {andyData && <Tracker details={andyData} name="Andy" />}
                 {huntData && <Tracker details={huntData} name="Joe" />}
