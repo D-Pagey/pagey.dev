@@ -1,6 +1,5 @@
 import styled from 'styled-components/macro';
 import { NavLink } from 'react-router-dom';
-import { HashLink as RouterHashLink } from 'react-router-hash-link';
 
 export const Header = styled.header`
     display: flex;
@@ -25,12 +24,4 @@ export const Link = styled(NavLink)`
     &:first-child {
         margin: 0;
     }
-`;
-
-export const HashLink = styled(RouterHashLink)`
-    color: initial;
-    cursor: pointer;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 0 1rem 0 0;
 `;
