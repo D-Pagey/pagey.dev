@@ -3,12 +3,11 @@ import { format } from 'date-fns';
 import { arrayOf, shape, string } from 'prop-types';
 
 import { getColourFromDate } from '../../utils';
-
 import * as S from './styles';
 
 export const Tracker = ({ details, name }) => (
-    <div>
-        <h2>{name} Github Data</h2>
+    <S.Wrapper>
+        <S.Title>{name}&apos;s Latest Commits</S.Title>
         <ul>
             {details.map((commit) => {
                 // eslint-disable-next-line camelcase
@@ -37,7 +36,7 @@ export const Tracker = ({ details, name }) => (
                 );
             })}
         </ul>
-    </div>
+    </S.Wrapper>
 );
 
 Tracker.propTypes = {

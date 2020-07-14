@@ -2,13 +2,31 @@
 
 exports[`Tracker component should render 1`] = `
 .c0 {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.c1 {
+  margin: 0;
+  padding: 0.5rem 0 1rem;
+  text-align: center;
+}
+
+.c2 {
   color: red;
 }
 
-<div>
-  <h2>
+<div
+  class="c0"
+>
+  <h2
+    class="c1"
+  >
     Andy
-     Github Data
+    's Latest Commits
   </h2>
   <ul>
     <li>
@@ -31,7 +49,7 @@ exports[`Tracker component should render 1`] = `
         Date:
          
         <span
-          class="c0"
+          class="c2"
           color="red"
         >
           2nd July 2020 20:11

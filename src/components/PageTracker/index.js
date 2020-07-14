@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+
 import { Tracker } from '../Tracker';
+import * as S from './styles';
 
 export const PageTracker = () => {
     const [andyData, setAndyData] = useState();
@@ -33,11 +35,12 @@ export const PageTracker = () => {
 
     return (
         <div>
-            <h1>Tracker page</h1>
-            <h2>Keeping track of Andy + Joe&apos;s github work</h2>
+            <S.Title>Github Tracking</S.Title>
 
-            {andyData && <Tracker details={andyData} name="Andy" />}
-            {huntData && <Tracker details={huntData} name="Joe" />}
+            <S.TrackerWrapper>
+                {andyData && <Tracker details={andyData} name="Andy" />}
+                {huntData && <Tracker details={huntData} name="Joe" />}
+            </S.TrackerWrapper>
         </div>
     );
 };
