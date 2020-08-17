@@ -171,12 +171,6 @@ exports[`App component should render 1`] = `
       >
         tracker
       </a>
-      <a
-        class="c3"
-        href="/checklist"
-      >
-        checklist
-      </a>
     </div>
   </header>
   <div
