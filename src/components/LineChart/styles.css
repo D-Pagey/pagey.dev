@@ -1,0 +1,13 @@
+.line {
+    fill: none;
+    stroke: green;
+    stroke-width: 4;
+}
+
+.area {
+    fill: rgb(154, 245, 154);
+}
+
+.dot {
+    cursor: pointer;
+}

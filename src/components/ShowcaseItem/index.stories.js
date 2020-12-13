@@ -1,6 +1,6 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
 import BarChart from '../BarChart';
+import { LineChart } from '../LineChart';
 import ShowcaseItem from '.';
 
 const props = {
@@ -9,4 +9,17 @@ const props = {
     title: 'Showcase Title'
 };
 
-storiesOf('ShowcaseItem', module).add('default', () => <ShowcaseItem {...props} />);
+export default {
+    title: 'ShowcaseItem',
+    component: ShowcaseItem
+};
+
+export const bar = () => <ShowcaseItem {...props} />;
+
+const lineProps = {
+    description: ['A description of the showcase', 'Another paragraph'],
+    thumbnail: <LineChart />,
+    title: 'Showcase Title'
+};
+
+export const line = () => <ShowcaseItem {...lineProps} />;
