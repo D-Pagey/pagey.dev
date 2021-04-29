@@ -3,12 +3,25 @@ import deliveroo from './assets/deliveroo.png';
 import cytora from './assets/cytora.svg';
 import drover from './assets/drover.svg';
 import clearscore from './assets/clearscore.svg';
+import titan from './assets/titan.png';
 
 export default [
     {
-        dates: `July '20 - Present`,
+        dates: `May '21 - Present`,
+        description: ['I joined as the 3rd full time employee to build the core product.'],
+        height: '75px',
+        imageAlt: 'titanAcademy',
+        image: titan,
+        jobTitle: 'Lead Front End Engineer',
+        technologies: ['react', 'typescript', 'styled components', 'jest', 'react-testing-library'],
+        website: 'https://www.tracktitan.io/',
+        width: 'auto'
+    },
+    {
+        dates: `July '20 - April '21`,
         description: [
-            'I have joined the Web team to help the web experience have feature parity with the native mobile experience.'
+            'I joined as the 4th developer in the Web team to rebuild the learning sessions from a Python/Django app into React and TypeScript. The overall goal was to allow the web experience to gain feature parity with the native mobile experience, which had previously been a priority.',
+            'I also fundamentally changed how the tech team reviewed code, changing the priority to be about shipping frequently and often.'
         ],
         height: '75px',
         imageAlt: 'memrise',
