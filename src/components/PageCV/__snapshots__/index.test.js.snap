@@ -148,6 +148,69 @@ exports[`PageCV component should render 1`] = `
     >
       <a
         class="c4"
+        href="https://www.tracktitan.io/"
+        target="_blank"
+      >
+        <img
+          alt="titanAcademy"
+          class="c5"
+          height="75px"
+          src="titan.png"
+          width="auto"
+        />
+      </a>
+      <div
+        class="c6"
+      >
+        <h5
+          class="c7"
+        >
+          Lead Front End Engineer
+        </h5>
+        <span
+          class="c8"
+        >
+          May '21 - Present
+        </span>
+      </div>
+      <p>
+        I joined as the 3rd full time employee to build the core product.
+      </p>
+      <ul
+        class="c9"
+      >
+        <li
+          class="c10"
+        >
+          react
+        </li>
+        <li
+          class="c10"
+        >
+          typescript
+        </li>
+        <li
+          class="c10"
+        >
+          styled components
+        </li>
+        <li
+          class="c10"
+        >
+          jest
+        </li>
+        <li
+          class="c10"
+        >
+          react-testing-library
+        </li>
+      </ul>
+    </li>
+    <li
+      class="c3"
+    >
+      <a
+        class="c4"
         href="https://www.memrise.com/"
         target="_blank"
       >
@@ -170,11 +233,14 @@ exports[`PageCV component should render 1`] = `
         <span
           class="c8"
         >
-          July '20 - Present
+          July '20 - April '21
         </span>
       </div>
       <p>
-        I have joined the Web team to help the web experience have feature parity with the native mobile experience.
+        I joined as the 4th developer in the Web team to rebuild the learning sessions from a Python/Django app into React and TypeScript. The overall goal was to allow the web experience to gain feature parity with the native mobile experience, which had previously been a priority.
+      </p>
+      <p>
+        I also fundamentally changed how the tech team reviewed code, changing the priority to be about shipping frequently and often.
       </p>
       <ul
         class="c9"
