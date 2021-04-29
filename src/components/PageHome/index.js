@@ -13,9 +13,9 @@ export const PageHome = () => (
             </S.Text>
 
             <S.Text>
-                I have always appreciated well done data visualisation and so I&apos;m learning to use raw SVGs to build
-                data visualisations within React apps. Hopefully, I can build something cool and interactive. Until
-                then, this is my playground.
+                I have always appreciated well done data visualisation and so I&apos;m always looking for an excuse to
+                use raw SVGs and animate them. In my spare time, I am often either building a side project or looking up
+                some cool new technology that I will likely never use.
             </S.Text>
         </S.IntroGrid>
 
