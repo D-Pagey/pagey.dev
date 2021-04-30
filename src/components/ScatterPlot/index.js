@@ -81,7 +81,7 @@ const ScatterPlot = ({ height, paddingX, paddingY, width }) => {
                                     y1={yScale(item.y)}
                                     x2={xScale(item.x)}
                                     y2={yScale(item.y)}
-                                    stroke="blue"
+                                    stroke="green"
                                     strokeWidth="1"
                                     strokeDasharray="2"
                                     data-testid={`scatterPlotLine${index}`}
@@ -96,7 +96,7 @@ const ScatterPlot = ({ height, paddingX, paddingY, width }) => {
                                     y1={yScale(item.y)}
                                     x2={xScale(item.x)}
                                     y2={height - paddingY}
-                                    stroke="blue"
+                                    stroke="green"
                                     strokeWidth="1"
                                     strokeDasharray="2"
                                 />
@@ -113,6 +113,7 @@ const ScatterPlot = ({ height, paddingX, paddingY, width }) => {
                             r="9"
                             fill="green"
                             onMouseEnter={handleHover(item.id)}
+                            onMouseLeave={handleHover()}
                             data-testid={`scatterPlotPoint${index}`}
                         />
                     </g>
