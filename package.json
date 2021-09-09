@@ -14,7 +14,7 @@
     "@storybook/addon-links": "6.2.9",
     "@storybook/addons": "6.2.9",
     "@storybook/react": "6.2.9",
-    "axios": "0.21.1",
+    "axios": "0.21.2",
     "babel-plugin-jsx-remove-data-test-id": "3.0.0",
     "babel-plugin-macros": "3.0.1",
     "babel-plugin-styled-components": "1.12.0",
